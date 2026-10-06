@@ -1,0 +1,2620 @@
+文件夹 PATH 列表
+卷序列号为 6097-E8B7
+C:.
+│  1.txt
+│  build.prop
+│  compatibility_matrix.xml
+│  manifest.xml
+│  recovery-from-boot.p
+│  vendor
+│  
+├─app
+│  ├─AdupsFotaReboot
+│  │  │  AdupsFotaReboot.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              AdupsFotaReboot.odex
+│  │              AdupsFotaReboot.vdex
+│  │              
+│  ├─BasicDreams
+│  │  │  BasicDreams.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              BasicDreams.odex
+│  │              BasicDreams.vdex
+│  │              
+│  ├─BatteryWarning
+│  │  │  BatteryWarning.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              BatteryWarning.odex
+│  │              BatteryWarning.vdex
+│  │              
+│  ├─BluetoothMidiService
+│  │  │  BluetoothMidiService.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              BluetoothMidiService.odex
+│  │              BluetoothMidiService.vdex
+│  │              
+│  ├─BookmarkProvider
+│  │  │  BookmarkProvider.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              BookmarkProvider.odex
+│  │              BookmarkProvider.vdex
+│  │              
+│  ├─BtTool
+│  │  │  BtTool.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              BtTool.odex
+│  │              BtTool.vdex
+│  │              
+│  ├─BuiltInPrintService
+│  │  │  BuiltInPrintService.apk
+│  │  │  
+│  │  ├─lib
+│  │  │  └─arm
+│  │  │          libcups.so
+│  │  │          libwfds.so
+│  │  │          
+│  │  └─oat
+│  │      └─arm
+│  │              BuiltInPrintService.odex
+│  │              BuiltInPrintService.vdex
+│  │              
+│  ├─Camera
+│  │  │  Camera.apk
+│  │  │  
+│  │  ├─lib
+│  │  │  └─arm
+│  │  │          libSmoothBlur.so
+│  │  │          
+│  │  └─oat
+│  │      └─arm
+│  │              Camera.odex
+│  │              Camera.vdex
+│  │              
+│  ├─CaptivePortalLogin
+│  │  │  CaptivePortalLogin.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              CaptivePortalLogin.odex
+│  │              CaptivePortalLogin.vdex
+│  │              
+│  ├─CarrierDefaultApp
+│  │  │  CarrierDefaultApp.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              CarrierDefaultApp.odex
+│  │              CarrierDefaultApp.vdex
+│  │              
+│  ├─CertInstaller
+│  │  │  CertInstaller.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              CertInstaller.odex
+│  │              CertInstaller.vdex
+│  │              
+│  ├─com.accessibilitymanager
+│  │  │  com.accessibilitymanager.apk
+│  │  │  
+│  │  └─lib
+│  │      └─arm
+│  ├─com.android.calculator2
+│  │  │  com.android.calculator2.apk
+│  │  │  
+│  │  └─lib
+│  │      └─arm
+│  ├─com.android.music
+│  │  │  com.android.music.apk
+│  │  │  
+│  │  └─lib
+│  │      └─arm
+│  ├─com.andronicus.ledclock
+│  │  │  com.andronicus.ledclock.apk
+│  │  │  
+│  │  └─lib
+│  │      └─arm
+│  ├─com.bilibili.bilithings
+│  │  │  com.bilibili.bilithings.apk
+│  │  │  
+│  │  └─lib
+│  │      └─arm
+│  │              libbili.so
+│  │              libbilicr.88.0.4324.188.so
+│  │              libbili_core.so
+│  │              libbili_core_dumper.so
+│  │              libblkv.so
+│  │              libBugly.so
+│  │              libc++_shared.so
+│  │              libchronos.so
+│  │              libdth.so
+│  │              libgifimage.so
+│  │              libijkabr.so
+│  │              libijkDolbyVision.so
+│  │              libijkffmpeg.so
+│  │              libijkplayer.so
+│  │              libijksdl.so
+│  │              libimagepipeline.so
+│  │              libjsc.so
+│  │              libnative-filters.so
+│  │              libnative-imagetranscoder.so
+│  │              libstatic-webp.so
+│  │              libxp2p.so
+│  │              
+│  ├─com.bindass.cupcake_opt
+│  │  │  com.bindass.cupcake_opt.apk
+│  │  │  
+│  │  └─lib
+│  │      └─arm
+│  ├─com.desheng.market
+│  │  │  com.desheng.market.apk
+│  │  │  
+│  │  └─lib
+│  │      └─arm
+│  ├─com.dragon.read
+│  │  │  com.dragon.read.apk
+│  │  │  
+│  │  └─lib
+│  │      └─arm
+│  │              libalog.so
+│  │              libavmdl_lite.so
+│  │              libbspatch.so
+│  │              libbuffer.so
+│  │              libbuffer_pg.so
+│  │              libbytehook.so
+│  │              libc++_shared.so
+│  │              libcjtfccsm.so
+│  │              libcocklogic-1.1.3.so
+│  │              libcommon-logic.so
+│  │              libdaemon.so
+│  │              libEncryptor.so
+│  │              libfile_lock.so
+│  │              libfile_lock_pg.so
+│  │              libgeckox_bspatch.so
+│  │              libgifimage.so
+│  │              libgodzilla-sysopt.so
+│  │              libheif.so
+│  │              libimagepipeline.so
+│  │              libjato.so
+│  │              libjatoshell.so
+│  │              libkeva.so
+│  │              libmetasec_ml.so
+│  │              libmmkv.so
+│  │              libmonitorcollector-lib.so
+│  │              libnative-filters.so
+│  │              libnative-lib-process-lock.so
+│  │              libnpth.so
+│  │              libnpth_dl.so
+│  │              libnpth_dumper.so
+│  │              libnpth_logcat.so
+│  │              libnpth_tools.so
+│  │              libPglmetasec_ml.so
+│  │              libpl_droidsonroids_gif.so
+│  │              libspeechengine.so
+│  │              libspeechsdk.so
+│  │              libsscronet.so
+│  │              libstatic-webp.so
+│  │              libsupervisor.so
+│  │              libsysoptimizer.so
+│  │              libtnet-3.1.14.so
+│  │              libtobEmbedEncrypt.so
+│  │              libttboringssl.so
+│  │              libttcrypto.so
+│  │              libttepubparser.so
+│  │              libttheif_dec.so
+│  │              libttmplayer_lite.so
+│  │              libttmverify.so
+│  │              libttmverifylite.so
+│  │              libTTWebViewSdkFlipped.so
+│  │              libTxtParser.so
+│  │              libvcn.so
+│  │              libvcnverify.so
+│  │              libvcnverifylite.so
+│  │              libvideodec.so
+│  │              libweibosdkcore.so
+│  │              libwind.so
+│  │              
+│  ├─com.gongjin.cradio
+│  │  │  com.gongjin.cradio.apk
+│  │  │  
+│  │  └─lib
+│  │      └─arm
+│  │              libcradio.so
+│  │              
+│  ├─com.hiby.music
+│  │  │  com.hiby.music.apk
+│  │  │  
+│  │  └─lib
+│  │      └─arm
+│  │              libbreakpad.so
+│  │              libBugly_Native.so
+│  │              libdlnaserver.so
+│  │              libhibyaudioutils.so
+│  │              libhibylink.so
+│  │              libhibylinkServer.so
+│  │              libhibyservice.so
+│  │              liblhdc.so
+│  │              libobjectbox-jni.so
+│  │              libraat-hiby-app.so
+│  │              libroonmanager.so
+│  │              libsmartusb_jni.so
+│  │              libtiff.so
+│  │              libtiffconverter.so
+│  │              libtifffactory.so
+│  │              libtiffsaver.so
+│  │              libuatlib.so
+│  │              libusb.so
+│  │              libweibosdkcore.so
+│  │              
+│  ├─com.iflytek.inputmethod
+│  │  │  com.iflytek.inputmethod.apk
+│  │  │  
+│  │  └─lib
+│  │      └─arm
+│  │              libBugly.so
+│  │              libmsc-v8.so
+│  │              libsmartaiwrite-jni-v16.so
+│  │              libsmartaiwrite-jni-v17.so
+│  │              libsmartaiwrite-jni-v18.so
+│  │              libsmartaiwrite-jni-v19.so
+│  │              libvadLib-v5.so
+│  │              
+│  ├─com.ioslauncher.pro
+│  │  │  com.ioslauncher.pro.apk
+│  │  │  
+│  │  └─lib
+│  │      └─arm
+│  ├─com.mxtech.videoplayer.pro
+│  │  │  com.mxtech.videoplayer.pro.apk
+│  │  │  
+│  │  └─lib
+│  │      └─arm
+│  │              libavcodec.mx.so
+│  │              libavformat.mx.so
+│  │              libavutil.mx.so
+│  │              libbarcode.mx.so
+│  │              libc++_shared.so
+│  │              libexpat.so
+│  │              libffmpeg.mx.so
+│  │              libft2.mx.so
+│  │              libloader.mx.so
+│  │              libmx-bh.so
+│  │              libmx-nc.so
+│  │              libmxass.so
+│  │              libmxmcdec.21.so
+│  │              libmxsysdec.11.so
+│  │              libmxsysdec.14.so
+│  │              libmxsysdec.18.so
+│  │              libmxsysdec.21.so
+│  │              libmxsysdec.8.so
+│  │              libmxsysdec.9.so
+│  │              libmxutil.so
+│  │              libmxvp.so
+│  │              librsjni.so
+│  │              librsjni_androidx.so
+│  │              libRSSupport.so
+│  │              libswresample.mx.so
+│  │              libswscale.mx.so
+│  │              
+│  ├─com.omarea.gesture
+│  │  │  com.omarea.gesture.apk
+│  │  │  
+│  │  └─lib
+│  │      └─arm
+│  ├─com.speedsoftware.rootexplorer
+│  │  │  com.speedsoftware.rootexplorer.apk
+│  │  │  
+│  │  └─lib
+│  │      └─arm
+│  ├─com.ss.android.ugc.aweme
+│  │  │  com.ss.android.ugc.aweme.apk
+│  │  │  
+│  │  └─lib
+│  │      └─arm
+│  │              libalog.so
+│  │              libavmdl.so
+│  │              libavmdlbase.so
+│  │              libbspatch.so
+│  │              libbytehook.so
+│  │              libEncryptor.so
+│  │              libgifimage.so
+│  │              libimagepipeline.so
+│  │              libjato.so
+│  │              libkeva.so
+│  │              liblynx.so
+│  │              libmetasec_ml.so
+│  │              libmffmpeg.so
+│  │              libnative-filters.so
+│  │              libnpth.so
+│  │              libnpth_dl.so
+│  │              libnpth_dumper.so
+│  │              libperfcollector.so
+│  │              librhea-atrace.so
+│  │              libsscronet.so
+│  │              libstatic-webp.so
+│  │              libsysoptimizer.so
+│  │              libttboringssl.so
+│  │              libttcrypto.so
+│  │              libttmplayer.so
+│  │              libttmverify.so
+│  │              libttmverifylite.so
+│  │              libvcn.so
+│  │              libvcnverify.so
+│  │              libvcnverifylite.so
+│  │              libvideodec.so
+│  │              
+│  ├─com.tencent.qqlite
+│  │  │  com.tencent.qqlite.apk
+│  │  │  
+│  │  └─lib
+│  │      └─arm
+│  │              libamrnb.so
+│  │              libaudiohelper.so
+│  │              libc++_shared.so
+│  │              libcodecsilk.so
+│  │              libcodecwrapperV2.so
+│  │              libfekit.so
+│  │              libGIFEngine.so
+│  │              libhwcodec.so
+│  │              libmsfbootV2.so
+│  │              libNativeRQD.so
+│  │              libpoxy.so
+│  │              libqav_graphics.so
+│  │              libqav_utils.so
+│  │              libqmp.so
+│  │              libSDKCommon.so
+│  │              libSignatureKiller.so
+│  │              libstlport_shared.so
+│  │              libtencentloc.so
+│  │              libtraeimp-armeabi-v7a.so
+│  │              libVideoCtrl.so
+│  │              libvoicemessagedenoise.so
+│  │              libwechatns.so
+│  │              libwtecdh.so
+│  │              libwx-asr-vad.so
+│  │              libxplatform.so
+│  │              libxps_ws.so
+│  │              
+│  ├─com.treydev.micontrolcenter
+│  │  │  com.treydev.micontrolcenter.apk
+│  │  │  
+│  │  └─lib
+│  │      └─arm
+│  ├─CompanionDeviceManager
+│  │  │  CompanionDeviceManager.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              CompanionDeviceManager.odex
+│  │              CompanionDeviceManager.vdex
+│  │              
+│  ├─CtsShimPrebuilt
+│  │      CtsShimPrebuilt.apk
+│  │      
+│  ├─DrmProvider
+│  │  │  DrmProvider.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              DrmProvider.odex
+│  │              DrmProvider.vdex
+│  │              
+│  ├─EasterEgg
+│  │  │  EasterEgg.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              EasterEgg.odex
+│  │              EasterEgg.vdex
+│  │              
+│  ├─ExtShared
+│  │  │  ExtShared.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              ExtShared.odex
+│  │              ExtShared.vdex
+│  │              
+│  ├─Gba
+│  │  │  Gba.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              Gba.odex
+│  │              Gba.vdex
+│  │              
+│  ├─HTMLViewer
+│  │  │  HTMLViewer.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              HTMLViewer.odex
+│  │              HTMLViewer.vdex
+│  │              
+│  ├─io.github.sds100.keymapper
+│  │  │  io.github.sds100.keymapper.apk
+│  │  │  
+│  │  └─lib
+│  │      └─arm
+│  │              libandroidx.graphics.path.so
+│  │              libdatastore_shared_counter.so
+│  │              
+│  ├─KeyChain
+│  │  │  KeyChain.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              KeyChain.odex
+│  │              KeyChain.vdex
+│  │              
+│  ├─mark.via
+│  │  │  mark.via.apk
+│  │  │  
+│  │  └─lib
+│  │      └─arm
+│  ├─MDMConfig
+│  │  │  MDMConfig.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              MDMConfig.odex
+│  │              MDMConfig.vdex
+│  │              
+│  ├─MDMLSample
+│  │  │  MDMLSample.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              MDMLSample.odex
+│  │              MDMLSample.vdex
+│  │              
+│  ├─MtkBluetooth
+│  │  │  MtkBluetooth.apk
+│  │  │  
+│  │  ├─lib
+│  │  │  └─arm
+│  │  │          libmtkbluetooth_jni.so
+│  │  │          
+│  │  └─oat
+│  │      └─arm
+│  │              MtkBluetooth.odex
+│  │              MtkBluetooth.vdex
+│  │              
+│  ├─MtkDeskClock
+│  │  │  MtkDeskClock.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              MtkDeskClock.odex
+│  │              MtkDeskClock.vdex
+│  │              
+│  ├─MtkLatinIME
+│  │  │  MtkLatinIME.apk
+│  │  │  
+│  │  ├─lib
+│  │  │  └─arm
+│  │  │          libjni_latinime.so
+│  │  │          
+│  │  └─oat
+│  │      └─arm
+│  │              MtkLatinIME.odex
+│  │              MtkLatinIME.vdex
+│  │              
+│  ├─MTKLogger
+│  │  │  MTKLogger.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              MTKLogger.odex
+│  │              MTKLogger.vdex
+│  │              
+│  ├─MtkNlp
+│  │  │  MtkNlp.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              MtkNlp.odex
+│  │              MtkNlp.vdex
+│  │              
+│  ├─MtkWallpaperPicker
+│  │  │  MtkWallpaperPicker.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              MtkWallpaperPicker.odex
+│  │              MtkWallpaperPicker.vdex
+│  │              
+│  ├─NfcNci
+│  │  │  NfcNci.apk
+│  │  │  
+│  │  ├─lib
+│  │  │  └─arm
+│  │  │          libnfc_nci_jni.so
+│  │  │          
+│  │  └─oat
+│  │      └─arm
+│  │              NfcNci.odex
+│  │              NfcNci.vdex
+│  │              
+│  ├─Omacp
+│  │  │  Omacp.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              Omacp.odex
+│  │              Omacp.vdex
+│  │              
+│  ├─PacProcessor
+│  │  │  PacProcessor.apk
+│  │  │  
+│  │  ├─lib
+│  │  │  └─arm
+│  │  │          libjni_pacprocessor.so
+│  │  │          
+│  │  └─oat
+│  │      └─arm
+│  │              PacProcessor.odex
+│  │              PacProcessor.vdex
+│  │              
+│  ├─PicoTts
+│  │  │  PicoTts.apk
+│  │  │  
+│  │  ├─lib
+│  │  │  └─arm
+│  │  │          libttscompat.so
+│  │  │          libttspico.so
+│  │  │          
+│  │  └─oat
+│  │      └─arm
+│  │              PicoTts.odex
+│  │              PicoTts.vdex
+│  │              
+│  ├─PrintRecommendationService
+│  │  │  PrintRecommendationService.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              PrintRecommendationService.odex
+│  │              PrintRecommendationService.vdex
+│  │              
+│  ├─PrintSpooler
+│  │  │  PrintSpooler.apk
+│  │  │  
+│  │  ├─lib
+│  │  │  └─arm
+│  │  │          libprintspooler_jni.so
+│  │  │          
+│  │  └─oat
+│  │      └─arm
+│  │              PrintSpooler.odex
+│  │              PrintSpooler.vdex
+│  │              
+│  ├─Protips
+│  │  │  Protips.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              Protips.odex
+│  │              Protips.vdex
+│  │              
+│  ├─SensorHub
+│  │  │  SensorHub.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              SensorHub.odex
+│  │              SensorHub.vdex
+│  │              
+│  ├─SoundRecorder
+│  │  │  SoundRecorder.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              SoundRecorder.odex
+│  │              SoundRecorder.vdex
+│  │              
+│  ├─UserDictionaryProvider
+│  │  │  UserDictionaryProvider.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              UserDictionaryProvider.odex
+│  │              UserDictionaryProvider.vdex
+│  │              
+│  ├─WallpaperBackup
+│  │  │  WallpaperBackup.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              WallpaperBackup.odex
+│  │              WallpaperBackup.vdex
+│  │              
+│  ├─webview
+│  │  │  webview.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              webview.odex
+│  │              webview.vdex
+│  │              
+│  └─YGPS
+│      │  YGPS.apk
+│      │  
+│      └─oat
+│          └─arm
+│                  YGPS.odex
+│                  YGPS.vdex
+│                  
+├─bin
+│  │  acpi
+│  │  adbd
+│  │  aee
+│  │  aee_aed
+│  │  aee_archive
+│  │  aee_dumpstate
+│  │  am
+│  │  applypatch
+│  │  appops
+│  │  appwidget
+│  │  app_process
+│  │  app_process32
+│  │  art
+│  │  atcid
+│  │  atrace
+│  │  audiocmdservice_atci
+│  │  audioserver
+│  │  AudioSetParam
+│  │  badblocks
+│  │  base64
+│  │  basename
+│  │  batterywarning
+│  │  bcc
+│  │  blkid
+│  │  blockdev
+│  │  bmgr
+│  │  bootstat
+│  │  boot_logo_updater
+│  │  bu
+│  │  bugreport
+│  │  bugreportz
+│  │  bunzip2
+│  │  bzcat
+│  │  bzip2
+│  │  cal
+│  │  cameraserver
+│  │  cat
+│  │  chcon
+│  │  chgrp
+│  │  chmod
+│  │  chown
+│  │  chroot
+│  │  chrt
+│  │  cksum
+│  │  clatd
+│  │  clear
+│  │  cmd
+│  │  cmp
+│  │  comm
+│  │  content
+│  │  cp
+│  │  cpio
+│  │  crash_dump32
+│  │  cut
+│  │  dalvikvm
+│  │  dalvikvm32
+│  │  date
+│  │  dd
+│  │  debuggerd
+│  │  dex2oat
+│  │  dexdiag
+│  │  dexdump
+│  │  dexlist
+│  │  dexoptanalyzer
+│  │  df
+│  │  diff
+│  │  dirname
+│  │  dmesg
+│  │  dnsmasq
+│  │  dos2unix
+│  │  dpm
+│  │  drmserver
+│  │  du
+│  │  dumpstate
+│  │  dumpsys
+│  │  e2fsck
+│  │  e2fsdroid
+│  │  echo
+│  │  egrep
+│  │  emdlogger1
+│  │  emdlogger2
+│  │  emdlogger5
+│  │  env
+│  │  expand
+│  │  expr
+│  │  factory
+│  │  fallocate
+│  │  false
+│  │  fgrep
+│  │  file
+│  │  find
+│  │  flock
+│  │  free
+│  │  fsck.f2fs
+│  │  fsck_msdos
+│  │  gatekeeperd
+│  │  ged_srv
+│  │  getenforce
+│  │  getevent
+│  │  getprop
+│  │  grep
+│  │  groups
+│  │  gunzip
+│  │  gzip
+│  │  head
+│  │  healthd
+│  │  hid
+│  │  hostname
+│  │  hwclock
+│  │  hwservicemanager
+│  │  id
+│  │  idmap
+│  │  ifconfig
+│  │  ime
+│  │  incident
+│  │  incidentd
+│  │  inotifyd
+│  │  input
+│  │  insmod
+│  │  install-recovery.sh
+│  │  installd
+│  │  ionice
+│  │  iorenice
+│  │  ip
+│  │  ip-wrapper-1.0
+│  │  ip6tables
+│  │  ip6tables-restore
+│  │  ip6tables-save
+│  │  ip6tables-wrapper-1.0
+│  │  iptables
+│  │  iptables-restore
+│  │  iptables-save
+│  │  iptables-wrapper-1.0
+│  │  keystore
+│  │  kill
+│  │  killall
+│  │  kpoc_charger
+│  │  lcdc_screen_cap
+│  │  ld.mc
+│  │  linker
+│  │  linker_asan
+│  │  lmkd
+│  │  ln
+│  │  load_policy
+│  │  locksettings
+│  │  log
+│  │  logcat
+│  │  logd
+│  │  logname
+│  │  logwrapper
+│  │  losetup
+│  │  ls
+│  │  lshal
+│  │  lsmod
+│  │  lsof
+│  │  lspci
+│  │  lsusb
+│  │  make_ext4fs
+│  │  make_f2fs
+│  │  md5sum
+│  │  mdlogger
+│  │  mdnsd
+│  │  md_monitor
+│  │  md_monitor_ctrl
+│  │  media
+│  │  mediadrmserver
+│  │  mediaextractor
+│  │  mediaserver
+│  │  met-cmd
+│  │  meta_tst
+│  │  met_log_d
+│  │  microcom
+│  │  mkdir
+│  │  mke2fs
+│  │  mkfifo
+│  │  mknod
+│  │  mkswap
+│  │  mktemp
+│  │  mobile_log_d
+│  │  modinfo
+│  │  modprobe
+│  │  monkey
+│  │  more
+│  │  mount
+│  │  mountpoint
+│  │  mtkbootanimation
+│  │  mtpd
+│  │  mv
+│  │  ndc
+│  │  ndc-wrapper-1.0
+│  │  netd
+│  │  netdiag
+│  │  netstat
+│  │  netutils-wrapper-1.0
+│  │  newfs_msdos
+│  │  nice
+│  │  nl
+│  │  nohup
+│  │  oatdump
+│  │  od
+│  │  paste
+│  │  patch
+│  │  patchoat
+│  │  pgrep
+│  │  pidof
+│  │  ping
+│  │  ping6
+│  │  pkill
+│  │  pm
+│  │  pmap
+│  │  pppd
+│  │  printenv
+│  │  printf
+│  │  profman
+│  │  program_binary_builder
+│  │  program_binary_service
+│  │  ps
+│  │  pwd
+│  │  racoon
+│  │  readlink
+│  │  realpath
+│  │  reboot
+│  │  renice
+│  │  requestsync
+│  │  resize.f2fs
+│  │  resize2fs
+│  │  restorecon
+│  │  rm
+│  │  rmdir
+│  │  rmmod
+│  │  rtt
+│  │  run-as
+│  │  runcon
+│  │  schedtest
+│  │  screencap
+│  │  screenrecord
+│  │  sdcard
+│  │  secdiscard
+│  │  secilc
+│  │  sed
+│  │  sendevent
+│  │  sensorservice
+│  │  seq
+│  │  service
+│  │  servicemanager
+│  │  setenforce
+│  │  setprop
+│  │  setsid
+│  │  settings
+│  │  sgdisk
+│  │  sh
+│  │  sha1sum
+│  │  sha224sum
+│  │  sha256sum
+│  │  sha384sum
+│  │  sha512sum
+│  │  sleep
+│  │  sm
+│  │  sn
+│  │  sort
+│  │  split
+│  │  start
+│  │  stat
+│  │  stop
+│  │  storaged
+│  │  storagemanagerd
+│  │  strings
+│  │  surfaceflinger
+│  │  svc
+│  │  swapoff
+│  │  swapon
+│  │  sync
+│  │  sysctl
+│  │  tac
+│  │  tail
+│  │  tar
+│  │  taskset
+│  │  tc
+│  │  tc-wrapper-1.0
+│  │  tee
+│  │  telecom
+│  │  terservice
+│  │  tertestclient
+│  │  thermald
+│  │  thermalindicator
+│  │  thermalserviced
+│  │  time
+│  │  timeout
+│  │  tombstoned
+│  │  toolbox
+│  │  top
+│  │  touch
+│  │  toybox
+│  │  tr
+│  │  trace-cmd
+│  │  true
+│  │  truncate
+│  │  tty
+│  │  tune2fs
+│  │  tzdatacheck
+│  │  uiautomator
+│  │  ulimit
+│  │  umount
+│  │  uname
+│  │  uncrypt
+│  │  uniq
+│  │  unix2dos
+│  │  uptime
+│  │  usleep
+│  │  uudecode
+│  │  uuencode
+│  │  vdc
+│  │  vintf
+│  │  vmstat
+│  │  vold
+│  │  vr
+│  │  vtservice
+│  │  wc
+│  │  webview_zygote32
+│  │  which
+│  │  whoami
+│  │  wificond
+│  │  wm
+│  │  xargs
+│  │  xunhuefuse
+│  │  xxd
+│  │  yes
+│  │  zcat
+│  │  
+│  └─hw
+│          android.hidl.allocator@1.0-service
+│          
+├─etc
+│  │  a2dp_audio_policy_configuration.xml
+│  │  aee-config
+│  │  apns-conf.xml
+│  │  audio_effects.conf
+│  │  audio_policy_configuration.xml
+│  │  audio_policy_configuration_stub.xml
+│  │  audio_policy_volumes.xml
+│  │  clatd.conf
+│  │  compiled-classes
+│  │  custom.conf
+│  │  default_volume_tables.xml
+│  │  dirty-image-objects
+│  │  event-log-tags
+│  │  factory.ini
+│  │  fonts.xml
+│  │  fs_config_dirs
+│  │  fs_config_files
+│  │  group
+│  │  hosts
+│  │  ld.config.txt
+│  │  mddb
+│  │  media_profiles_V1_0.dtd
+│  │  mke2fs.conf
+│  │  mkshrc
+│  │  mtklog-config.prop
+│  │  NOTICE.xml.gz
+│  │  passwd
+│  │  preloaded-classes
+│  │  prop.default
+│  │  public.libraries.txt
+│  │  recovery-resource.dat
+│  │  r_submix_audio_policy_configuration.xml
+│  │  sepolicy_tests
+│  │  spn-conf.xml
+│  │  tee.img
+│  │  treble_sepolicy_tests
+│  │  usb_audio_policy_configuration.xml
+│  │  wifi-apns.xml
+│  │  xtables.lock
+│  │  
+│  ├─apdb
+│  │      APDB_MT6739_S01_alps-trunk-o1.bsp_W17.52
+│  │      APDB_MT6739_S01_alps-trunk-o1.bsp_W17.52_ENUM
+│  │      
+│  ├─bluetooth
+│  │      bt_did.conf
+│  │      bt_stack.conf
+│  │      mtk_bt_fw.conf
+│  │      mtk_bt_stack.conf
+│  │      
+│  ├─init
+│  │      aee_aed.rc
+│  │      android.hidl.allocator@1.0-service.rc
+│  │      atcid.rc
+│  │      atrace.rc
+│  │      audiocmdservice_atci.rc
+│  │      audioserver.rc
+│  │      batterywarning.rc
+│  │      bootlogoupdater.rc
+│  │      bootstat.rc
+│  │      cameraserver.rc
+│  │      drmserver.rc
+│  │      dumpstate.rc
+│  │      emdlogger1.rc
+│  │      emdlogger2.rc
+│  │      emdlogger5.rc
+│  │      gatekeeperd.rc
+│  │      ged_srv.rc
+│  │      hwservicemanager.rc
+│  │      init.thermald.rc
+│  │      init.vtservice.rc
+│  │      installd.rc
+│  │      keystore.rc
+│  │      kpoc_charger.rc
+│  │      lmkd.rc
+│  │      logd.rc
+│  │      mdlogger.rc
+│  │      mdnsd.rc
+│  │      md_monitor.rc
+│  │      mediadrmserver.rc
+│  │      mediaextractor.rc
+│  │      mediaserver.rc
+│  │      met_log_d.rc
+│  │      mobile_log_d.rc
+│  │      mtkbootanim.rc
+│  │      mtpd.rc
+│  │      netd.rc
+│  │      netdiag.rc
+│  │      program_binary_service.rc
+│  │      racoon.rc
+│  │      servicemanager.rc
+│  │      sn.rc
+│  │      storaged.rc
+│  │      storagemanagerd.rc
+│  │      surfaceflinger.rc
+│  │      terserver.rc
+│  │      thermalindicator.rc
+│  │      thermalservice.rc
+│  │      tombstoned.rc
+│  │      uncrypt.rc
+│  │      vdc.rc
+│  │      vold.rc
+│  │      webview_zygote32.rc
+│  │      wifi-events.rc
+│  │      wificond.rc
+│  │      
+│  ├─permissions
+│  │      android.software.webview.xml
+│  │      com.android.location.provider.xml
+│  │      com.android.media.remotedisplay.xml
+│  │      com.android.mediadrm.signer.xml
+│  │      mediatek-packages-teleservice.xml
+│  │      platform.xml
+│  │      pms_sysapp_removable_system_list.txt
+│  │      privapp-permissions-mediatek.xml
+│  │      privapp-permissions-platform.xml
+│  │      
+│  ├─ppp
+│  │      ip-up-vpn
+│  │      
+│  ├─seccomp_policy
+│  │      mediacodec.policy
+│  │      mediaextractor.policy
+│  │      
+│  ├─security
+│  │  │  otacerts.zip
+│  │  │  
+│  │  └─cacerts
+│  │          00673b5b.0
+│  │          02756ea4.0
+│  │          04f60c28.0
+│  │          0d5a4e1c.0
+│  │          0d69c7e1.0
+│  │          10531352.0
+│  │          111e6273.0
+│  │          12d55845.0
+│  │          17b51fe6.0
+│  │          1dac3003.0
+│  │          1dcd6f4c.0
+│  │          1df5a75f.0
+│  │          1e1eab7c.0
+│  │          1e8e7201.0
+│  │          1eb37bdf.0
+│  │          1f58a078.0
+│  │          21855f49.0
+│  │          219d9499.0
+│  │          23f4c490.0
+│  │          27af790d.0
+│  │          2add47b6.0
+│  │          2d9dafe4.0
+│  │          2fa87019.0
+│  │          31188b5e.0
+│  │          343eb6cb.0
+│  │          35105088.0
+│  │          3929ec9f.0
+│  │          399e7759.0
+│  │          3a3b02ce.0
+│  │          3ad48a91.0
+│  │          3c58f906.0
+│  │          3c6676aa.0
+│  │          3c860d51.0
+│  │          3c9a4d3b.0
+│  │          3d441de8.0
+│  │          3e7271e8.0
+│  │          40dc992e.0
+│  │          418595b9.0
+│  │          455f1b52.0
+│  │          48a195d8.0
+│  │          4be590e0.0
+│  │          4e18c148.0
+│  │          5046c355.0
+│  │          524d9b43.0
+│  │          52b525c7.0
+│  │          559f7c71.0
+│  │          5a250ea7.0
+│  │          5a3f0ff8.0
+│  │          5cf9d536.0
+│  │          5e4e69e7.0
+│  │          5f47b495.0
+│  │          60afe812.0
+│  │          6187b673.0
+│  │          63a2c897.0
+│  │          67495436.0
+│  │          69105f4f.0
+│  │          6e8bf996.0
+│  │          6fcc125d.0
+│  │          75680d2e.0
+│  │          76579174.0
+│  │          7672ac4b.0
+│  │          7999be0d.0
+│  │          7a7c655d.0
+│  │          7a819ef2.0
+│  │          7d453d8f.0
+│  │          81b9768f.0
+│  │          82223c44.0
+│  │          85cde254.0
+│  │          86212b19.0
+│  │          87753b0d.0
+│  │          882de061.0
+│  │          89c02a45.0
+│  │          8d6437c3.0
+│  │          91739615.0
+│  │          9282e51c.0
+│  │          9339512a.0
+│  │          9479c8c3.0
+│  │          9576d26b.0
+│  │          95aff9e3.0
+│  │          9685a493.0
+│  │          9772ca32.0
+│  │          9c3323d4.0
+│  │          9d6523ce.0
+│  │          9dbefe7b.0
+│  │          9f533518.0
+│  │          a0bc6fbb.0
+│  │          a2c66da8.0
+│  │          a3896b44.0
+│  │          a7605362.0
+│  │          a7d2cf64.0
+│  │          a81e292b.0
+│  │          ab5346f4.0
+│  │          aeb67534.0
+│  │          b0ed035a.0
+│  │          b0f3e76e.0
+│  │          b3fb433b.0
+│  │          b7db1890.0
+│  │          b872f2b4.0
+│  │          b936d1c6.0
+│  │          bc3f2570.0
+│  │          bdacca6f.0
+│  │          bf64f35b.0
+│  │          c491639e.0
+│  │          c51c224c.0
+│  │          c7e2a638.0
+│  │          c907e29b.0
+│  │          c90bc37d.0
+│  │          cb156124.0
+│  │          cb1c3204.0
+│  │          ccc52f49.0
+│  │          cf701eeb.0
+│  │          d06393bb.0
+│  │          d16a5865.0
+│  │          d18e9066.0
+│  │          d41b5e2a.0
+│  │          d4c339cb.0
+│  │          d59297b8.0
+│  │          d66b55d9.0
+│  │          d6e6eab9.0
+│  │          d7746a63.0
+│  │          d8317ada.0
+│  │          dbc54cab.0
+│  │          dc99f41e.0
+│  │          dfc0fe80.0
+│  │          e442e424.0
+│  │          e48193cf.0
+│  │          e775ed2d.0
+│  │          e8651083.0
+│  │          ea169617.0
+│  │          ed39abd0.0
+│  │          ee7cd6fb.0
+│  │          facacbc6.0
+│  │          fb5fa911.0
+│  │          fd08c599.0
+│  │          fde84897.0
+│  │          
+│  ├─selinux
+│  │  │  plat_and_mapping_sepolicy.cil.sha256
+│  │  │  plat_file_contexts
+│  │  │  plat_hwservice_contexts
+│  │  │  plat_mac_permissions.xml
+│  │  │  plat_property_contexts
+│  │  │  plat_seapp_contexts
+│  │  │  plat_sepolicy.cil
+│  │  │  plat_service_contexts
+│  │  │  
+│  │  └─mapping
+│  │          26.0.cil
+│  │          27.0.cil
+│  │          
+│  └─sysconfig
+│          framework-sysconfig.xml
+│          
+├─fake-libs
+│      libart.so
+│      
+├─fonts
+│      AndroidClock.ttf
+│      CarroisGothicSC-Regular.ttf
+│      ComingSoon.ttf
+│      CutiveMono.ttf
+│      DancingScript-Bold.ttf
+│      DancingScript-Regular.ttf
+│      DroidSans-Bold.ttf
+│      DroidSans.ttf
+│      DroidSansMono.ttf
+│      NotoColorEmoji.ttf
+│      NotoNaskhArabic-Bold.ttf
+│      NotoNaskhArabic-Regular.ttf
+│      NotoNaskhArabicUI-Bold.ttf
+│      NotoNaskhArabicUI-Regular.ttf
+│      NotoSansAdlam-Regular.ttf
+│      NotoSansArmenian-Bold.ttf
+│      NotoSansArmenian-Regular.ttf
+│      NotoSansAvestan-Regular.ttf
+│      NotoSansBalinese-Regular.ttf
+│      NotoSansBamum-Regular.ttf
+│      NotoSansBatak-Regular.ttf
+│      NotoSansBengali-Bold.ttf
+│      NotoSansBengali-Regular.ttf
+│      NotoSansBengaliUI-Bold.ttf
+│      NotoSansBengaliUI-Regular.ttf
+│      NotoSansBrahmi-Regular.ttf
+│      NotoSansBuginese-Regular.ttf
+│      NotoSansBuhid-Regular.ttf
+│      NotoSansCanadianAboriginal-Regular.ttf
+│      NotoSansCarian-Regular.ttf
+│      NotoSansCham-Bold.ttf
+│      NotoSansCham-Regular.ttf
+│      NotoSansCherokee-Regular.ttf
+│      NotoSansCJK-Regular.ttc
+│      NotoSansCoptic-Regular.ttf
+│      NotoSansCuneiform-Regular.ttf
+│      NotoSansCypriot-Regular.ttf
+│      NotoSansDeseret-Regular.ttf
+│      NotoSansDevanagari-Bold.ttf
+│      NotoSansDevanagari-Regular.ttf
+│      NotoSansDevanagariUI-Bold.ttf
+│      NotoSansDevanagariUI-Regular.ttf
+│      NotoSansEgyptianHieroglyphs-Regular.ttf
+│      NotoSansEthiopic-Bold.ttf
+│      NotoSansEthiopic-Regular.ttf
+│      NotoSansGeorgian-Bold.ttf
+│      NotoSansGeorgian-Regular.ttf
+│      NotoSansGlagolitic-Regular.ttf
+│      NotoSansGothic-Regular.ttf
+│      NotoSansGujarati-Bold.ttf
+│      NotoSansGujarati-Regular.ttf
+│      NotoSansGujaratiUI-Bold.ttf
+│      NotoSansGujaratiUI-Regular.ttf
+│      NotoSansGurmukhi-Bold.ttf
+│      NotoSansGurmukhi-Regular.ttf
+│      NotoSansGurmukhiUI-Bold.ttf
+│      NotoSansGurmukhiUI-Regular.ttf
+│      NotoSansHanunoo-Regular.ttf
+│      NotoSansHebrew-Bold.ttf
+│      NotoSansHebrew-Regular.ttf
+│      NotoSansImperialAramaic-Regular.ttf
+│      NotoSansInscriptionalPahlavi-Regular.ttf
+│      NotoSansInscriptionalParthian-Regular.ttf
+│      NotoSansJavanese-Regular.ttf
+│      NotoSansKaithi-Regular.ttf
+│      NotoSansKannada-Bold.ttf
+│      NotoSansKannada-Regular.ttf
+│      NotoSansKannadaUI-Bold.ttf
+│      NotoSansKannadaUI-Regular.ttf
+│      NotoSansKayahLi-Regular.ttf
+│      NotoSansKharoshthi-Regular.ttf
+│      NotoSansKhmer-VF.ttf
+│      NotoSansKhmerUI-Bold.ttf
+│      NotoSansKhmerUI-Regular.ttf
+│      NotoSansLao-Bold.ttf
+│      NotoSansLao-Regular.ttf
+│      NotoSansLaoUI-Bold.ttf
+│      NotoSansLaoUI-Regular.ttf
+│      NotoSansLepcha-Regular.ttf
+│      NotoSansLimbu-Regular.ttf
+│      NotoSansLinearB-Regular.ttf
+│      NotoSansLisu-Regular.ttf
+│      NotoSansLycian-Regular.ttf
+│      NotoSansLydian-Regular.ttf
+│      NotoSansMalayalam-Bold.ttf
+│      NotoSansMalayalam-Regular.ttf
+│      NotoSansMalayalamUI-Bold.ttf
+│      NotoSansMalayalamUI-Regular.ttf
+│      NotoSansMandaic-Regular.ttf
+│      NotoSansMeeteiMayek-Regular.ttf
+│      NotoSansMongolian-Regular.ttf
+│      NotoSansMyanmar-Bold.ttf
+│      NotoSansMyanmar-Regular.ttf
+│      NotoSansMyanmarUI-Bold.ttf
+│      NotoSansMyanmarUI-Regular.ttf
+│      NotoSansNewTaiLue-Regular.ttf
+│      NotoSansNKo-Regular.ttf
+│      NotoSansOgham-Regular.ttf
+│      NotoSansOlChiki-Regular.ttf
+│      NotoSansOldItalic-Regular.ttf
+│      NotoSansOldPersian-Regular.ttf
+│      NotoSansOldSouthArabian-Regular.ttf
+│      NotoSansOldTurkic-Regular.ttf
+│      NotoSansOriya-Bold.ttf
+│      NotoSansOriya-Regular.ttf
+│      NotoSansOriyaUI-Bold.ttf
+│      NotoSansOriyaUI-Regular.ttf
+│      NotoSansOsmanya-Regular.ttf
+│      NotoSansPhagsPa-Regular.ttf
+│      NotoSansPhoenician-Regular.ttf
+│      NotoSansRejang-Regular.ttf
+│      NotoSansRunic-Regular.ttf
+│      NotoSansSamaritan-Regular.ttf
+│      NotoSansSaurashtra-Regular.ttf
+│      NotoSansShavian-Regular.ttf
+│      NotoSansSinhala-Bold.ttf
+│      NotoSansSinhala-Regular.ttf
+│      NotoSansSundanese-Regular.ttf
+│      NotoSansSylotiNagri-Regular.ttf
+│      NotoSansSymbols-Regular-Subsetted.ttf
+│      NotoSansSymbols-Regular-Subsetted2.ttf
+│      NotoSansSyriacEastern-Regular.ttf
+│      NotoSansSyriacEstrangela-Regular.ttf
+│      NotoSansSyriacWestern-Regular.ttf
+│      NotoSansTagalog-Regular.ttf
+│      NotoSansTagbanwa-Regular.ttf
+│      NotoSansTaiLe-Regular.ttf
+│      NotoSansTaiTham-Regular.ttf
+│      NotoSansTaiViet-Regular.ttf
+│      NotoSansTamil-Bold.ttf
+│      NotoSansTamil-Regular.ttf
+│      NotoSansTamilUI-Bold.ttf
+│      NotoSansTamilUI-Regular.ttf
+│      NotoSansTelugu-Bold.ttf
+│      NotoSansTelugu-Regular.ttf
+│      NotoSansTeluguUI-Bold.ttf
+│      NotoSansTeluguUI-Regular.ttf
+│      NotoSansThaana-Bold.ttf
+│      NotoSansThaana-Regular.ttf
+│      NotoSansThai-Bold.ttf
+│      NotoSansThai-Regular.ttf
+│      NotoSansThaiUI-Bold.ttf
+│      NotoSansThaiUI-Regular.ttf
+│      NotoSansTibetan-Bold.ttf
+│      NotoSansTibetan-Regular.ttf
+│      NotoSansTifinagh-Regular.ttf
+│      NotoSansUgaritic-Regular.ttf
+│      NotoSansVai-Regular.ttf
+│      NotoSansYi-Regular.ttf
+│      NotoSerif-Bold.ttf
+│      NotoSerif-BoldItalic.ttf
+│      NotoSerif-Italic.ttf
+│      NotoSerif-Regular.ttf
+│      Padauk.ttf
+│      Roboto-Black.ttf
+│      Roboto-BlackItalic.ttf
+│      Roboto-Bold.ttf
+│      Roboto-BoldItalic.ttf
+│      Roboto-Italic.ttf
+│      Roboto-Light.ttf
+│      Roboto-LightItalic.ttf
+│      Roboto-Medium.ttf
+│      Roboto-MediumItalic.ttf
+│      Roboto-Regular.ttf
+│      Roboto-Thin.ttf
+│      Roboto-ThinItalic.ttf
+│      RobotoCondensed-Bold.ttf
+│      RobotoCondensed-BoldItalic.ttf
+│      RobotoCondensed-Italic.ttf
+│      RobotoCondensed-Light.ttf
+│      RobotoCondensed-LightItalic.ttf
+│      RobotoCondensed-Medium.ttf
+│      RobotoCondensed-MediumItalic.ttf
+│      RobotoCondensed-Regular.ttf
+│      
+├─framework
+│  │  am.jar
+│  │  android.hidl.base-V1.0-java.jar
+│  │  android.hidl.manager-V1.0-java.jar
+│  │  android.test.mock.jar
+│  │  android.test.runner.jar
+│  │  apache-xml.jar
+│  │  appwidget.jar
+│  │  bmgr.jar
+│  │  bouncycastle.jar
+│  │  bu.jar
+│  │  com.android.future.usb.accessory.jar
+│  │  com.android.location.provider.jar
+│  │  com.android.media.remotedisplay.jar
+│  │  com.android.mediadrm.signer.jar
+│  │  conscrypt.jar
+│  │  content.jar
+│  │  core-libart.jar
+│  │  core-oj.jar
+│  │  CustomPropInterface.jar
+│  │  dpm.jar
+│  │  ethernet-service.jar
+│  │  ext.jar
+│  │  framework-res.apk
+│  │  framework.jar
+│  │  hid.jar
+│  │  ime.jar
+│  │  ims-common.jar
+│  │  input.jar
+│  │  javax.obex.jar
+│  │  legacy-test.jar
+│  │  locksettings.jar
+│  │  mediatek-common.jar
+│  │  mediatek-cta.jar
+│  │  mediatek-framework-net.jar
+│  │  mediatek-framework.jar
+│  │  mediatek-ims-common.jar
+│  │  mediatek-services.jar
+│  │  mediatek-telecom-common.jar
+│  │  mediatek-telephony-base.jar
+│  │  mediatek-telephony-common.jar
+│  │  media_cmd.jar
+│  │  monkey.jar
+│  │  okhttp.jar
+│  │  org.apache.http.legacy.boot.jar
+│  │  pm.jar
+│  │  requestsync.jar
+│  │  services.jar
+│  │  services.jar.prof
+│  │  sm.jar
+│  │  svc.jar
+│  │  telecom.jar
+│  │  telephony-common.jar
+│  │  uiautomator.jar
+│  │  voip-common.jar
+│  │  vr.jar
+│  │  wifi-service.jar
+│  │  wifi-service.jar.prof
+│  │  wm.jar
+│  │  
+│  ├─arm
+│  │      boot-android.hidl.base-V1.0-java.art
+│  │      boot-android.hidl.base-V1.0-java.oat
+│  │      boot-android.hidl.base-V1.0-java.vdex
+│  │      boot-android.hidl.manager-V1.0-java.art
+│  │      boot-android.hidl.manager-V1.0-java.oat
+│  │      boot-android.hidl.manager-V1.0-java.vdex
+│  │      boot-apache-xml.art
+│  │      boot-apache-xml.oat
+│  │      boot-apache-xml.vdex
+│  │      boot-bouncycastle.art
+│  │      boot-bouncycastle.oat
+│  │      boot-bouncycastle.vdex
+│  │      boot-conscrypt.art
+│  │      boot-conscrypt.oat
+│  │      boot-conscrypt.vdex
+│  │      boot-core-libart.art
+│  │      boot-core-libart.oat
+│  │      boot-core-libart.vdex
+│  │      boot-ext.art
+│  │      boot-ext.oat
+│  │      boot-ext.vdex
+│  │      boot-framework.art
+│  │      boot-framework.oat
+│  │      boot-framework.vdex
+│  │      boot-ims-common.art
+│  │      boot-ims-common.oat
+│  │      boot-ims-common.vdex
+│  │      boot-legacy-test.art
+│  │      boot-legacy-test.oat
+│  │      boot-legacy-test.vdex
+│  │      boot-mediatek-common.art
+│  │      boot-mediatek-common.oat
+│  │      boot-mediatek-common.vdex
+│  │      boot-mediatek-cta.art
+│  │      boot-mediatek-cta.oat
+│  │      boot-mediatek-cta.vdex
+│  │      boot-mediatek-framework.art
+│  │      boot-mediatek-framework.oat
+│  │      boot-mediatek-framework.vdex
+│  │      boot-mediatek-ims-common.art
+│  │      boot-mediatek-ims-common.oat
+│  │      boot-mediatek-ims-common.vdex
+│  │      boot-mediatek-telecom-common.art
+│  │      boot-mediatek-telecom-common.oat
+│  │      boot-mediatek-telecom-common.vdex
+│  │      boot-mediatek-telephony-base.art
+│  │      boot-mediatek-telephony-base.oat
+│  │      boot-mediatek-telephony-base.vdex
+│  │      boot-mediatek-telephony-common.art
+│  │      boot-mediatek-telephony-common.oat
+│  │      boot-mediatek-telephony-common.vdex
+│  │      boot-okhttp.art
+│  │      boot-okhttp.oat
+│  │      boot-okhttp.vdex
+│  │      boot-org.apache.http.legacy.boot.art
+│  │      boot-org.apache.http.legacy.boot.oat
+│  │      boot-org.apache.http.legacy.boot.vdex
+│  │      boot-telephony-common.art
+│  │      boot-telephony-common.oat
+│  │      boot-telephony-common.vdex
+│  │      boot-voip-common.art
+│  │      boot-voip-common.oat
+│  │      boot-voip-common.vdex
+│  │      boot.art
+│  │      boot.oat
+│  │      boot.vdex
+│  │      
+│  ├─mediatek-res
+│  │      mediatek-res.apk
+│  │      
+│  └─oat
+│      └─arm
+│              am.odex
+│              am.vdex
+│              android.test.mock.odex
+│              android.test.mock.vdex
+│              android.test.runner.odex
+│              android.test.runner.vdex
+│              appwidget.odex
+│              appwidget.vdex
+│              bmgr.odex
+│              bmgr.vdex
+│              bu.odex
+│              bu.vdex
+│              com.android.future.usb.accessory.odex
+│              com.android.future.usb.accessory.vdex
+│              com.android.location.provider.odex
+│              com.android.location.provider.vdex
+│              com.android.media.remotedisplay.odex
+│              com.android.media.remotedisplay.vdex
+│              com.android.mediadrm.signer.odex
+│              com.android.mediadrm.signer.vdex
+│              content.odex
+│              content.vdex
+│              CustomPropInterface.odex
+│              CustomPropInterface.vdex
+│              dpm.odex
+│              dpm.vdex
+│              ethernet-service.odex
+│              ethernet-service.vdex
+│              hid.odex
+│              hid.vdex
+│              ime.odex
+│              ime.vdex
+│              input.odex
+│              input.vdex
+│              javax.obex.odex
+│              javax.obex.vdex
+│              locksettings.odex
+│              locksettings.vdex
+│              mediatek-framework-net.odex
+│              mediatek-framework-net.vdex
+│              mediatek-services.odex
+│              mediatek-services.vdex
+│              media_cmd.odex
+│              media_cmd.vdex
+│              monkey.odex
+│              monkey.vdex
+│              pm.odex
+│              pm.vdex
+│              requestsync.odex
+│              requestsync.vdex
+│              services.art
+│              services.odex
+│              services.vdex
+│              sm.odex
+│              sm.vdex
+│              svc.odex
+│              svc.vdex
+│              telecom.odex
+│              telecom.vdex
+│              uiautomator.odex
+│              uiautomator.vdex
+│              vr.odex
+│              vr.vdex
+│              wifi-service.art
+│              wifi-service.odex
+│              wifi-service.vdex
+│              wm.odex
+│              wm.vdex
+│              
+├─lib
+│  │  android.frameworks.displayservice@1.0.so
+│  │  android.frameworks.schedulerservice@1.0.so
+│  │  android.frameworks.sensorservice@1.0.so
+│  │  android.frameworks.vr.composer@1.0.so
+│  │  android.hardware.audio.common@2.0-util.so
+│  │  android.hardware.audio.common@2.0.so
+│  │  android.hardware.audio.effect@2.0.so
+│  │  android.hardware.audio@2.0.so
+│  │  android.hardware.bluetooth@1.0.so
+│  │  android.hardware.broadcastradio@1.0.so
+│  │  android.hardware.broadcastradio@1.1.so
+│  │  android.hardware.camera.common@1.0.so
+│  │  android.hardware.camera.device@1.0.so
+│  │  android.hardware.camera.device@3.2.so
+│  │  android.hardware.camera.device@3.3.so
+│  │  android.hardware.camera.provider@2.4.so
+│  │  android.hardware.cas.native@1.0.so
+│  │  android.hardware.cas@1.0.so
+│  │  android.hardware.configstore-utils.so
+│  │  android.hardware.configstore@1.0.so
+│  │  android.hardware.contexthub@1.0.so
+│  │  android.hardware.drm@1.0.so
+│  │  android.hardware.dumpstate@1.0.so
+│  │  android.hardware.gatekeeper@1.0.so
+│  │  android.hardware.gnss@1.0.so
+│  │  android.hardware.graphics.allocator@2.0.so
+│  │  android.hardware.graphics.bufferqueue@1.0.so
+│  │  android.hardware.graphics.common@1.0.so
+│  │  android.hardware.graphics.composer@2.1.so
+│  │  android.hardware.graphics.mapper@2.0.so
+│  │  android.hardware.health@1.0.so
+│  │  android.hardware.ir@1.0.so
+│  │  android.hardware.keymaster@3.0.so
+│  │  android.hardware.light@2.0.so
+│  │  android.hardware.media.omx@1.0.so
+│  │  android.hardware.media@1.0.so
+│  │  android.hardware.memtrack@1.0.so
+│  │  android.hardware.neuralnetworks@1.0.so
+│  │  android.hardware.nfc@1.0.so
+│  │  android.hardware.power@1.0.so
+│  │  android.hardware.power@1.1.so
+│  │  android.hardware.radio.deprecated@1.0.so
+│  │  android.hardware.radio@1.0.so
+│  │  android.hardware.radio@1.1.so
+│  │  android.hardware.renderscript@1.0.so
+│  │  android.hardware.sensors@1.0.so
+│  │  android.hardware.soundtrigger@2.0.so
+│  │  android.hardware.tetheroffload.config@1.0.so
+│  │  android.hardware.thermal@1.0.so
+│  │  android.hardware.thermal@1.1.so
+│  │  android.hardware.tv.cec@1.0.so
+│  │  android.hardware.tv.input@1.0.so
+│  │  android.hardware.vibrator@1.0.so
+│  │  android.hardware.vibrator@1.1.so
+│  │  android.hardware.vr@1.0.so
+│  │  android.hardware.wifi.offload@1.0.so
+│  │  android.hardware.wifi.supplicant@1.0.so
+│  │  android.hardware.wifi@1.0.so
+│  │  android.hardware.wifi@1.1.so
+│  │  android.hidl.allocator@1.0.so
+│  │  android.hidl.memory@1.0.so
+│  │  android.hidl.token@1.0-utils.so
+│  │  android.hidl.token@1.0.so
+│  │  android.system.net.netd@1.0.so
+│  │  android.system.wifi.keystore@1.0.so
+│  │  ld-android.so
+│  │  libaal.so
+│  │  libaaudio.so
+│  │  libaaudioservice.so
+│  │  libaed.so
+│  │  libandroid.so
+│  │  libandroidfw.so
+│  │  libandroid_net.so
+│  │  libandroid_runtime.so
+│  │  libandroid_servers.so
+│  │  libappfuse.so
+│  │  libart-compiler.so
+│  │  libart-dexlayout.so
+│  │  libart-disassembler.so
+│  │  libart.so
+│  │  libaudio-resampler.so
+│  │  libaudioclient.so
+│  │  libaudiocompensationfilter.so
+│  │  libaudiocomponentengine.so
+│  │  libaudiocustparam.so
+│  │  libaudiodcrflt.so
+│  │  libaudioeffect_jni.so
+│  │  libaudioflinger.so
+│  │  libaudiohal.so
+│  │  libaudiomanager.so
+│  │  libaudiopolicycustomextensions.so
+│  │  libaudiopolicyenginedefault.so
+│  │  libaudiopolicymanager.so
+│  │  libaudiopolicymanagerdefault.so
+│  │  libaudiopolicyservice.so
+│  │  libaudioprocessing.so
+│  │  libaudiospdif.so
+│  │  libaudiotoolkit.so
+│  │  libaudioutils.so
+│  │  libaudio_param_parser-sys.so
+│  │  libavservices_minijail.so
+│  │  libbacktrace.so
+│  │  libbase.so
+│  │  libbatteryservice.so
+│  │  libbcc.so
+│  │  libbcinfo.so
+│  │  libbessound_hd_mtk.so
+│  │  libbinder.so
+│  │  libblas.so
+│  │  libblisrc.so
+│  │  libblisrc32.so
+│  │  libc++.so
+│  │  libc.so
+│  │  libcamera2ndk.so
+│  │  libcameraservice.so
+│  │  libcamera_client.so
+│  │  libcamera_metadata.so
+│  │  libcap.so
+│  │  libccci_util_sys.so
+│  │  libchrome.so
+│  │  libclcore.bc
+│  │  libclcore_debug.bc
+│  │  libclcore_debug_g.bc
+│  │  libclcore_g.bc
+│  │  libclcore_neon.bc
+│  │  libcompiler_rt.so
+│  │  libcomutils.so
+│  │  libcrypto.so
+│  │  libcrypto_utils.so
+│  │  libcups.so
+│  │  libcurl.so
+│  │  libcustom_jni.so
+│  │  libcustom_nvram_mtk.so
+│  │  libcustom_prop.so
+│  │  libcutils.so
+│  │  libc_malloc_debug.so
+│  │  libdcfdecoderjni.so
+│  │  libdebuggerd_client.so
+│  │  libdefcontainer_jni.so
+│  │  libdiskconfig.so
+│  │  libdisplayservicehidl.so
+│  │  libdisp_dejitter.so
+│  │  libdl.so
+│  │  libdng_sdk.so
+│  │  libdpframework_mtk.so
+│  │  libdrmframework.so
+│  │  libdrmframework_jni.so
+│  │  libdrmmtkutil.so
+│  │  libdrmmtkwhitelist.so
+│  │  libdumpstateaidl.so
+│  │  libdumpstateutil.so
+│  │  libeffectsconfig.so
+│  │  libEGL.so
+│  │  libETC1.so
+│  │  libevent.so
+│  │  libexif.so
+│  │  libexpat.so
+│  │  libext2fs.so
+│  │  libext2_blkid.so
+│  │  libext2_com_err.so
+│  │  libext2_e2p.so
+│  │  libext2_misc.so
+│  │  libext2_profile.so
+│  │  libext2_quota.so
+│  │  libext2_uuid.so
+│  │  libext4_utils.so
+│  │  libf2fs_sparseblock.so
+│  │  libFFTEm.so
+│  │  libfile_op_mtk.so
+│  │  libfilterfw.so
+│  │  libfilterpack_imageproc.so
+│  │  libfmjni.so
+│  │  libfmq.so
+│  │  libfpspolicy_fw.so
+│  │  libft2.so
+│  │  libfw_drmutils.so
+│  │  libgatekeeper.so
+│  │  libged_kpi.so
+│  │  libged_sys.so
+│  │  libGLESv1_CM.so
+│  │  libGLESv2.so
+│  │  libGLESv3.so
+│  │  libgralloc_extra_sys.so
+│  │  libgraphics2d_ext.so
+│  │  libgraphicsenv.so
+│  │  libgui.so
+│  │  libgui_debug.so
+│  │  libgui_ext.so
+│  │  libhardware.so
+│  │  libhardware_legacy.so
+│  │  libharfbuzz_ng.so
+│  │  libheif.so
+│  │  libhidcommand_jni.so
+│  │  libhidl-gen-utils.so
+│  │  libhidlbase.so
+│  │  libhidlmemory.so
+│  │  libhidltransport.so
+│  │  libhwbinder.so
+│  │  libhwm_mtk.so
+│  │  libhwui.so
+│  │  libicui18n.so
+│  │  libicuuc.so
+│  │  libimg_utils.so
+│  │  libimsma.so
+│  │  libimsma_adapt.so
+│  │  libimsma_rtp.so
+│  │  libimsma_socketwrapper.so
+│  │  libincident.so
+│  │  libinput.so
+│  │  libinputflinger.so
+│  │  libinputservice.so
+│  │  libion.so
+│  │  libion_mtk_sys.so
+│  │  libion_ulit_sys.so
+│  │  libiprouteutil.so
+│  │  libja3m.so
+│  │  libjavacore.so
+│  │  libjavacrypto.so
+│  │  libjnigraphics.so
+│  │  libjni_latinime.so
+│  │  libjni_lomoeffect.so
+│  │  libjni_pacprocessor.so
+│  │  libjni_pq.so
+│  │  libjpeg.so
+│  │  libkeymaster_messages.so
+│  │  libkeymaster_portable.so
+│  │  libkeymaster_staging.so
+│  │  libkeystore-engine.so
+│  │  libkeystore_binder.so
+│  │  libkeyutils.so
+│  │  libldacBT_abr.so
+│  │  libldacBT_enc.so
+│  │  libLLVM.so
+│  │  liblocSDK6c.so
+│  │  liblog.so
+│  │  liblogcat.so
+│  │  liblogwrap.so
+│  │  liblshal.so
+│  │  liblz4.so
+│  │  liblzma.so
+│  │  libm.so
+│  │  libmdloggerrecycle.so
+│  │  libmdnssd.so
+│  │  libmedia.so
+│  │  libmediadrm.so
+│  │  libmediaextractorservice.so
+│  │  libmedialogservice.so
+│  │  libmediametrics.so
+│  │  libmediandk.so
+│  │  libmediaplayerservice.so
+│  │  libmediatek_exceptionlog.so
+│  │  libmediautils.so
+│  │  libmedia_helper.so
+│  │  libmedia_jni.so
+│  │  libmedia_omx.so
+│  │  libmemoryDumpEncoder.so
+│  │  libmemtrack.so
+│  │  libmemunreachable.so
+│  │  libmet-tag.so
+│  │  libmetricslogger.so
+│  │  libmidi.so
+│  │  libminijail.so
+│  │  libminikin.so
+│  │  libminiui.so
+│  │  libMiraVision_jni.so
+│  │  libmrdump.so
+│  │  libmtkavenhancements.so
+│  │  libmtkbluetooth_jni.so
+│  │  libmtkbootanimation.so
+│  │  libmtklimiter.so
+│  │  libmtkshifter.so
+│  │  libmtk_drvb_sys.so
+│  │  libmtk_vt_service.so
+│  │  libmtk_vt_wrapper.so
+│  │  libmtp.so
+│  │  libnativebridge.so
+│  │  libnativehelper.so
+│  │  libnativeloader.so
+│  │  libnativewindow.so
+│  │  libnbaio.so
+│  │  libnetdaidl.so
+│  │  libnetdutils.so
+│  │  libnetd_client.so
+│  │  libnetlink.so
+│  │  libnetutils.so
+│  │  libnetworklocation.so
+│  │  libneuralnetworks.so
+│  │  libnfc-nci.so
+│  │  libnfc_nci_jni.so
+│  │  libnl.so
+│  │  libnvram_mtk.so
+│  │  libnvram_platform_mtk.so
+│  │  libnvram_sec_mtk.so
+│  │  libopenjdk.so
+│  │  libopenjdkjvm.so
+│  │  libopenjdkjvmti.so
+│  │  libOpenMAXAL.so
+│  │  libOpenSLES.so
+│  │  libopus.so
+│  │  libpac.so
+│  │  libpackagelistparser.so
+│  │  libpagemap.so
+│  │  libpcap.so
+│  │  libpcre2.so
+│  │  libpcrecpp.so
+│  │  libpdfium.so
+│  │  libperfctl.so
+│  │  libperfframeinfo_jni.so
+│  │  libpiex.so
+│  │  libpixelflinger.so
+│  │  libpng.so
+│  │  libpower.so
+│  │  libpowermanager.so
+│  │  libpq_prot_mtk.so
+│  │  libprintspooler_jni.so
+│  │  libprocessgroup.so
+│  │  libprocinfo.so
+│  │  libprogrambinary.so
+│  │  libprotobuf-cpp-full.so
+│  │  libprotobuf-cpp-lite.so
+│  │  libradio_metadata.so
+│  │  libresourcemanagerservice.so
+│  │  libRS.so
+│  │  libRSCacheDir.so
+│  │  libRScpp.so
+│  │  libRSCpuRef.so
+│  │  libRSDriver.so
+│  │  libRS_internal.so
+│  │  librs_jni.so
+│  │  librtp_jni.so
+│  │  libschedulerservicehidl.so
+│  │  libselinux.so
+│  │  libsensor.so
+│  │  libsensorservice.so
+│  │  libsensorservicehidl.so
+│  │  libsepol.so
+│  │  libservices.so
+│  │  libserviceutility.so
+│  │  libsf_debug.so
+│  │  libshowlogo.so
+│  │  libsigchain.so
+│  │  libsignal.so
+│  │  libsink.so
+│  │  libskia.so
+│  │  libsoftkeymaster.so
+│  │  libsoftkeymasterdevice.so
+│  │  libsonic.so
+│  │  libsonivox.so
+│  │  libsoundpool.so
+│  │  libsoundtrigger.so
+│  │  libsoundtriggerservice.so
+│  │  libsource.so
+│  │  libsparse.so
+│  │  libspeexresampler.so
+│  │  libsqlite.so
+│  │  libssl.so
+│  │  libstagefright.so
+│  │  libstagefright_amrnb_common.so
+│  │  libstagefright_enc_common.so
+│  │  libstagefright_flacdec.so
+│  │  libstagefright_foundation.so
+│  │  libstagefright_httplive.so
+│  │  libstagefright_http_support.so
+│  │  libstagefright_omx.so
+│  │  libstagefright_omx_utils.so
+│  │  libstagefright_soft_aacdec.so
+│  │  libstagefright_soft_aacenc.so
+│  │  libstagefright_soft_amrdec.so
+│  │  libstagefright_soft_amrnbenc.so
+│  │  libstagefright_soft_amrwbenc.so
+│  │  libstagefright_soft_avcdec.so
+│  │  libstagefright_soft_avcenc.so
+│  │  libstagefright_soft_flacdec.so
+│  │  libstagefright_soft_flacenc.so
+│  │  libstagefright_soft_g711dec.so
+│  │  libstagefright_soft_gsmdec.so
+│  │  libstagefright_soft_hevcdec.so
+│  │  libstagefright_soft_mp3dec.so
+│  │  libstagefright_soft_mpeg2dec.so
+│  │  libstagefright_soft_mpeg4dec.so
+│  │  libstagefright_soft_mpeg4enc.so
+│  │  libstagefright_soft_opusdec.so
+│  │  libstagefright_soft_rawdec.so
+│  │  libstagefright_soft_vorbisdec.so
+│  │  libstagefright_soft_vpxdec.so
+│  │  libstagefright_soft_vpxenc.so
+│  │  libstagefright_wfd_mtk.so
+│  │  libstagefright_xmlparser.so
+│  │  libstdc++.so
+│  │  libsurfaceflinger.so
+│  │  libsurfaceflinger_ddmconnection.so
+│  │  libsuspend.so
+│  │  libsync.so
+│  │  libsysenv_system.so
+│  │  libsysutils.so
+│  │  libterservice.so
+│  │  libtextclassifier.so
+│  │  libtextclassifier_hash.so
+│  │  libthermalcallback.so
+│  │  libthermalservice.so
+│  │  libtinyalsa.so
+│  │  libtinyxml2.so
+│  │  libtombstoned_client.so
+│  │  libtouchfilter.so
+│  │  libttscompat.so
+│  │  libttspico.so
+│  │  libui.so
+│  │  libui_ext_fwk.so
+│  │  libunwind.so
+│  │  libusbhost.so
+│  │  libutils.so
+│  │  libvintf.so
+│  │  libvixl-arm.so
+│  │  libvixl-arm64.so
+│  │  libvndksupport.so
+│  │  libvoicerecognition.so
+│  │  libvoicerecognition_jni.so
+│  │  libvorbisidec.so
+│  │  libvsync_enhance.so
+│  │  libvsync_hint.so
+│  │  libvt_avsync.so
+│  │  libvulkan.so
+│  │  libwebviewchromium_loader.so
+│  │  libwebviewchromium_plat_support.so
+│  │  libwfds.so
+│  │  libwifi-service.so
+│  │  libwifi-system-iface.so
+│  │  libwifi-system.so
+│  │  libwifikeystorehal.so
+│  │  libwifitest_mtk.so
+│  │  libwilhelm.so
+│  │  libxml2.so
+│  │  libxtables.so
+│  │  libyv12util.so
+│  │  libz.so
+│  │  libziparchive.so
+│  │  vendor.mediatek.hardware.audio@2.1.so
+│  │  vendor.mediatek.hardware.camera.device@1.1.so
+│  │  vendor.mediatek.hardware.camera.lomoeffect@1.0.so
+│  │  vendor.mediatek.hardware.dfps@1.0.so
+│  │  vendor.mediatek.hardware.gnss@1.1.so
+│  │  vendor.mediatek.hardware.lbs@1.0.so
+│  │  vendor.mediatek.hardware.nvram@1.0.so
+│  │  vendor.mediatek.hardware.power@1.1.so
+│  │  vendor.mediatek.hardware.pq@2.0.so
+│  │  vendor.mediatek.hardware.radio@2.0.so
+│  │  vendor.mediatek.hardware.videotelephony@1.0.so
+│  │  
+│  ├─egl
+│  │      libGLES_android.so
+│  │      
+│  ├─hw
+│  │      android.hidl.memory@1.0-impl.so
+│  │      audio.a2dp.default.so
+│  │      bluetooth.default.so
+│  │      keystore.default.so
+│  │      
+│  ├─mtkdrm
+│  │      libdrmmtkplugin.so
+│  │      
+│  └─vndk-sp
+│          android.hardware.graphics.allocator@2.0.so
+│          android.hardware.graphics.common@1.0.so
+│          android.hardware.graphics.mapper@2.0.so
+│          android.hardware.renderscript@1.0.so
+│          android.hidl.memory@1.0.so
+│          libbacktrace.so
+│          libbase.so
+│          libbcinfo.so
+│          libblas.so
+│          libc++.so
+│          libcompiler_rt.so
+│          libcutils.so
+│          libft2.so
+│          libhardware.so
+│          libhidlbase.so
+│          libhidlmemory.so
+│          libhidltransport.so
+│          libhwbinder.so
+│          libion.so
+│          liblzma.so
+│          libpng.so
+│          libRSCpuRef.so
+│          libRSDriver.so
+│          libRS_internal.so
+│          libunwind.so
+│          libutils.so
+│          
+├─lost+found
+├─media
+│  │  bootanimation.zip
+│  │  shutanimation.zip
+│  │  Test.ogg
+│  │  
+│  └─audio
+│      ├─alarms
+│      │      Alarm_Beep_03.ogg
+│      │      Argon.ogg
+│      │      Helium.ogg
+│      │      Oxygen.ogg
+│      │      Platinum.ogg
+│      │      
+│      ├─notifications
+│      │      Alya.ogg
+│      │      Argon.ogg
+│      │      Canopus.ogg
+│      │      Deneb.ogg
+│      │      Highwire.ogg
+│      │      Iridium.ogg
+│      │      pixiedust.ogg
+│      │      Talitha.ogg
+│      │      
+│      ├─ringtones
+│      │      Cygnus.ogg
+│      │      Kuma.ogg
+│      │      Ring_Classic_02.ogg
+│      │      Ring_Digital_02.ogg
+│      │      Ring_Synth_02.ogg
+│      │      Ring_Synth_04.ogg
+│      │      Themos.ogg
+│      │      
+│      └─ui
+│              camera_click.ogg
+│              camera_focus.ogg
+│              Dock.ogg
+│              Effect_Tick.ogg
+│              KeypressDelete.ogg
+│              KeypressInvalid.ogg
+│              KeypressReturn.ogg
+│              KeypressSpacebar.ogg
+│              KeypressStandard.ogg
+│              Lock.ogg
+│              LowBattery.ogg
+│              Trusted.ogg
+│              Undock.ogg
+│              Unlock.ogg
+│              VideoRecord.ogg
+│              VideoStop.ogg
+│              
+├─priv-app
+│  ├─BackupRestoreConfirmation
+│  │  │  BackupRestoreConfirmation.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              BackupRestoreConfirmation.odex
+│  │              BackupRestoreConfirmation.vdex
+│  │              
+│  ├─Baidu_Location
+│  │  │  Baidu_Location.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              Baidu_Location.odex
+│  │              Baidu_Location.vdex
+│  │              
+│  ├─BlockedNumberProvider
+│  │  │  BlockedNumberProvider.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              BlockedNumberProvider.odex
+│  │              BlockedNumberProvider.vdex
+│  │              
+│  ├─CallLogBackup
+│  │  │  CallLogBackup.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              CallLogBackup.odex
+│  │              CallLogBackup.vdex
+│  │              
+│  ├─CallRecorderService
+│  │  │  CallRecorderService.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              CallRecorderService.odex
+│  │              CallRecorderService.vdex
+│  │              
+│  ├─CtsShimPrivPrebuilt
+│  │      CtsShimPrivPrebuilt.apk
+│  │      
+│  ├─DefaultContainerService
+│  │  │  DefaultContainerService.apk
+│  │  │  
+│  │  ├─lib
+│  │  │  └─arm
+│  │  │          libdefcontainer_jni.so
+│  │  │          
+│  │  └─oat
+│  │      └─arm
+│  │              DefaultContainerService.odex
+│  │              DefaultContainerService.vdex
+│  │              
+│  ├─deviceplugin
+│  │      deviceplugin.apk
+│  │      
+│  ├─ExternalStorageProvider
+│  │  │  ExternalStorageProvider.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              ExternalStorageProvider.odex
+│  │              ExternalStorageProvider.vdex
+│  │              
+│  ├─ExtServices
+│  │  │  ExtServices.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              ExtServices.odex
+│  │              ExtServices.vdex
+│  │              
+│  ├─FusedLocation
+│  │  │  FusedLocation.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              FusedLocation.odex
+│  │              FusedLocation.vdex
+│  │              
+│  ├─ImeiSettings
+│  │  │  ImeiSettings.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              ImeiSettings.odex
+│  │              ImeiSettings.vdex
+│  │              
+│  ├─ImsService
+│  │  │  ImsService.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              ImsService.odex
+│  │              ImsService.vdex
+│  │              
+│  ├─InputDevices
+│  │  │  InputDevices.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              InputDevices.odex
+│  │              InputDevices.vdex
+│  │              
+│  ├─ManagedProvisioning
+│  │  │  ManagedProvisioning.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              ManagedProvisioning.odex
+│  │              ManagedProvisioning.vdex
+│  │              
+│  ├─MtkCarrierConfig
+│  │  │  MtkCarrierConfig.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              MtkCarrierConfig.odex
+│  │              MtkCarrierConfig.vdex
+│  │              
+│  ├─MtkMediaProvider
+│  │  │  MtkMediaProvider.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              MtkMediaProvider.odex
+│  │              MtkMediaProvider.vdex
+│  │              
+│  ├─MtkMmsService
+│  │  │  MtkMmsService.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              MtkMmsService.odex
+│  │              MtkMmsService.vdex
+│  │              
+│  ├─MtkPackageInstaller
+│  │  │  MtkPackageInstaller.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              MtkPackageInstaller.odex
+│  │              MtkPackageInstaller.vdex
+│  │              
+│  ├─MtkSettings
+│  │  │  MtkSettings.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              MtkSettings.odex
+│  │              MtkSettings.vdex
+│  │              
+│  ├─MtkSettingsProvider
+│  │  │  MtkSettingsProvider.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              MtkSettingsProvider.odex
+│  │              MtkSettingsProvider.vdex
+│  │              
+│  ├─MtkSimProcessor
+│  │  │  MtkSimProcessor.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              MtkSimProcessor.odex
+│  │              MtkSimProcessor.vdex
+│  │              
+│  ├─MtkSystemUI
+│  │  │  MtkSystemUI.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              MtkSystemUI.odex
+│  │              MtkSystemUI.vdex
+│  │              
+│  ├─MtkTelecom
+│  │  │  MtkTelecom.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              MtkTelecom.odex
+│  │              MtkTelecom.vdex
+│  │              
+│  ├─MtkTelephonyProvider
+│  │  │  MtkTelephonyProvider.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              MtkTelephonyProvider.odex
+│  │              MtkTelephonyProvider.vdex
+│  │              
+│  ├─MtkTeleService
+│  │  │  MtkTeleService.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              MtkTeleService.odex
+│  │              MtkTeleService.vdex
+│  │              
+│  ├─MtpDocumentsProvider
+│  │  │  MtpDocumentsProvider.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              MtpDocumentsProvider.odex
+│  │              MtpDocumentsProvider.vdex
+│  │              
+│  ├─Provision
+│  │  │  Provision.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              Provision.odex
+│  │              Provision.vdex
+│  │              
+│  ├─ProxyHandler
+│  │  │  ProxyHandler.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              ProxyHandler.odex
+│  │              ProxyHandler.vdex
+│  │              
+│  ├─SecretCode
+│  │  │  SecretCode.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              SecretCode.odex
+│  │              SecretCode.vdex
+│  │              
+│  ├─SharedStorageBackup
+│  │  │  SharedStorageBackup.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              SharedStorageBackup.odex
+│  │              SharedStorageBackup.vdex
+│  │              
+│  ├─Shell
+│  │  │  Shell.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              Shell.odex
+│  │              Shell.vdex
+│  │              
+│  ├─StatementService
+│  │  │  StatementService.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              StatementService.odex
+│  │              StatementService.vdex
+│  │              
+│  ├─StorageManager
+│  │  │  StorageManager.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              StorageManager.odex
+│  │              StorageManager.vdex
+│  │              
+│  ├─VpnDialogs
+│  │  │  VpnDialogs.apk
+│  │  │  
+│  │  └─oat
+│  │      └─arm
+│  │              VpnDialogs.odex
+│  │              VpnDialogs.vdex
+│  │              
+│  └─WallpaperCropper
+│      │  WallpaperCropper.apk
+│      │  
+│      └─oat
+│          └─arm
+│                  WallpaperCropper.odex
+│                  WallpaperCropper.vdex
+│                  
+├─usr
+│  ├─hyphen-data
+│  │      hyph-as.hyb
+│  │      hyph-as.lic.txt
+│  │      hyph-bg.hyb
+│  │      hyph-bg.lic.txt
+│  │      hyph-bn.hyb
+│  │      hyph-bn.lic.txt
+│  │      hyph-cu.hyb
+│  │      hyph-cu.lic.txt
+│  │      hyph-cy.hyb
+│  │      hyph-cy.lic.txt
+│  │      hyph-da.hyb
+│  │      hyph-da.lic.txt
+│  │      hyph-de-1901.hyb
+│  │      hyph-de-1901.lic.txt
+│  │      hyph-de-1996.hyb
+│  │      hyph-de-1996.lic.txt
+│  │      hyph-de-ch-1901.hyb
+│  │      hyph-de-ch-1901.lic.txt
+│  │      hyph-en-gb.hyb
+│  │      hyph-en-gb.lic.txt
+│  │      hyph-en-us.hyb
+│  │      hyph-en-us.lic.txt
+│  │      hyph-es.hyb
+│  │      hyph-es.lic.txt
+│  │      hyph-et.hyb
+│  │      hyph-et.lic.txt
+│  │      hyph-eu.hyb
+│  │      hyph-eu.lic.txt
+│  │      hyph-fr.hyb
+│  │      hyph-fr.lic.txt
+│  │      hyph-ga.hyb
+│  │      hyph-ga.lic.txt
+│  │      hyph-gu.hyb
+│  │      hyph-gu.lic.txt
+│  │      hyph-hi.hyb
+│  │      hyph-hi.lic.txt
+│  │      hyph-hr.hyb
+│  │      hyph-hr.lic.txt
+│  │      hyph-hu.hyb
+│  │      hyph-hu.lic.txt
+│  │      hyph-hy.hyb
+│  │      hyph-hy.lic.txt
+│  │      hyph-kn.hyb
+│  │      hyph-kn.lic.txt
+│  │      hyph-ml.hyb
+│  │      hyph-ml.lic.txt
+│  │      hyph-mn-cyrl.hyb
+│  │      hyph-mn-cyrl.lic.txt
+│  │      hyph-mr.hyb
+│  │      hyph-mr.lic.txt
+│  │      hyph-nb.hyb
+│  │      hyph-nb.lic.txt
+│  │      hyph-nn.hyb
+│  │      hyph-nn.lic.txt
+│  │      hyph-or.hyb
+│  │      hyph-or.lic.txt
+│  │      hyph-pa.hyb
+│  │      hyph-pa.lic.txt
+│  │      hyph-pt.hyb
+│  │      hyph-pt.lic.txt
+│  │      hyph-sl.hyb
+│  │      hyph-sl.lic.txt
+│  │      hyph-ta.hyb
+│  │      hyph-ta.lic.txt
+│  │      hyph-te.hyb
+│  │      hyph-te.lic.txt
+│  │      hyph-tk.hyb
+│  │      hyph-tk.lic.txt
+│  │      hyph-und-ethi.hyb
+│  │      hyph-und-ethi.lic.txt
+│  │      
+│  ├─icu
+│  │      icudt58l.dat
+│  │      
+│  ├─idc
+│  │      AVRCP.idc
+│  │      qwerty.idc
+│  │      qwerty2.idc
+│  │      
+│  ├─keychars
+│  │      Generic.kcm
+│  │      qwerty.kcm
+│  │      qwerty2.kcm
+│  │      Vendor_18d1_Product_5018.kcm
+│  │      Virtual.kcm
+│  │      
+│  ├─keylayout
+│  │      ACCDET.kl
+│  │      AVRCP.kl
+│  │      Generic.kl
+│  │      mtk-kpd.kl
+│  │      qwerty.kl
+│  │      Vendor_0079_Product_0011.kl
+│  │      Vendor_045e_Product_028e.kl
+│  │      Vendor_045e_Product_02d1.kl
+│  │      Vendor_046d_Product_b501.kl
+│  │      Vendor_046d_Product_c216.kl
+│  │      Vendor_046d_Product_c219.kl
+│  │      Vendor_046d_Product_c21d.kl
+│  │      Vendor_046d_Product_c21f.kl
+│  │      Vendor_046d_Product_c294.kl
+│  │      Vendor_046d_Product_c299.kl
+│  │      Vendor_046d_Product_c532.kl
+│  │      Vendor_054c_Product_0268.kl
+│  │      Vendor_0583_Product_2060.kl
+│  │      Vendor_05ac_Product_0239.kl
+│  │      Vendor_0b05_Product_4500.kl
+│  │      Vendor_1038_Product_1412.kl
+│  │      Vendor_12bd_Product_d015.kl
+│  │      Vendor_1532_Product_0900.kl
+│  │      Vendor_1689_Product_fd00.kl
+│  │      Vendor_1689_Product_fd01.kl
+│  │      Vendor_1689_Product_fe00.kl
+│  │      Vendor_18d1_Product_2c40.kl
+│  │      Vendor_18d1_Product_5018.kl
+│  │      Vendor_1949_Product_0401.kl
+│  │      Vendor_1bad_Product_f016.kl
+│  │      Vendor_1bad_Product_f023.kl
+│  │      Vendor_1bad_Product_f027.kl
+│  │      Vendor_1bad_Product_f036.kl
+│  │      Vendor_1d79_Product_0009.kl
+│  │      Vendor_22b8_Product_093d.kl
+│  │      Vendor_2378_Product_1008.kl
+│  │      Vendor_2378_Product_100a.kl
+│  │      
+│  └─share
+│      ├─bmd
+│      │      RFFspeed_501.bmd
+│      │      RFFstd_501.bmd
+│      │      
+│      └─zoneinfo
+│              tzdata
+│              tzlookup.xml
+│              
+├─xbin
+│      tcpdump
+│      
+└─[SYS]
+        Journal
+        
