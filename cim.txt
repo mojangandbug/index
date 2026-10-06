@@ -1,0 +1,576 @@
+PS C:\Users\Ambrite> adb shell getprop | findstr /i "ril rild radio mtk modem"
+[af.modem_1.epof]: [0]
+[dalvik.vm.mtk-stack-trace-file]: [/data/anr/mtk_traces.txt]
+[fmradio.driver.enable]: [0]
+[gsm.ril.ct3g]: [0]
+[gsm.ril.eboot]: [0]
+[gsm.ril.fulluicctype]: [USIM]
+[gsm.ril.uicc.mccmnc]: [46007]
+[gsm.ril.uicctype]: [USIM]
+[gsm.sim.ril.phbready]: [true]
+[gsm.sim.ril.testsim]: [0]
+[gsm.version.ril-impl]: [android reference-ril 1.0]
+[init.svc.broadcastradio-hal]: [running]
+[init.svc.ril-daemon-mtk]: [running]
+[init.svc.start_modem]: [stopped]
+[mtk.eccci.c2k]: [enabled]
+[mtk.md1.status]: [ready]
+[mtk.vdec.waitkeyframeforplay]: [1]
+[persist.log.tag.C2K_RIL-DATA]: [I]
+[persist.log.tag.IMSRILRequest]: [I]
+[persist.log.tag.IMS_RILA]: [I]
+[persist.log.tag.MTKSST]: [D]
+[persist.log.tag.MtkAdnRecord]: [I]
+[persist.log.tag.MtkConSmsFwk]: [I]
+[persist.log.tag.MtkCsimFH]: [I]
+[persist.log.tag.MtkDCT]: [I]
+[persist.log.tag.MtkDupSmsFilter]: [I]
+[persist.log.tag.MtkFactory]: [I]
+[persist.log.tag.MtkGsmCdmaConn]: [I]
+[persist.log.tag.MtkIccCardProxy]: [I]
+[persist.log.tag.MtkIccPHBIM]: [I]
+[persist.log.tag.MtkIccProvider]: [I]
+[persist.log.tag.MtkIccSmsIntMgr]: [I]
+[persist.log.tag.MtkImsManager]: [I]
+[persist.log.tag.MtkImsService]: [I]
+[persist.log.tag.MtkIsimFH]: [I]
+[persist.log.tag.MtkPhoneNotifr]: [I]
+[persist.log.tag.MtkPhoneNumberUtils]: [I]
+[persist.log.tag.MtkRecordLoader]: [I]
+[persist.log.tag.MtkRetryManager]: [I]
+[persist.log.tag.MtkRuimFH]: [I]
+[persist.log.tag.MtkSIMFH]: [I]
+[persist.log.tag.MtkSIMRecords]: [I]
+[persist.log.tag.MtkSmsCbHeader]: [I]
+[persist.log.tag.MtkSmsManager]: [I]
+[persist.log.tag.MtkSmsMessage]: [I]
+[persist.log.tag.MtkSpnOverride]: [I]
+[persist.log.tag.MtkSubCtrl]: [I]
+[persist.log.tag.MtkUiccCard]: [I]
+[persist.log.tag.MtkUiccCardApp]: [I]
+[persist.log.tag.MtkUiccCtrl]: [I]
+[persist.log.tag.MtkUsimFH]: [I]
+[persist.log.tag.Mtk_RIL_ImsSms]: [I]
+[persist.log.tag.RIL]: [I]
+[persist.log.tag.RIL-CC]: [I]
+[persist.log.tag.RIL-DATA]: [I]
+[persist.log.tag.RIL-Fusion]: [I]
+[persist.log.tag.RIL-OEM]: [I]
+[persist.log.tag.RIL-PHB]: [I]
+[persist.log.tag.RIL-RP]: [I]
+[persist.log.tag.RIL-SIM]: [I]
+[persist.log.tag.RIL-SMS]: [I]
+[persist.log.tag.RIL-SS]: [I]
+[persist.log.tag.RILC]: [I]
+[persist.log.tag.RILC-MTK]: [I]
+[persist.log.tag.RILC-RP]: [I]
+[persist.log.tag.RILD]: [I]
+[persist.log.tag.RILMD2-SS]: [I]
+[persist.log.tag.RILMUXD]: [I]
+[persist.log.tag.RIL_Mux]: [I]
+[persist.log.tag.RIL_UIM_SOCKET]: [I]
+[persist.log.tag.RadioManager]: [I]
+[persist.log.tag.RfxRilAdapter]: [I]
+[persist.log.tag.RfxRilUtils]: [I]
+[persist.log.tag.RilClient]: [I]
+[persist.log.tag.RilMalClient]: [I]
+[persist.log.tag.RmcOpRadioReq]: [I]
+[persist.log.tag.RmcRadioReq]: [I]
+[persist.log.tag.RpCdmaRadioCtrl]: [I]
+[persist.log.tag.RpModemMessage]: [I]
+[persist.log.tag.RpRadioCtrl]: [I]
+[persist.log.tag.RpRadioMessage]: [I]
+[persist.log.tag.RpRilClientCtrl]: [I]
+[persist.log.tag.RtcRadioCont]: [I]
+[persist.mtk.connsys.poweron.ctl]: [0]
+[persist.mtk.datashaping.support]: [1]
+[persist.mtk.volte.enable]: [1]
+[persist.mtk.wcn.combo.chipid]: [0x6739]
+[persist.mtk.wcn.coredump.mode]: [0]
+[persist.mtk.wcn.dynamic.dump]: [0]
+[persist.mtk.wcn.patch.version]: [20181022143423a]
+[persist.mtk_dynamic_ims_switch]: [1]
+[persist.mtk_epdg_support]: [1]
+[persist.mtk_ims_support]: [1]
+[persist.mtk_mims_support]: [1]
+[persist.mtk_vilte_support]: [1]
+[persist.mtk_viwifi_support]: [1]
+[persist.mtk_volte_support]: [1]
+[persist.radio.c_capability_slot]: [0]
+[persist.radio.default.sim]: [0]
+[persist.radio.erlvt.on]: [1]
+[persist.radio.fd.counter]: [150]
+[persist.radio.fd.off.counter]: [50]
+[persist.radio.fd.off.r8.counter]: [50]
+[persist.radio.fd.r8.counter]: [150]
+[persist.radio.lte.chip]: [0]
+[persist.radio.mobile.data]: [0,0]
+[persist.radio.mtk_dsbp_support]: [1]
+[persist.radio.mtk_ps2_rat]: [G]
+[persist.radio.mtk_ps3_rat]: [G]
+[persist.radio.multisim.config]: [ss]
+[persist.radio.raf1]: [81930]
+[persist.radio.rilj_nw_type1]: [9]
+[persist.radio.sim.opid]: [1]
+[persist.radio.simswitch]: [1]
+[ril.active.md]: [9]
+[ril.apc.support]: [1]
+[ril.cdma.card.omh]: [-1]
+[ril.cdma.card.type.1]: [2]
+[ril.cdma.ecclist]: []
+[ril.data.gsm_imsi0]: [460077770095852]
+[ril.data.gsm_mcc_mnc0]: [46007]
+[ril.data.gsm_spn0]: [00434D4343FFFFFFFFFFFFFFFFFFFFFFFF]
+[ril.ecclist]: [112,-1;911,-1]
+[ril.epdg.interface.ctrl]: [1]
+[ril.external.md]: [0]
+[ril.fd.mode]: [1]
+[ril.first.md]: [1]
+[ril.flightmode.poweroffMD]: [1]
+[ril.ipo.radiooff]: [0]
+[ril.mtk]: [1]
+[ril.mux.ee.md1]: [0]
+[ril.mux.report.case]: [0]
+[ril.muxreport.run]: [0]
+[ril.nw.signalstrength.lte.1]: [-101,15]
+[ril.nw.worldmode.activemode]: [1]
+[ril.nw.worldmode.keep_3g_mode]: [0]
+[ril.radiooff.poweroffMD]: [0]
+[ril.read.imsi]: [1]
+[ril.simswitch.no_reset_support]: [1]
+[ril.simswitch.tpluswsupport]: [1]
+[ril.specific.sm_cause]: [0]
+[ril.telephony.mode]: [0]
+[ro.mtk_agps_app]: [1]
+[ro.mtk_audio_alac_support]: [1]
+[ro.mtk_audio_ape_support]: [1]
+[ro.mtk_audio_tuning_tool_ver]: [V2.2]
+[ro.mtk_besloudness_support]: [1]
+[ro.mtk_bg_power_saving_support]: [1]
+[ro.mtk_bg_power_saving_ui]: [1]
+[ro.mtk_bip_scws]: [1]
+[ro.mtk_blulight_def_support]: [1]
+[ro.mtk_bsp_package]: [1]
+[ro.mtk_bt_support]: [1]
+[ro.mtk_cam_lomo_support]: [1]
+[ro.mtk_cam_mfb_support]: [0]
+[ro.mtk_camera_app_version]: [1]
+[ro.mtk_config_max_dram_size]: [0x80000000]
+[ro.mtk_data_config]: [1]
+[ro.mtk_deinterlace_support]: [1]
+[ro.mtk_dhcpv6c_wifi]: [1]
+[ro.mtk_dual_mic_support]: [1]
+[ro.mtk_eap_sim_aka]: [1]
+[ro.mtk_emmc_support]: [1]
+[ro.mtk_enable_md1]: [1]
+[ro.mtk_external_sim_only_slots]: [0]
+[ro.mtk_f2fs_enable]: [0]
+[ro.mtk_fd_support]: [1]
+[ro.mtk_flight_mode_power_off_md]: [1]
+[ro.mtk_flv_playback_support]: [1]
+[ro.mtk_gmo_ram_optimize]: [1]
+[ro.mtk_gmo_rom_optimize]: [1]
+[ro.mtk_gps_support]: [1]
+[ro.mtk_hidl_consolidation]: [1]
+[ro.mtk_is_tablet]: [0]
+[ro.mtk_log_hide_gps]: [0]
+[ro.mtk_lte_support]: [1]
+[ro.mtk_md_world_mode_support]: [1]
+[ro.mtk_mobile_management]: [1]
+[ro.mtk_modem_monitor_support]: [1]
+[ro.mtk_oma_drm_support]: [1]
+[ro.mtk_omacp_support]: [1]
+[ro.mtk_perf_fast_start_win]: [0]
+[ro.mtk_pow_perf_support]: [1]
+[ro.mtk_pq_color_mode]: [1]
+[ro.mtk_pq_support]: [2]
+[ro.mtk_protocol1_rat_config]: [Lf/Lt/W/G]
+[ro.mtk_rebootmeta_support]: [0]
+[ro.mtk_ril_mode]: [c6m_1rild]
+[ro.mtk_rild_read_imsi]: [1]
+[ro.mtk_search_db_support]: [1]
+[ro.mtk_send_rr_support]: [1]
+[ro.mtk_shared_sdcard]: [1]
+[ro.mtk_sim_hot_swap]: [1]
+[ro.mtk_sim_hot_swap_common_slot]: [1]
+[ro.mtk_tetheringipv6_support]: [1]
+[ro.mtk_wappush_support]: [1]
+[ro.mtk_widevine_drm_l3_support]: [1]
+[ro.mtk_wlan_support]: [1]
+[ro.mtk_wmv_playback_support]: [1]
+[ro.mtk_world_phone_policy]: [0]
+[ro.mtkrc.path]: [/vendor/etc/init/hw/]
+[ro.radio.simcount]: [1]
+[ro.sim_refresh_reset_by_modem]: [1]
+[ro.wlan.mtk.wifi.5g]: [1]
+PS C:\Users\Ambrite> adb shell ps -A | findstr /i "ril rild"
+radio          847     1   79140  22744 0                   0 S mtkfusionrild
+PS C:\Users\Ambrite> adb shell ls -l /vendor/bin/hw/
+ls: /vendor/bin/hw//android.hardware.audio@2.0-service-mediatek: Permission denied
+ls: /vendor/bin/hw//android.hardware.bluetooth@1.0-service-mediatek: Permission denied
+ls: /vendor/bin/hw//android.hardware.broadcastradio@1.1-service: Permission denied
+ls: /vendor/bin/hw//android.hardware.cas@1.0-service: Permission denied
+ls: /vendor/bin/hw//android.hardware.configstore@1.0-service: Permission denied
+ls: /vendor/bin/hw//android.hardware.drm@1.0-service.widevine: Permission denied
+ls: /vendor/bin/hw//android.hardware.gatekeeper@1.0-service: Permission denied
+ls: /vendor/bin/hw//android.hardware.graphics.composer@2.1-service: Permission denied
+ls: /vendor/bin/hw//android.hardware.keymaster@3.0-service: Permission denied
+ls: /vendor/bin/hw//android.hardware.media.omx@1.0-service: Permission denied
+ls: /vendor/bin/hw//android.hardware.sensors@1.0-service-mediatek: Permission denied
+ls: /vendor/bin/hw//android.hardware.wifi@1.0-service: Permission denied
+ls: /vendor/bin/hw//camerahalserver: Permission denied
+ls: /vendor/bin/hw//merged_hal_service: Permission denied
+ls: /vendor/bin/hw//mtkfusionrild: Permission denied
+ls: /vendor/bin/hw//rild: Permission denied
+ls: /vendor/bin/hw//vendor.mediatek.hardware.dfps@1.0-service: Permission denied
+ls: /vendor/bin/hw//vendor.mediatek.hardware.pq@2.0-service: Permission denied
+ls: /vendor/bin/hw//vtservice_hidl: Permission denied
+ls: /vendor/bin/hw//wpa_supplicant: Permission denied
+total 16
+-rwxr-xr-x 1 root shell 16200 2009-01-01 00:00 power_native_test
+PS C:\Users\Ambrite> adb shell su -c ls -l /vendor/bin/hw/
+total 2112
+-rwx------ 1 audioserver audioserver   20308 2009-01-01 00:00 android.hardware.audio@2.0-service-mediatek
+-rwx------ 1 bluetooth   bluetooth     16232 2009-01-01 00:00 android.hardware.bluetooth@1.0-service-mediatek
+-rwxr-xr-x 1 root        shell         82168 2009-01-01 00:00 android.hardware.broadcastradio@1.1-service
+-rwxr-xr-x 1 root        shell         47256 2009-01-01 00:00 android.hardware.cas@1.0-service
+-rwxr-xr-x 1 root        shell         20920 2009-01-01 00:00 android.hardware.configstore@1.0-service
+-rwxr-xr-x 1 root        shell         20396 2009-01-01 00:00 android.hardware.drm@1.0-service.widevine
+-rwxr-xr-x 1 root        shell         16228 2009-01-01 00:00 android.hardware.gatekeeper@1.0-service
+-rwxr-xr-x 1 root        shell         16216 2009-01-01 00:00 android.hardware.graphics.composer@2.1-service
+-rwxr-xr-x 1 root        shell         16228 2009-01-01 00:00 android.hardware.keymaster@3.0-service
+-rwxr-xr-x 1 root        shell         20472 2009-01-01 00:00 android.hardware.media.omx@1.0-service
+-rwxr-xr-x 1 root        shell         16228 2009-01-01 00:00 android.hardware.sensors@1.0-service-mediatek
+-rwxr-xr-x 1 wifi        wifi         184260 2009-01-01 00:00 android.hardware.wifi@1.0-service
+-rwxr-xr-x 1 root        shell         20300 2009-01-01 00:00 camerahalserver
+-rwxr-xr-x 1 root        shell         37956 2009-01-01 00:00 merged_hal_service
+-rwxr-xr-x 1 root        shell         20520 2009-01-01 00:00 mtkfusionrild
+-rwxr-xr-x 1 root        shell         16200 2009-01-01 00:00 power_native_test
+-rwxr-xr-x 1 root        shell         20400 2009-01-01 00:00 rild
+-rwxr-xr-x 1 root        shell         16220 2009-01-01 00:00 vendor.mediatek.hardware.dfps@1.0-service
+-rwxr-xr-x 1 root        shell         20380 2009-01-01 00:00 vendor.mediatek.hardware.pq@2.0-service
+-rwxr-xr-x 1 root        shell         16228 2009-01-01 00:00 vtservice_hidl
+-rwxr-xr-x 1 root        shell       1485784 2009-01-01 00:00 wpa_supplicant
+PS C:\Users\Ambrite> adb shell su -c ls -l /system/bin/ | findstr /i "ril"
+PS C:\Users\Ambrite> adb shell su -c lshal | findstr /i "radio ril"
+android.hardware.broadcastradio@1.0::IBroadcastRadioFactory/default                     0/2             387     289
+android.hardware.broadcastradio@1.1::IBroadcastRadioFactory/default                     0/2             387     289
+android.hardware.radio.deprecated@1.0::IOemHook/slot1                                   0/1             847     1248 289
+android.hardware.radio@1.0::IRadio/imsrild1                                             0/1             847     289
+android.hardware.radio@1.0::IRadio/slot1                                                0/1             847     1248 289
+android.hardware.radio@1.0::ISap/slot1                                                  0/1             847     289
+android.hardware.radio@1.1::IRadio/imsrild1                                             0/1             847     289
+android.hardware.radio@1.1::IRadio/slot1                                                0/1             847     1248 289
+android.hardware.radio@1.1::ISap/slot1                                                  0/1             847     289
+android.hidl.base@1.0::IBase/imsrild1                                                   0/1             847     289
+vendor.mediatek.hardware.radio.deprecated@1.1::IOemHook/slot1                           0/1             847     1248 289
+vendor.mediatek.hardware.radio@2.0::IRadio/imsrild1                                     0/1             847     289
+vendor.mediatek.hardware.radio@2.0::IRadio/slot1                                        0/1             847     1248 289
+vendor.mediatek.hardware.radio@2.0::ISap/slot1                                          0/1             847     289
+vendor.mediatek.hardware.radio@2.10::IRadio/imsrild1                                    0/1             847     289
+vendor.mediatek.hardware.radio@2.10::IRadio/slot1                                       0/1             847     1248 289
+vendor.mediatek.hardware.radio@2.11::IRadio/imsrild1                                    0/1             847     289
+vendor.mediatek.hardware.radio@2.11::IRadio/slot1                                       0/1             847     1248 289
+vendor.mediatek.hardware.radio@2.1::IRadio/imsrild1                                     0/1             847     289
+vendor.mediatek.hardware.radio@2.1::IRadio/slot1                                        0/1             847     1248 289
+vendor.mediatek.hardware.radio@2.2::IRadio/imsrild1                                     0/1             847     289
+vendor.mediatek.hardware.radio@2.2::IRadio/slot1                                        0/1             847     1248 289
+vendor.mediatek.hardware.radio@2.3::IRadio/imsrild1                                     0/1             847     289
+vendor.mediatek.hardware.radio@2.3::IRadio/slot1                                        0/1             847     1248 289
+vendor.mediatek.hardware.radio@2.4::IRadio/imsrild1                                     0/1             847     289
+vendor.mediatek.hardware.radio@2.4::IRadio/slot1                                        0/1             847     1248 289
+vendor.mediatek.hardware.radio@2.5::IRadio/imsrild1                                     0/1             847     289
+vendor.mediatek.hardware.radio@2.5::IRadio/slot1                                        0/1             847     1248 289
+vendor.mediatek.hardware.radio@2.6::IRadio/imsrild1                                     0/1             847     289
+vendor.mediatek.hardware.radio@2.6::IRadio/slot1                                        0/1             847     1248 289
+vendor.mediatek.hardware.radio@2.7::IRadio/imsrild1                                     0/1             847     289
+vendor.mediatek.hardware.radio@2.7::IRadio/slot1                                        0/1             847     1248 289
+vendor.mediatek.hardware.radio@2.8::IRadio/imsrild1                                     0/1             847     289
+vendor.mediatek.hardware.radio@2.8::IRadio/slot1                                        0/1             847     1248 289
+vendor.mediatek.hardware.radio@2.9::IRadio/imsrild1                                     0/1             847     289
+vendor.mediatek.hardware.radio@2.9::IRadio/slot1                                        0/1             847     1248 289
+PS C:\Users\Ambrite> adb shell service list | findstr /i "radio telephony"
+1       carrier_config: [com.android.internal.telephony.ICarrierConfigLoader]
+2       phone: [com.android.internal.telephony.ITelephony]
+3       isms: [com.android.internal.telephony.ISms]
+4       iphonesubinfo: [com.android.internal.telephony.IPhoneSubInfo]
+5       simphonebook: [com.android.internal.telephony.IIccPhoneBook]
+7       isub: [com.android.internal.telephony.ISub]
+22      imms: [com.android.internal.telephony.IMms]
+89      telephony.registry: [com.android.internal.telephony.ITelephonyRegistry]
+PS C:\Users\Ambrite> adb logcat -c
+PS C:\Users\Ambrite> adb shell dumpsys telephony.registry > telephony.txt
+PS C:\Users\Ambrite> adb logcat -b radio -d > radio.txt
+PS C:\Users\Ambrite> adb logcat -b radio -d | findstr /i "error fail reject denied unavailable no.service registration network attach"
+10-06 10:44:15.737   545   545 D TelephonyManager: No /proc/cmdline exception=java.io.FileNotFoundException: /proc/cmdline (Permission denied)
+10-06 10:44:16.956   847   847 I RilOpProxy: [initOpLibrary] dlopen failed in libmtk-rilop.so: dlopen failed: library "libmtk-rilop.so" not found
+10-06 10:44:16.971   847   847 I RilOpProxy: [registerOpService] dlopen failed in libmtk-rilop.so: (null)
+10-06 10:44:16.978   847   871 D RmcDcUrcHandler: [0]Notify ImsRegHandler URC registration is done
+10-06 10:44:16.992   847   881 I AT      : [0] AT< ERROR (RIL_CMD_READER_2, tid:2766788976)
+10-06 10:44:17.000   847   871 D RmcDcUrcHandler: [0]Notify ImsRegHandler URC registration is done
+10-06 10:44:17.008   847   893 E NetAgentService: [setCapabilityToModem] fail
+10-06 10:44:17.013   847   887 I AT      : [0] AT< ERROR (RIL_CMD_READER_4, tid:2762643824)
+10-06 10:44:17.015   847   881 I AT      : [0] AT< ERROR (RIL_CMD_READER_2, tid:2766788976)
+10-06 10:44:17.038   847   885 I AT      : [0] AT< ERROR (RIL_CMD_READER_3, tid:2764716400)
+10-06 10:44:17.039   847   886 E RmcImsCtlReqHdl: [0] setImsEvsDefaultValue(): AT+EIMSEVSSPEC error: 0
+10-06 10:44:17.051   847   864 E RILC    : imsNetworkStateChangedInd: radioService[0]->mRadioIndication == NULL
+10-06 10:44:17.133   847   864 E RILC    : responseCsNetworkStateChangeInd: radioService[0]->responseCsNetworkStateChangeInd == NULL
+10-06 10:44:17.133   847   864 E RILC    : networkStateChangedInd: radioService[0]->mRadioIndication == NULL
+10-06 10:44:17.135   847   891 D RmcEmbmsRequestHandler: [0] postEpsNetworkUpdate urc=+EGREG: 0,"0000","00000000",0,"00",0,0,0,0
+10-06 10:44:17.135   847   864 I RilOpProxy: [getOpUnsolResponseInfo] dlopen failed in libmtk-rilop.so: (null)
+10-06 10:44:17.138   847   891 E RmcEmbmsRequestHandler: [0] Error during postEpsNetworkUpdate
+10-06 10:44:17.147   847   879 I AT      : [0] AT< +CME ERROR: 100 (RIL_CMD_READER_1, tid:2774042992)
+10-06 10:44:17.149   847   879 I AT      : [0] AT< +CME ERROR: 100 (RIL_CMD_READER_1, tid:2774042992)
+10-06 10:44:17.160   847   864 E RILC    : responsePsNetworkStateChangeInd: radioService[0]->responsePsNetworkStateChangeInd == NULL
+10-06 10:44:17.160   847   864 E RILC    : networkStateChangedInd: radioService[0]->mRadioIndication == NULL
+10-06 10:44:17.590   847   864 D RtcRatSwCtrl: [0] [calculateDefaultNetworkType] card_type: 2, card_state: 3, rat_mode: -1, isCt3GDualMode: false, ct3gStatus: -1.  slotCap: 81930, slotNwtype: 9, defaultRaf: 81930, defNwType: 9.
+10-06 10:44:17.607   847   864 D RtcRatSwCtrl: [0] [setPreferredNetworkType] rafFromRiljNetworkType: 249358, targetRaf: 249358, targetNetworkType: 9, mNwsMode: 1.
+10-06 10:44:17.607   847   864 D RtcRatSwCtrl: [0] [switchNwRat] ratSwitchCaller: INIT, mCurPreferedNetWorkType: -1, mDefaultNetworkType: -1, prefNwTypeFromRilj: 9, targetPrefNwType: 9, GsmOnlySim: 1
+10-06 10:44:17.656   847   864 E RILC    : responseCsNetworkStateChangeInd: radioService[0]->responseCsNetworkStateChangeInd == NULL
+10-06 10:44:17.657   847   864 E RILC    : networkStateChangedInd: radioService[0]->mRadioIndication == NULL
+10-06 10:44:17.657   847   900 D RmcRatSwHdlr: [0] SetPreferredNetworkType: success, MajorSim:0, Preferred:1
+10-06 10:44:17.658   847   864 D RtcModeController: [SMC][onRatSwitchDone] Slot : 0 switch done, error : 0, switchQueue size : 0
+10-06 10:44:17.902   847   891 D RmcEmbmsRequestHandler: [0] postEpsNetworkUpdate urc=+EGREG: 2,"FFFF","0FFFFFFF",1,"00",0,0,0,0
+10-06 10:44:17.903   847   864 I RilOpProxy: [getOpUnsolResponseInfo] dlopen failed in libmtk-rilop.so: (null)
+10-06 10:44:17.905   847   864 E RILC    : responseCsNetworkStateChangeInd: radioService[0]->responseCsNetworkStateChangeInd == NULL
+10-06 10:44:17.905   847   864 E RILC    : networkStateChangedInd: radioService[0]->mRadioIndication == NULL
+10-06 10:44:17.908   847   864 I RilOpProxy: [getOpUnsolResponseInfo] dlopen failed in libmtk-rilop.so: (null)
+10-06 10:44:17.908   847   891 E RmcEmbmsRequestHandler: [0] Error due to cell_id = 268435455
+10-06 10:44:17.909   847   891 D RmcEmbmsRequestHandler: [0] postEpsNetworkUpdate urc=+EGREG: 0,"FFFF","0FFFFFFF",1,"00",0,0,0,0
+10-06 10:44:17.910   847   864 E RILC    : responsePsNetworkStateChangeInd: radioService[0]->responsePsNetworkStateChangeInd == NULL
+10-06 10:44:17.910   847   864 E RILC    : networkStateChangedInd: radioService[0]->mRadioIndication == NULL
+10-06 10:44:17.914   847   864 E RILC    : responseCsNetworkStateChangeInd: radioService[0]->responseCsNetworkStateChangeInd == NULL
+10-06 10:44:17.914   847   864 E RILC    : networkStateChangedInd: radioService[0]->mRadioIndication == NULL
+10-06 10:44:17.914   847   864 I RilOpProxy: [getOpUnsolResponseInfo] dlopen failed in libmtk-rilop.so: (null)
+10-06 10:44:17.917   847   891 E RmcEmbmsRequestHandler: [0] Error due to cell_id = 268435455
+10-06 10:44:17.917   847   891 D RmcEmbmsRequestHandler: [0] postEpsNetworkUpdate urc=+EGREG: 2,"FFFF","0FFFFFFF",1,"00",0,0,0,0
+10-06 10:44:17.918   847   864 E RILC    : responsePsNetworkStateChangeInd: radioService[0]->responsePsNetworkStateChangeInd == NULL
+10-06 10:44:17.918   847   864 E RILC    : networkStateChangedInd: radioService[0]->mRadioIndication == NULL
+10-06 10:44:17.921   847   891 E RmcEmbmsRequestHandler: [0] Error due to cell_id = 268435455
+10-06 10:44:17.923   847   864 E RILC    : responsePsNetworkStateChangeInd: radioService[0]->responsePsNetworkStateChangeInd == NULL
+10-06 10:44:17.924   847   864 E RILC    : networkStateChangedInd: radioService[0]->mRadioIndication == NULL
+10-06 10:44:18.103   847   871 D RmcGsmSimUrc: [0] Notify information related to data registration, slotId:0
+10-06 10:44:18.151   847   871 D RmcCatUrcHandler: [0] onCheckIfRejectMessage: 10 0
+10-06 10:44:22.890  1248  1248 I PhoneFactory: Network Mode set to 9
+10-06 10:44:22.900  1248  1248 D RILJ    : RIL: init preferredNetworkType=9 cdmaSubscription=0)
+10-06 10:44:22.964  1248  1248 D TelephonyTester: register for intent action=com.android.internal.telephony.action_attached
+10-06 10:44:22.994  1248  1406 D RILJ    : [3656]< RIL_REQUEST_START_LCE error 11 [SUB0]
+10-06 10:44:22.995  1248  1406 D RilRequest: [3656]< RIL_REQUEST_START_LCE error: com.android.internal.telephony.CommandException: SIM_ABSENT ret=[1, 200]
+10-06 10:44:23.099  1248  1248 W CarrierConfigManager: Error getting config for subId -1 ICarrierConfigLoader is null
+10-06 10:44:23.118  1248  1248 W CarrierConfigManager: Error getting config for subId -1 ICarrierConfigLoader is null
+10-06 10:44:23.190  1248  1248 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.network.type value: Unknown propVal=Unknown
+10-06 10:44:23.195  1248  1248 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.network.type value: Unknown propVal=Unknown
+10-06 10:44:23.231  1248  1248 D DcTesterFailBrinupAll: register for intent action=com.android.internal.telephony.dataconnection.action_fail_bringup
+10-06 10:44:23.231  1248  1248 D DcTesterFailBrinupAll: register for intent action=com.android.internal.telephony.action_detached
+10-06 10:44:23.231  1248  1248 D DcTesterFailBrinupAll: register for intent action=com.android.internal.telephony.action_attached
+10-06 10:44:23.233  1248  1248 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.network.type value: Unknown propVal=Unknown
+10-06 10:44:23.457  1248  1248 D TelephonyNetworkFactory[0]: Registering NetworkFactory
+10-06 10:44:23.531  1248  1248 D RILJ    : [3663]> RIL_REQUEST_IMS_REGISTRATION_STATE [SUB0]
+10-06 10:44:23.541  1248  1248 D RILJ    : [3671]> DATA_REGISTRATION_STATE [SUB0]
+10-06 10:44:23.542  1248  1248 D RILJ    : [3672]> VOICE_REGISTRATION_STATE [SUB0]
+10-06 10:44:23.543  1248  1248 D RILJ    : [3673]> QUERY_NETWORK_SELECTION_MODE [SUB0]
+10-06 10:44:23.547  1248  1248 D RILJ    : [3675]> DATA_REGISTRATION_STATE [SUB0]
+10-06 10:44:23.548  1248  1248 D RILJ    : [3676]> VOICE_REGISTRATION_STATE [SUB0]
+10-06 10:44:23.549  1248  1248 D RILJ    : [3677]> QUERY_NETWORK_SELECTION_MODE [SUB0]
+10-06 10:44:23.551  1248  1248 I CSST    : PrefNetworkNotification: sendMessage() w/values: ,false,-1,false,true
+10-06 10:44:23.551  1248  1406 D RILJ    : [3663]< RIL_REQUEST_IMS_REGISTRATION_STATE {0, 0} [SUB0]
+10-06 10:44:23.552  1248  1406 D RILJ    : [3664]< RIL_REQUEST_CDMA_GET_SUBSCRIPTION_SOURCE error 6 [SUB0]
+10-06 10:44:23.552  1248  1406 D RilRequest: [3664]< RIL_REQUEST_CDMA_GET_SUBSCRIPTION_SOURCE error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret={-1}
+10-06 10:44:23.552  1248  1248 I CSST    : EmergencyNetworkNotification: sendMessage() w/values: ,false,-1,false,true
+10-06 10:44:23.552  1248  1406 D RILJ    : [3668]< RIL_REQUEST_START_LCE error 11 [SUB0]
+10-06 10:44:23.553  1248  1406 D RilRequest: [3668]< RIL_REQUEST_START_LCE error: com.android.internal.telephony.CommandException: SIM_ABSENT ret=[1, 200]
+10-06 10:44:23.553  1248  1248 I CSST    : PrefNetworkNotification: sendMessage() w/values: ,false,-1,false,true
+10-06 10:44:23.553  1248  1248 I CSST    : EmergencyNetworkNotification: sendMessage() w/values: ,false,-1,false,true
+10-06 10:44:23.565   847   880 D RmcNwReqHdlr: [0] combineDataRegState(): ril_wfc_reg_status=0 registration_state=2
+10-06 10:44:23.573  1248  1406 D RILJ    : [3671]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 1, .cellIdentity = {.cellInfoType = NONE, .cellIdentityGsm = [], .cellIdentityWcdma = [], .cellIdentityCdma = [], .cellIdentityLte = [], .cellIdentityTdscdma = []}} [SUB0]
+10-06 10:44:23.574  1248  1406 D RILJ    : [3672]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP, .rat = 0, .cssSupported = false, .roamingIndicator = 0, .systemIsInPrl = 0, .defaultRoamingIndicator = 0, .reasonForDenial = 0, .cellIdentity = {.cellInfoType = NONE, .cellIdentityGsm = [], .cellIdentityWcdma = [], .cellIdentityCdma = [], .cellIdentityLte = [], .cellIdentityTdscdma = []}} [SUB0]
+10-06 10:44:23.579  1248  1406 D RILJ    : [3673]< QUERY_NETWORK_SELECTION_MODE {0} [SUB0]
+10-06 10:44:23.581   847   880 D RmcNwReqHdlr: [0] combineDataRegState(): ril_wfc_reg_status=0 registration_state=2
+10-06 10:44:23.583  1248  1406 D RILJ    : [3675]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 1, .cellIdentity = {.cellInfoType = NONE, .cellIdentityGsm = [], .cellIdentityWcdma = [], .cellIdentityCdma = [], .cellIdentityLte = [], .cellIdentityTdscdma = []}} [SUB0]
+10-06 10:44:23.587  1248  1406 D RILJ    : [3676]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP, .rat = 0, .cssSupported = false, .roamingIndicator = 0, .systemIsInPrl = 0, .defaultRoamingIndicator = 0, .reasonForDenial = 0, .cellIdentity = {.cellInfoType = NONE, .cellIdentityGsm = [], .cellIdentityWcdma = [], .cellIdentityCdma = [], .cellIdentityLte = [], .cellIdentityTdscdma = []}} [SUB0]
+10-06 10:44:23.590  1248  1406 D RILJ    : [3677]< QUERY_NETWORK_SELECTION_MODE {0} [SUB0]
+10-06 10:44:23.622  1248  1248 D TelephonyNetworkFactory[0]: onSubIdChange -1->-2
+10-06 10:44:23.622  1248  1248 D TelephonyNetworkFactory[0]: got request NetworkRequest [ TRACK_DEFAULT id=6, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 0
+10-06 10:44:23.622  1248  1248 D TelephonyNetworkFactory[0]: got request NetworkRequest [ TRACK_DEFAULT id=3, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 0
+10-06 10:44:23.622  1248  1248 D TelephonyNetworkFactory[0]: got request NetworkRequest [ REQUEST id=1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 0
+10-06 10:44:23.622  1248  1248 D TelephonyNetworkFactory[0]: got request NetworkRequest [ BACKGROUND_REQUEST id=2, [ Transports: CELLULAR Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 0
+10-06 10:44:23.660  1248  1248 D SST     : EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+10-06 10:44:23.661  1248  1248 D SST     : EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+10-06 10:44:23.662  1248  1248 D SST     : Poll ServiceState done:  oldSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=null, mVoiceOperatorAlphaShort=null, mDataOperatorAlphaLong=null, mDataOperatorAlphaShort=null, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=0(Unknown), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=0, mSystemId=0, mCdmaRoamingIndicator=0, mCdmaDefaultRoamingIndicator=0, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0}] newSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=0(Unknown), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=0, mSystemId=0, mCdmaRoamingIndicator=0, mCdmaDefaultRoamingIndicator=0, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0}] oldMaxDataCalls=1 mNewMaxDataCalls=1 oldReasonDataDenied=-1 mNewReasonDataDenied=0
+10-06 10:44:23.662  1248  1248 D SST     : pollStateDone: hasRegistered=false hasDeregistered=false hasDataAttached=false hasDataDetached=false hasDataRegStateChanged=false hasRilVoiceRadioTechnologyChanged= false hasRilDataRadioTechnologyChanged=false hasChanged=true hasVoiceRoamingOn=false hasVoiceRoamingOff=false hasDataRoamingOn=false hasDataRoamingOff=false hasLocationChanged=false has4gHandoff = false hasMultiApnSupport=false hasLostMultiApnSupport=false
+10-06 10:44:23.674  1248  1248 D SST     : Broadcasting ServiceState : {mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=0(Unknown), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=0, mSystemId=0, mCdmaRoamingIndicator=0, mCdmaDefaultRoamingIndicator=0, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0}
+10-06 10:44:23.674  1248  1248 D DefaultPhoneNotifier: nofityServiceState: mRegistry=com.android.internal.telephony.ITelephonyRegistry$Stub$Proxy@85c0f82 ss={mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=0(Unknown), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=0, mSystemId=0, mCdmaRoamingIndicator=0, mCdmaDefaultRoamingIndicator=0, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0} sender=Handler (com.android.internal.telephony.GsmCdmaPhone) {71f7bb1} phondId=0 subId=-2
+10-06 10:44:23.690  1248  1248 D TelephonyNetworkFactory[0]: not acting - isApp=false, isAct=false NetworkRequest [ TRACK_DEFAULT id=6, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+10-06 10:44:23.691  1248  1248 D TelephonyNetworkFactory[0]: not acting - isApp=false, isAct=false NetworkRequest [ TRACK_DEFAULT id=3, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+10-06 10:44:23.693  1248  1248 D TelephonyNetworkFactory[0]: not acting - isApp=false, isAct=false NetworkRequest [ REQUEST id=1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+10-06 10:44:23.694  1248  1248 D TelephonyNetworkFactory[0]: not acting - isApp=false, isAct=false NetworkRequest [ BACKGROUND_REQUEST id=2, [ Transports: CELLULAR Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+10-06 10:44:23.718   847   886 E RmcCommSimReq: [0] handleSimOpenChannel: fail to select AID, and then close logical channel 1
+10-06 10:44:23.718   847   886 I RmcCommSimReq: [0] handleSimOpenChannel: close logical channel 1 due to fail to select AID
+10-06 10:44:23.737   847   886 E RmcCommSimReq: [0] handleSimOpenChannel, error 17, sw1 6a, sw2 82, sr.simresponse
+10-06 10:44:23.738  1248  1406 D RILJ    : [3681]< RIL_REQUEST_SIM_OPEN_CHANNEL error 17 [SUB0]
+10-06 10:44:23.738  1248  1406 D RilRequest: [3681]< RIL_REQUEST_SIM_OPEN_CHANNEL error: com.android.internal.telephony.CommandException: NO_SUCH_ELEMENT ret=
+10-06 10:44:23.781  1248  1248 D RILJ    : [3709]> DATA_REGISTRATION_STATE [SUB0]
+10-06 10:44:23.782  1248  1248 D RILJ    : [3710]> VOICE_REGISTRATION_STATE [SUB0]
+10-06 10:44:23.783  1248  1248 D RILJ    : [3711]> QUERY_NETWORK_SELECTION_MODE [SUB0]
+10-06 10:44:23.800   847   880 D RmcNwReqHdlr: [0] combineDataRegState(): ril_wfc_reg_status=0 registration_state=2
+10-06 10:44:23.805  1248  1406 D RILJ    : [3709]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 1, .cellIdentity = {.cellInfoType = NONE, .cellIdentityGsm = [], .cellIdentityWcdma = [], .cellIdentityCdma = [], .cellIdentityLte = [], .cellIdentityTdscdma = []}} [SUB0]
+10-06 10:44:23.810  1248  1406 D RILJ    : [3687]< SIM_IO error 6 [SUB0]
+10-06 10:44:23.810  1248  1406 D RilRequest: [3687]< SIM_IO error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=IccIoResult sw1:0x0 sw2:0x0 Error: unknown
+10-06 10:44:23.813  1248  1406 D RILJ    : [3710]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP, .rat = 0, .cssSupported = false, .roamingIndicator = 0, .systemIsInPrl = 0, .defaultRoamingIndicator = 0, .reasonForDenial = 0, .cellIdentity = {.cellInfoType = NONE, .cellIdentityGsm = [], .cellIdentityWcdma = [], .cellIdentityCdma = [], .cellIdentityLte = [], .cellIdentityTdscdma = []}} [SUB0]
+10-06 10:44:23.814  1248  1406 D RILJ    : [3711]< QUERY_NETWORK_SELECTION_MODE {0} [SUB0]
+10-06 10:44:23.820  1248  1248 D SST     : EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+10-06 10:44:23.823  1248  1248 D SST     : Poll ServiceState done:  oldSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=0(Unknown), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=0, mSystemId=0, mCdmaRoamingIndicator=0, mCdmaDefaultRoamingIndicator=0, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0}] newSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=0(Unknown), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0}] oldMaxDataCalls=1 mNewMaxDataCalls=1 oldReasonDataDenied=0 mNewReasonDataDenied=0
+10-06 10:44:23.823  1248  1248 D SST     : pollStateDone: hasRegistered=false hasDeregistered=false hasDataAttached=false hasDataDetached=false hasDataRegStateChanged=false hasRilVoiceRadioTechnologyChanged= false hasRilDataRadioTechnologyChanged=false hasChanged=true hasVoiceRoamingOn=false hasVoiceRoamingOff=false hasDataRoamingOn=false hasDataRoamingOff=false hasLocationChanged=false has4gHandoff = false hasMultiApnSupport=false hasLostMultiApnSupport=false
+10-06 10:44:23.834  1248  1406 D RILJ    : [3688]< SIM_IO IccIoResult sw1:0x94 sw2:0x4 Error: file ID not found/pattern not found [SUB0]
+10-06 10:44:23.839  1248  1248 D SST     : Broadcasting ServiceState : {mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=0(Unknown), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0}
+10-06 10:44:23.840  1248  1248 D DefaultPhoneNotifier: nofityServiceState: mRegistry=com.android.internal.telephony.ITelephonyRegistry$Stub$Proxy@85c0f82 ss={mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=0(Unknown), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0} sender=Handler (com.android.internal.telephony.GsmCdmaPhone) {71f7bb1} phondId=0 subId=-2
+10-06 10:44:23.842  1248  1406 D RILJ    : [3689]< SIM_IO IccIoResult sw1:0x94 sw2:0x4 Error: file ID not found/pattern not found [SUB0]
+10-06 10:44:23.859  1248  1406 D RILJ    : [3690]< SIM_IO IccIoResult sw1:0x94 sw2:0x4 Error: file ID not found/pattern not found [SUB0]
+10-06 10:44:23.878  1248  1406 D RILJ    : [3692]< SIM_IO IccIoResult sw1:0x94 sw2:0x4 Error: file ID not found/pattern not found [SUB0]
+10-06 10:44:23.885  1248  1406 D RILJ    : [3693]< SIM_IO IccIoResult sw1:0x94 sw2:0x4 Error: file ID not found/pattern not found [SUB0]
+10-06 10:44:23.922  1248  1406 D RILJ    : [3695]< SIM_IO IccIoResult sw1:0x94 sw2:0x4 Error: file ID not found/pattern not found [SUB0]
+10-06 10:44:23.949  1248  1406 D RILJ    : [3696]< SIM_IO IccIoResult sw1:0x94 sw2:0x4 Error: file ID not found/pattern not found [SUB0]
+10-06 10:44:24.096   847   886 E RmcCommSimReq: [0] handleSimOpenChannel: fail to select AID, and then close logical channel 1
+10-06 10:44:24.096   847   886 I RmcCommSimReq: [0] handleSimOpenChannel: close logical channel 1 due to fail to select AID
+10-06 10:44:24.101   847   886 E RmcCommSimReq: [0] handleSimOpenChannel, error 17, sw1 6b, sw2 0, sr.simresponse
+10-06 10:44:24.103  1248  1406 D RILJ    : [3715]< RIL_REQUEST_SIM_OPEN_CHANNEL error 17 [SUB0]
+10-06 10:44:24.103  1248  1406 D RilRequest: [3715]< RIL_REQUEST_SIM_OPEN_CHANNEL error: com.android.internal.telephony.CommandException: NO_SUCH_ELEMENT ret=
+10-06 10:44:24.104  1248  1248 D UiccPkcs15: error: com.android.internal.telephony.CommandException: NO_SUCH_ELEMENT
+10-06 10:44:24.104  1248  1248 D UiccPkcs15: select pkcs15 failed: com.android.internal.telephony.CommandException: NO_SUCH_ELEMENT
+10-06 10:44:24.115   847   871 D RmcCatUrcHandler: [0] onCheckIfRejectMessage: 10 0
+10-06 10:44:24.118   847   871 D RmcCatUrcHandler: [0] onCheckIfRejectMessage: 10 0
+10-06 10:44:24.243   847   885 I AT      : [0] AT< +CME ERROR: 65535 (RIL_CMD_READER_3, tid:2764716400)
+10-06 10:44:24.655  1248  1248 D RILJ    : [3734]> RIL_REQUEST_SET_INITIAL_ATTACH_APNDataProfile=0/cmnet/IP/0///0/0/0/0/true/5/IP/0/0///false [SUB0]
+10-06 10:44:24.662  1248  1406 D RILJ    : [3734]< RIL_REQUEST_SET_INITIAL_ATTACH_APN  [SUB0]
+10-06 10:44:24.721  1248  1248 D TelephonyNetworkFactory[0]: onActivePhoneSwitch(true, false)
+10-06 10:44:24.907   847   885 I AT      : [0] AT< +CME ERROR: 65535 (RIL_CMD_READER_3, tid:2764716400)
+10-06 10:44:24.909  1248  1406 D RILJ    : [3735]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error 6 [SUB0]
+10-06 10:44:24.910  1248  1406 D RilRequest: [3735]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+10-06 10:44:24.967  1248  1248 D RILJ    : [3736]> REQUEST_SET_PREFERRED_NETWORK_TYPE networkType = 9 [SUB0]
+10-06 10:44:24.968  1248  1248 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.network.type value: Unknown propVal=Unknown
+10-06 10:44:24.969  1248  1406 D RILJ    : [3736]< REQUEST_SET_PREFERRED_NETWORK_TYPE  [SUB0]
+10-06 10:44:25.136  1248  1248 D RILJ    : [3737]> RIL_REQUEST_SET_INITIAL_ATTACH_APNDataProfile=0/cmnet/IP/0///0/0/0/0/true/5/IP/0/0///false [SUB0]
+10-06 10:44:25.146  1248  1406 D RILJ    : [3737]< RIL_REQUEST_SET_INITIAL_ATTACH_APN  [SUB0]
+10-06 10:44:25.175  1248  1248 D TelephonyNetworkFactory[0]: onSubIdChange -2->1
+10-06 10:44:25.176  1248  1248 D TelephonyNetworkFactory[0]: onDefaultChange(true,true)
+10-06 10:44:25.201   847   885 I AT      : [0] AT< +CME ERROR: 65535 (RIL_CMD_READER_3, tid:2764716400)
+10-06 10:44:25.202  1248  1406 D RILJ    : [3738]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error 6 [SUB0]
+10-06 10:44:25.202  1248  1406 D RilRequest: [3738]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+10-06 10:44:25.642   847   885 I AT      : [0] AT< +CME ERROR: 65535 (RIL_CMD_READER_3, tid:2764716400)
+10-06 10:44:25.643  1248  1406 D RILJ    : [3739]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error 6 [SUB0]
+10-06 10:44:25.643  1248  1406 D RilRequest: [3739]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+10-06 10:44:25.686  1248  1248 I CSST    : PrefNetworkNotification: sendMessage() w/values: ,false,-1,false,true
+10-06 10:44:25.687  1248  1248 I CSST    : EmergencyNetworkNotification: sendMessage() w/values: ,false,-1,false,true
+10-06 10:44:25.759   847   885 I AT      : [0] AT< +CME ERROR: 65535 (RIL_CMD_READER_3, tid:2764716400)
+10-06 10:44:25.765  1248  1406 D RILJ    : [3740]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error 6 [SUB0]
+10-06 10:44:25.766  1248  1406 D RilRequest: [3740]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+10-06 10:44:26.555   847   885 I AT      : [0] AT< +CME ERROR: 65535 (RIL_CMD_READER_3, tid:2764716400)
+10-06 10:44:26.557  1248  1406 D RILJ    : [3762]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error 6 [SUB0]
+10-06 10:44:26.557  1248  1406 D RilRequest: [3762]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+10-06 10:44:26.572   847   885 I AT      : [0] AT< +CME ERROR: 65535 (RIL_CMD_READER_3, tid:2764716400)
+10-06 10:44:26.573  1248  1406 D RILJ    : [3763]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error 6 [SUB0]
+10-06 10:44:26.574  1248  1406 D RilRequest: [3763]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+10-06 10:44:26.586   847   885 I AT      : [0] AT< +CME ERROR: 65535 (RIL_CMD_READER_3, tid:2764716400)
+10-06 10:44:26.588  1248  1406 D RILJ    : [3764]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error 6 [SUB0]
+10-06 10:44:26.588  1248  1406 D RilRequest: [3764]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+10-06 10:44:26.601   847   885 I AT      : [0] AT< +CME ERROR: 65535 (RIL_CMD_READER_3, tid:2764716400)
+10-06 10:44:26.603  1248  1406 D RILJ    : [3765]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error 6 [SUB0]
+10-06 10:44:26.603  1248  1406 D RilRequest: [3765]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+10-06 10:44:54.467   847   864 E         : no RfxBaseData, send error to RILJ
+10-06 10:44:54.468  1248  1406 D RILJ    : [3778]< RIL_REQUEST_SEND_DEVICE_STATE error 6 [SUB0]
+10-06 10:44:54.468  1248  1406 D RilRequest: [3778]< RIL_REQUEST_SEND_DEVICE_STATE error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+10-06 10:44:55.810  1248  1248 I CSST    : PrefNetworkNotification: sendMessage() w/values: ,false,-1,false,true
+10-06 10:44:55.811  1248  1248 I CSST    : EmergencyNetworkNotification: sendMessage() w/values: ,false,-1,false,true
+10-06 10:44:56.009   847   885 I AT      : [0] AT< +CME ERROR: 65535 (RIL_CMD_READER_3, tid:2764716400)
+10-06 10:44:56.013  1248  1406 D RILJ    : [3780]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error 6 [SUB0]
+10-06 10:44:56.013  1248  1406 D RilRequest: [3780]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+10-06 10:44:56.091   847   885 I AT      : [0] AT< +CME ERROR: 65535 (RIL_CMD_READER_3, tid:2764716400)
+10-06 10:44:56.092  1248  1406 D RILJ    : [3781]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error 6 [SUB0]
+10-06 10:44:56.093  1248  1406 D RilRequest: [3781]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+10-06 10:44:56.119   847   885 I AT      : [0] AT< +CME ERROR: 65535 (RIL_CMD_READER_3, tid:2764716400)
+10-06 10:44:56.120  1248  1406 D RILJ    : [3782]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error 6 [SUB0]
+10-06 10:44:56.121  1248  1406 D RilRequest: [3782]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+10-06 10:44:56.137   847   885 I AT      : [0] AT< +CME ERROR: 65535 (RIL_CMD_READER_3, tid:2764716400)
+10-06 10:44:56.138  1248  1406 D RILJ    : [3783]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error 6 [SUB0]
+10-06 10:44:56.139  1248  1406 D RilRequest: [3783]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+10-06 10:44:58.356   847   885 I AT      : [0] AT< +CME ERROR: 65535 (RIL_CMD_READER_3, tid:2764716400)
+10-06 10:44:58.358  1248  1406 D RILJ    : [3794]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error 6 [SUB0]
+10-06 10:44:58.358  1248  1406 D RilRequest: [3794]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+10-06 10:44:58.373   847   885 I AT      : [0] AT< +CME ERROR: 65535 (RIL_CMD_READER_3, tid:2764716400)
+10-06 10:44:58.375  1248  1406 D RILJ    : [3795]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error 6 [SUB0]
+10-06 10:44:58.375  1248  1406 D RilRequest: [3795]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+10-06 10:44:58.388   847   885 I AT      : [0] AT< +CME ERROR: 65535 (RIL_CMD_READER_3, tid:2764716400)
+10-06 10:44:58.390  1248  1406 D RILJ    : [3796]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error 6 [SUB0]
+10-06 10:44:58.390  1248  1406 D RilRequest: [3796]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+10-06 10:44:58.403   847   885 I AT      : [0] AT< +CME ERROR: 65535 (RIL_CMD_READER_3, tid:2764716400)
+10-06 10:44:58.405  1248  1406 D RILJ    : [3797]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error 6 [SUB0]
+10-06 10:44:58.405  1248  1406 D RilRequest: [3797]< RIL_REQUEST_CDMA_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+10-06 10:47:58.493  1248  1248 D TelephonyNetworkFactory[0]: onReleaseNetworkFor NetworkRequest [ REQUEST id=1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+10-06 10:47:58.505  1248  1248 D TelephonyNetworkFactory[0]: onReleaseNetworkFor NetworkRequest [ TRACK_DEFAULT id=3, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+10-06 10:47:58.510  1248  1248 D TelephonyNetworkFactory[0]: onReleaseNetworkFor NetworkRequest [ TRACK_DEFAULT id=6, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+10-06 10:49:38.356   847   864 E         : no RfxBaseData, send error to RILJ
+10-06 10:49:38.357  1248  1406 D RILJ    : [3811]< RIL_REQUEST_SEND_DEVICE_STATE error 6 [SUB0]
+10-06 10:49:38.358  1248  1406 D RilRequest: [3811]< RIL_REQUEST_SEND_DEVICE_STATE error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+10-06 10:49:38.385   847   864 E RILC    : responseCsNetworkStateChangeInd: radioService[0]->responseCsNetworkStateChangeInd == NULL
+10-06 10:49:38.387  1248  1406 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB0]
+10-06 10:49:38.390  1248  1248 D RILJ    : [3815]> DATA_REGISTRATION_STATE [SUB0]
+10-06 10:49:38.391  1248  1248 D RILJ    : [3816]> VOICE_REGISTRATION_STATE [SUB0]
+10-06 10:49:38.392  1248  1248 D RILJ    : [3817]> QUERY_NETWORK_SELECTION_MODE [SUB0]
+10-06 10:49:38.396   847   864 I RilOpProxy: [getOpUnsolResponseInfo] dlopen failed in libmtk-rilop.so: (null)
+10-06 10:49:38.397   847   891 D RmcEmbmsRequestHandler: [0] postEpsNetworkUpdate urc=+EGREG: 2,"FFFF","0FFFFFFF",1,"00",0,0,0,0
+10-06 10:49:38.403   847   891 E RmcEmbmsRequestHandler: [0] Error due to cell_id = 268435455
+10-06 10:49:38.417   847   879 I AT      : [0] AT< +CME ERROR: 65535 (RIL_CMD_READER_1, tid:2774042992)
+10-06 10:49:38.435   847   880 D RmcNwReqHdlr: [0] combineDataRegState(): ril_wfc_reg_status=0 registration_state=2
+10-06 10:49:38.437  1248  1406 D RILJ    : [3815]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 1, .cellIdentity = {.cellInfoType = NONE, .cellIdentityGsm = [], .cellIdentityWcdma = [], .cellIdentityCdma = [], .cellIdentityLte = [], .cellIdentityTdscdma = []}} [SUB0]
+10-06 10:49:38.446  1248  1406 D RILJ    : [3816]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP, .rat = 0, .cssSupported = false, .roamingIndicator = 0, .systemIsInPrl = 0, .defaultRoamingIndicator = 0, .reasonForDenial = 0, .cellIdentity = {.cellInfoType = NONE, .cellIdentityGsm = [], .cellIdentityWcdma = [], .cellIdentityCdma = [], .cellIdentityLte = [], .cellIdentityTdscdma = []}} [SUB0]
+10-06 10:49:38.455   847   864 E RILC    : responsePsNetworkStateChangeInd: radioService[0]->responsePsNetworkStateChangeInd == NULL
+10-06 10:49:38.457  1248  1406 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB0]
+10-06 10:49:38.459  1248  1248 D RILJ    : [3820]> DATA_REGISTRATION_STATE [SUB0]
+10-06 10:49:38.461  1248  1248 D RILJ    : [3821]> VOICE_REGISTRATION_STATE [SUB0]
+10-06 10:49:38.462  1248  1248 D RILJ    : [3822]> QUERY_NETWORK_SELECTION_MODE [SUB0]
+10-06 10:49:38.465  1248  1406 D RILJ    : [3817]< QUERY_NETWORK_SELECTION_MODE {0} [SUB0]
+10-06 10:49:38.465  1248  1248 D SST     : EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+10-06 10:49:38.482   847   880 D RmcNwReqHdlr: [0] combineDataRegState(): ril_wfc_reg_status=0 registration_state=2
+10-06 10:49:38.484  1248  1406 D RILJ    : [3820]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 1, .cellIdentity = {.cellInfoType = NONE, .cellIdentityGsm = [], .cellIdentityWcdma = [], .cellIdentityCdma = [], .cellIdentityLte = [], .cellIdentityTdscdma = []}} [SUB0]
+10-06 10:49:38.493  1248  1406 D RILJ    : [3821]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP, .rat = 0, .cssSupported = false, .roamingIndicator = 0, .systemIsInPrl = 0, .defaultRoamingIndicator = 0, .reasonForDenial = 0, .cellIdentity = {.cellInfoType = NONE, .cellIdentityGsm = [], .cellIdentityWcdma = [], .cellIdentityCdma = [], .cellIdentityLte = [], .cellIdentityTdscdma = []}} [SUB0]
+10-06 10:49:38.501  1248  1248 D SST     : EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+10-06 10:49:38.501  1248  1406 D RILJ    : [3822]< QUERY_NETWORK_SELECTION_MODE {0} [SUB0]
+10-06 10:49:38.504  1248  1248 D SST     : Poll ServiceState done:  oldSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=0(Unknown), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0}] newSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=0(Unknown), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0}] oldMaxDataCalls=1 mNewMaxDataCalls=1 oldReasonDataDenied=0 mNewReasonDataDenied=0
+10-06 10:49:38.504  1248  1248 D SST     : pollStateDone: hasRegistered=false hasDeregistered=false hasDataAttached=false hasDataDetached=false hasDataRegStateChanged=false hasRilVoiceRadioTechnologyChanged= false hasRilDataRadioTechnologyChanged=false hasChanged=false hasVoiceRoamingOn=false hasVoiceRoamingOff=false hasDataRoamingOn=false hasDataRoamingOff=false hasLocationChanged=false has4gHandoff = false hasMultiApnSupport=false hasLostMultiApnSupport=false
+10-06 10:50:26.323   847   864 E         : no RfxBaseData, send error to RILJ
+10-06 10:50:26.325  1248  1406 D RILJ    : [3823]< RIL_REQUEST_SEND_DEVICE_STATE error 6 [SUB0]
+10-06 10:50:26.326  1248  1406 D RilRequest: [3823]< RIL_REQUEST_SEND_DEVICE_STATE error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+10-06 10:50:26.393   847   864 E RILC    : responseCsNetworkStateChangeInd: radioService[0]->responseCsNetworkStateChangeInd == NULL
+10-06 10:50:26.398  1248  1406 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB0]
+10-06 10:50:26.401  1248  1248 D RILJ    : [3827]> DATA_REGISTRATION_STATE [SUB0]
+10-06 10:50:26.405  1248  1248 D RILJ    : [3828]> VOICE_REGISTRATION_STATE [SUB0]
+10-06 10:50:26.406   847   891 D RmcEmbmsRequestHandler: [0] postEpsNetworkUpdate urc=+EGREG: 2,"FFFF","0FFFFFFF",1,"00",0,0,0,0
+10-06 10:50:26.408   847   864 I RilOpProxy: [getOpUnsolResponseInfo] dlopen failed in libmtk-rilop.so: (null)
+10-06 10:50:26.410  1248  1248 D RILJ    : [3829]> QUERY_NETWORK_SELECTION_MODE [SUB0]
+10-06 10:50:26.416   847   891 E RmcEmbmsRequestHandler: [0] Error due to cell_id = 268435455
+10-06 10:50:26.426  1248  1406 D RILJ    : [UNSL]< UNSOL_RESPONSE_IMS_NETWORK_STATE_CHANGED [SUB0]
+10-06 10:50:26.427  1248  1248 D RILJ    : [3831]> RIL_REQUEST_IMS_REGISTRATION_STATE [SUB0]
+10-06 10:50:26.429  1248  1248 D RILJ    : [3832]> RIL_REQUEST_IMS_REGISTRATION_STATE [SUB0]
+10-06 10:50:26.436  1248  1406 D RILJ    : [3831]< RIL_REQUEST_IMS_REGISTRATION_STATE {0, 0} [SUB0]
+10-06 10:50:26.440   847   879 I AT      : [0] AT< +CME ERROR: 65535 (RIL_CMD_READER_1, tid:2774042992)
+10-06 10:50:26.442  1248  1406 D RILJ    : [3832]< RIL_REQUEST_IMS_REGISTRATION_STATE {0, 0} [SUB0]
+10-06 10:50:26.443   847   879 I AT      : [0] AT< +CME ERROR: 65535 (RIL_CMD_READER_1, tid:2774042992)
+10-06 10:50:26.460   847   880 D RmcNwReqHdlr: [0] combineDataRegState(): ril_wfc_reg_status=0 registration_state=2
+10-06 10:50:26.461  1248  1406 D RILJ    : [3827]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 1, .cellIdentity = {.cellInfoType = NONE, .cellIdentityGsm = [], .cellIdentityWcdma = [], .cellIdentityCdma = [], .cellIdentityLte = [], .cellIdentityTdscdma = []}} [SUB0]
+10-06 10:50:26.469   847   864 E RILC    : responsePsNetworkStateChangeInd: radioService[0]->responsePsNetworkStateChangeInd == NULL
+10-06 10:50:26.470  1248  1406 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB0]
+10-06 10:50:26.472  1248  1248 D RILJ    : [3835]> DATA_REGISTRATION_STATE [SUB0]
+10-06 10:50:26.473  1248  1248 D RILJ    : [3836]> VOICE_REGISTRATION_STATE [SUB0]
+10-06 10:50:26.474  1248  1248 D RILJ    : [3837]> QUERY_NETWORK_SELECTION_MODE [SUB0]
+10-06 10:50:26.477  1248  1406 D RILJ    : [3828]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP, .rat = 0, .cssSupported = false, .roamingIndicator = 0, .systemIsInPrl = 0, .defaultRoamingIndicator = 0, .reasonForDenial = 0, .cellIdentity = {.cellInfoType = NONE, .cellIdentityGsm = [], .cellIdentityWcdma = [], .cellIdentityCdma = [], .cellIdentityLte = [], .cellIdentityTdscdma = []}} [SUB0]
+10-06 10:50:26.485  1248  1406 D RILJ    : [3829]< QUERY_NETWORK_SELECTION_MODE {0} [SUB0]
+10-06 10:50:26.486  1248  1248 D SST     : EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+10-06 10:50:26.501   847   880 D RmcNwReqHdlr: [0] combineDataRegState(): ril_wfc_reg_status=0 registration_state=2
+10-06 10:50:26.502  1248  1406 D RILJ    : [3835]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 1, .cellIdentity = {.cellInfoType = NONE, .cellIdentityGsm = [], .cellIdentityWcdma = [], .cellIdentityCdma = [], .cellIdentityLte = [], .cellIdentityTdscdma = []}} [SUB0]
+10-06 10:50:26.511  1248  1406 D RILJ    : [3836]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP, .rat = 0, .cssSupported = false, .roamingIndicator = 0, .systemIsInPrl = 0, .defaultRoamingIndicator = 0, .reasonForDenial = 0, .cellIdentity = {.cellInfoType = NONE, .cellIdentityGsm = [], .cellIdentityWcdma = [], .cellIdentityCdma = [], .cellIdentityLte = [], .cellIdentityTdscdma = []}} [SUB0]
+10-06 10:50:26.519  1248  1406 D RILJ    : [3837]< QUERY_NETWORK_SELECTION_MODE {0} [SUB0]
+10-06 10:50:26.519  1248  1248 D SST     : EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+10-06 10:50:26.521  1248  1248 D SST     : Poll ServiceState done:  oldSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=0(Unknown), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0}] newSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=0(Unknown), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0}] oldMaxDataCalls=1 mNewMaxDataCalls=1 oldReasonDataDenied=0 mNewReasonDataDenied=0
+10-06 10:50:26.521  1248  1248 D SST     : pollStateDone: hasRegistered=false hasDeregistered=false hasDataAttached=false hasDataDetached=false hasDataRegStateChanged=false hasRilVoiceRadioTechnologyChanged= false hasRilDataRadioTechnologyChanged=false hasChanged=false hasVoiceRoamingOn=false hasVoiceRoamingOff=false hasDataRoamingOn=false hasDataRoamingOff=false hasLocationChanged=false has4gHandoff = false hasMultiApnSupport=false hasLostMultiApnSupport=false
+PS C:\Users\Ambrite> adb logcat -d | findstr /i "RIL RILD MTK RADIO REGISTRATION MODEM"
+PS C:\Users\Ambrite>
