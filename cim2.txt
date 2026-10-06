@@ -1,0 +1,416 @@
+werShell 7.6.6
+PS C:\Users\Ambrite> adb shell su -c "strings /vendor/lib/libmtk-ril.so | grep -i -C 30 'libmtk-rilop.so'"
+type=%s, source=%s, dest=%s, pId=%s(%d), pToken=%d, id=%s(%d), token=%d, slotId=%d,             clientId = %d, error = %d, isSentOnCdmaCapabilitySlot = %d, sendToMainProtocol = %d,            pTimeStamp = %lld
+REQUEST
+RESPONSE
+REQUEST_ACK
+STATUS_SYNC
+SAP_REQUEST
+SAP_RESPONSE
+SAP_URC
+unknown type
+ATCI
+SAP_GSM
+SAP_C2K
+SAP_BT
+unkonwn group
+RfxObjDebugInfo
+slot:%d, id:%d, status:%d, type:%d, rat:%d, dir:%d, num:%s, orig:%d
+RFX_ASSERT
+RFX_ASSERT:%s, %d
+vendor/mediatek/proprietary/hardware/ril/fusion/mtk-ril/framework/base/RfxVariant.cpp
+RfxRilUtils
+ro.build.type
+Open CCCI ioctl port failed [%d]
+setStatusValueForGT, updateValueMdComm, slot_id = %d, key = %s, value = %s
+setStatusValueForGT, updateValueToTelCore, slot_id = %d, key = %s, value = %s
+persist.mtk_ct_volte_support
+gsm.external.sim.enabled
+gsm.external.sim.inserted
+vendor/mediatek/proprietary/hardware/ril/fusion/mtk-ril/framework/base/RfxIaApnData.cpp
+RfxIdToMsgId
+RfxOpUtils
+libmtk-rilop.so
+[%s] completed
+[%s] return, sDlOpHandler == NULL
+[%s] destroy not defined or exported in %s: %s
+idToMsgId, no match ID in op package
+createGsmSimOpRequestHandler
+createCdmaSimOpRequestHandler
+createCommSimOpRequestHandler
+createGsmSimOpUrcHandler
+createCdmaSimOpUrcHandler
+createCommSimOpUrcHandler
+dumpActionConstructionCallStack() Found action, start to dump callstack
+AsyncSignalQueue
+vendor/mediatek/proprietary/hardware/ril/fusion/mtk-ril/framework/core/RfxAsyncSignal.cpp
+Not sending response type %d: encoded_size: %u. encoded size result: %d
+%s%s
+[GT]
+RfxBaseHandler
+./vendor/mediatek/proprietary/hardware/ril/fusion/mtk-ril/framework/include/base/RfxVariant.h
+RfxChannelMgr
+vendor/mediatek/proprietary/hardware/ril/fusion/mtk-ril/framework/core/RfxChannelManager.cpp
+!!!! targetSim*RIL_CHANNEL_OFFSET > RIL_SUPPORT_CHANNELS
+RIL_URC_READER
+RIL_CMD_READER_1
+RIL_CMD_READER_2
+RIL_CMD_READER_3
+RIL_CMD_READER_4
+RIL_ATCI_READER
+RIL_CMD_RT_7
+RIL_CMD_NRT_8
+RIL_CMD_RADIO_9
+PS C:\Users\Ambrite> adb shell su -c "strings /vendor/lib/libmtk-ril.so | grep -Ei -C 8 'dlopen|op package|OpUtils|sDlOpHandler|create.*Op|destroy.*Op'"
+_ZN13RfxFdModeData13copyDataByObjEPK11RfxBaseData
+_ZN13RfxFdModeData14copyDataByDataEPvi
+_ZN13RfxFdModeDataC1EPvi
+_ZN13RfxFdModeDataC2EPvi
+_ZN13RfxFdModeDataD0Ev
+_ZN13RfxFdModeDataD1Ev
+_ZN13RfxFdModeDataD2Ev
+_ZTV13RfxFdModeData
+_ZN10RfxOpUtils23getOpMsgIdFromRequestIdEi
+_ZN10RfxOpUtils23getOpRequestIdFromMsgIdEi
+_ZN17RfxIdToMsgIdUtils12sapIdToMsgIdEi
+_ZN17RfxIdToMsgIdUtils12sapMsgIdToIdEi
+_ZN17RfxIdToMsgIdUtils9idToMsgIdEi
+_ZN17RfxIdToMsgIdUtils9msgIdToIdEi
+_ZN15RfxActivityData13copyDataByObjEPK11RfxBaseData
+_ZN15RfxActivityData14copyDataByDataEPvi
+_ZN15RfxActivityDataC1EPvi
+_ZN15RfxActivityDataC2EPvi
+_ZN15RfxActivityDataD0Ev
+_ZN15RfxActivityDataD1Ev
+_ZN15RfxActivityDataD2Ev
+_ZTV15RfxActivityData
+_ZN10RfxOpUtils12getOpHandlerEv
+_ZN10RfxOpUtils12sDlOpHandlerE
+_ZN10RfxOpUtils13initOpLibraryEv
+_ZN10RfxOpUtils15getSimOpHandlerEiii
+_ZN10RfxOpUtils17getDcImsOpHandlerEiiPv
+_ZN10RfxOpUtils18getSlotOpCtlerListEv
+_ZN10RfxOpUtils19getNumOfSlotOpCtlerEv
+_ZN10RfxOpUtils21getNonSlotOpCtlerListEv
+_ZN10RfxOpUtils22getNumOfNonSlotOpCtlerEv
+_ZN10RfxOpUtils24getPreNonSlotOpCtlerListEv
+_ZN10RfxOpUtils25getNumOfPreNonSlotOpCtlerEv
+dlerror
+dlopen
+dlsym
+RFX_SLOT_COUNT
+_ZN11RfxViaUtils14initViaHandlerEv
+_ZN13RfxMainThread4initEv
+_ZN17RfxDispatchThread21enqueueRequestMessageEiPvjS0_13RIL_SOCKET_IDi
+_ZN17RfxDispatchThread21updateConnectionStateE13RIL_SOCKET_IDi
+_ZN17RfxDispatchThread24enqueueSapRequestMessageEiPvjS0_13RIL_SOCKET_ID
+_ZN17RfxDispatchThread4initEv
+--
+_ZTV22RmcCdmaMoSmsReqHandler
+_ZTV23RmcCdmaWriteRuimSmsHdlr
+_ZTV24RmcCdmaGetRuimSmsMemHdlr
+_ZTV25RmcCdmaMtSmsAckReqHandler
+esnMeid
+memFul
+s_init_valRfxIntsDataRFX_MSG_EVENT_CDMA_SMS_PENDING_VMI
+s_init_valRfxStringDataRFX_MSG_EVENT_CDMA_SMS_NEW_SMS_ERR_ACK
+_Z12rfxObjCreateI14BearerReplyOptEPT_P9RfxObject
+_Z21getCauseCodeClassInfov
+_Z22getBearerDataClassInfov
+_Z22getRmcTlvNodeClassInfov
+_Z25getTeleServiceIdClassInfov
+_Z26getBearerReplyOptClassInfov
+_Z26getCdmaSmsAddressClassInfov
+_Z26getCdmaSmsMessageClassInfov
+_Z27getServiceCategoryClassInfov
+--
+(yD     h
+1H1I
+xDyD
+ zD#
+xD{D
+zD{D
+HzDxD
+initOpLibrary
+[%s] return, sDlOpHandler = %p
+[%s] dlopen failed in %s: %s
+-HxD
+-H.I#
+xDyD
+1H2I
+xDyD
+&H'I'K
+xDyD{D
+zD{D
+--
+getOpRequestIdFromMsgId
+0F)F"F
+,H-I
+xDyD
+!H"I"K
+xDyD{D
+ zD{D
+HzD{DxD
+createDcImsOpReqHandler
+getDcImsOpHandler
+FyD     h
+%IyDQ
+(F!F
+&H'I
+xDyD
+ J!K
+ zD{D
+--
+$J$K
+ zD{D
+1HzDxD
+HzDxD
+initViaHandler
+[%s] return, m_dlHandler = %p
+create
+[%s] create not defined or exported in %s: %s
+[%s] dlopen failed in %s: %s
+2HxD
+/HxD
+%%`xD
+h h`
+/H/I'
+xDyD
+1H2K$
+xD{DZ
+--
+4 Fp
+9F"F
+[RtcAgpsdAdapter]makeAddress Error
+[RtcAgpsdAdapter]createOutSocket Connect Error[%s]
+ F)F"
++FxD
+4%HxD
+[RtcAgpsdAdapter]createInSocket Bind Error[%s][%s]
+[RtcAgpsdAdapter]createInSocket setOpt Error[%s]
+        0F)F"F
+2F+FxD
+[RtcAgpsdAdapter]reason=[%s]%d
+[RtcAgpsdAdapter]safeWrite fd=%d buf=%p len=%d
+&HxD
+IyD     h       h
+[RtcAgpsdAdapter]checkCanWrite peer socket closed or error
+FGIyD   h       h
+--
+HxD@
+$`(F
+HxDP
+"#FxD
+@`Gf
+KyDzD{DQ
+IyD     h       h
+#xDzD
+Failed to create mainLoop thread: %s
+entering mainLoop()
+RIL_SAP_Init
+IyD     h
+8F1F*FCF!
+[RilFusion] onRequest: request = %d, datalen = %zu, slotId = %d
+KyDzD{DQ
+ pGpG!
+pGandroid reference-ril 1.0
+--
+Open CCCI ioctl port failed [%d]
+setStatusValueForGT, updateValueMdComm, slot_id = %d, key = %s, value = %s
+setStatusValueForGT, updateValueToTelCore, slot_id = %d, key = %s, value = %s
+persist.mtk_ct_volte_support
+gsm.external.sim.enabled
+gsm.external.sim.inserted
+vendor/mediatek/proprietary/hardware/ril/fusion/mtk-ril/framework/base/RfxIaApnData.cpp
+RfxIdToMsgId
+RfxOpUtils
+libmtk-rilop.so
+[%s] completed
+[%s] return, sDlOpHandler == NULL
+[%s] destroy not defined or exported in %s: %s
+idToMsgId, no match ID in op package
+createGsmSimOpRequestHandler
+createCdmaSimOpRequestHandler
+createCommSimOpRequestHandler
+createGsmSimOpUrcHandler
+createCdmaSimOpUrcHandler
+createCommSimOpUrcHandler
+dumpActionConstructionCallStack() Found action, start to dump callstack
+AsyncSignalQueue
+vendor/mediatek/proprietary/hardware/ril/fusion/mtk-ril/framework/core/RfxAsyncSignal.cpp
+Not sending response type %d: encoded_size: %u. encoded size result: %d
+%s%s
+[GT]
+RfxBaseHandler
+./vendor/mediatek/proprietary/hardware/ril/fusion/mtk-ril/framework/include/base/RfxVariant.h
+PS C:\Users\Ambrite> adb shell su -c "strings /vendor/lib/libmtk-ril.so | grep -Ei 'OpRequest|OpResponse|OpHandler|operator.*handler|handler.*operator|op package'"
+_ZN10RfxOpUtils23getOpRequestIdFromMsgIdEi
+_ZN10RfxOpUtils12getOpHandlerEv
+_ZN10RfxOpUtils12sDlOpHandlerE
+_ZN10RfxOpUtils15getSimOpHandlerEiii
+_ZN10RfxOpUtils17getDcImsOpHandlerEiiPv
+_ZN24RmcNetworkRequestHandler15requestOperatorERKN7android2spI13RfxMclMessageEE
+_ZN24RmcNetworkRequestHandler31getOperatorNamesFromNumericCodeEPcS0_S0_i
+_ZN24RmcNetworkRequestHandler31getOperatorNamesFromNumericCodeEPcjS0_S0_i
+_ZN20RmcNetworkUrcHandler33handleEnhancedOperatorNameDisplayERKN7android2spI13RfxMclMessageEE
+[%s] return, sDlOpHandler = %p
+getOpRequestIdFromMsgId
+getDcImsOpHandler
+getSimOpHandler
+[%s] return, sDlOpHandler == NULL
+idToMsgId, no match ID in op package
+createGsmSimOpRequestHandler
+createCdmaSimOpRequestHandler
+createCommSimOpRequestHandler
+PS C:\Users\Ambrite> adb shell getprop | grep -E 'operator|ril.op|optr|seg'
+grep: 术语 'grep' 不会被识别为 cmdlet、函数、脚本文件或可执行程序的名称。
+请检查名称的拼写或验证路径是否正确(如果包含路径)，然后重试。
+
+[General Feedback]
+  最相似的命令是:
+    > gres
+
+PS C:\Users\Ambrite> adb shell getprop | Select-String -Pattern 'operator|ril.op|optr|seg'
+
+[gsm.[7moperator[0m.alpha]: []
+[gsm.[7moperator[0m.iso-country]: []
+[gsm.[7moperator[0m.isroaming]: [false]
+[gsm.[7moperator[0m.numeric]: []
+[gsm.sim.[7moperator[0m.alpha]: [CMCC]
+[gsm.sim.[7moperator[0m.iso-country]: [cn]
+[gsm.sim.[7moperator[0m.numeric]: [46007]
+[persist.log.tag.[7mOperator[0mUtils]: [I]
+
+PS C:\Users\Ambrite> adb shell "getprop | grep -E 'operator|ril.op|optr|seg'"
+[gsm.operator.alpha]: []
+[gsm.operator.iso-country]: []
+[gsm.operator.isroaming]: [false]
+[gsm.operator.numeric]: []
+[gsm.sim.operator.alpha]: [CMCC]
+[gsm.sim.operator.iso-country]: [cn]
+[gsm.sim.operator.numeric]: [46007]
+PS C:\Users\Ambrite> adb shell su -c "cat /system/etc/ld.config.27.txt | grep -E -A 15 -B 5 'vendor'"
+#
+
+# Don't change the order here.
+dir.system = /system/bin/
+dir.system = /system/xbin/
+dir.vendor = /vendor/bin/
+dir.vendor = /data/nativetest/vendor
+dir.vendor = /data/nativetest64/vendor
+dir.vendor = /data/benchmarktest/vendor
+dir.vendor = /data/benchmarktest64/vendor
+dir.system = /data/nativetest
+dir.system = /data/nativetest64
+dir.system = /data/benchmarktest
+dir.system = /data/benchmarktest64
+
+[system]
+additional.namespaces = sphal,vndk,rs
+
+###############################################################################
+# "default" namespace
+#
+# Framework-side code runs in this namespace. Anything from /vendor partition
+# can't be loaded in this namespace.
+###############################################################################
+namespace.default.isolated = false
+namespace.default.search.paths = /system/${LIB}:/vendor/${LIB}
+namespace.default.permitted.paths = /system/${LIB}:/vendor/${LIB}
+
+namespace.default.asan.search.paths = /data/asan/system/${LIB}:/system/${LIB}:/data/asan/vendor/${LIB}:/vendor/${LIB}
+namespace.default.asan.permitted.paths = /data/asan/system/${LIB}:/system/${LIB}:/data/asan/vendor/${LIB}:/vendor/${LIB}
+
+# TODO(b/37013858): remove all dependencies to /vendor/lib from system processes
+# When this is done, comment out following three lines and remove the three
+# lines above
+#namespace.default.isolated = true
+#namespace.default.search.paths = /system/${LIB}
+#namespace.default.permitted.paths = /system/${LIB}
+#
+#namespace.default.asan.search.paths = /data/asan/system/${LIB}:/system/${LIB}
+#namespace.default.asan.permitted.paths = /data/asan/system/${LIB}:/system/${LIB}
+
+###############################################################################
+# "sphal" namespace
+#
+# SP-HAL(Sameprocess-HAL)s are the only vendor libraries that are allowed to be
+# loaded inside system processes. libEGL_<chipset>.so, libGLESv2_<chipset>.so,
+# android.hardware.graphics.mapper@2.0-impl.so, etc are SP-HALs.
+#
+# This namespace is exclusivly for SP-HALs. When the framework tries to dynami-
+# cally load SP-HALs, android_dlopen_ext() is used to explicitly specifying
+# that they should be searched and loaded from this namespace.
+#
+# Note that there is no link from the default namespace to this namespace.
+###############################################################################
+namespace.sphal.isolated = true
+namespace.sphal.visible = true
+namespace.sphal.search.paths = /vendor/${LIB}/egl:/vendor/${LIB}/hw:/vendor/${LIB}
+namespace.sphal.permitted.paths = /vendor/${LIB}:/system/${LIB}/vndk-sp/hw
+
+namespace.sphal.asan.search.paths = /data/asan/vendor/${LIB}/egl:/vendor/${LIB}/egl:/data/asan/vendor/${LIB}/hw:/vendor/${LIB}/hw:/data/asan/vendor/${LIB}:/vendor/${LIB}
+namespace.sphal.asan.permitted.paths = /data/asan/vendor/${LIB}:/vendor/${LIB}
+
+# Once in this namespace, access to libraries in /system/lib is restricted. Only
+# libs listed here can be used.
+namespace.sphal.links = default,vndk,rs
+
+# WARNING: only NDK libs can be listed here.
+namespace.sphal.link.default.shared_libs = libc.so:libm.so:libdl.so:libstdc++.so:liblog.so:libnativewindow.so:libEGL.so:libsync.so:libGLESv1_CM.so:libGLESv2.so:libvndksupport.so:libz.so
+
+# WARNING: only VNDK-SP libs can be listed here. DO NOT EDIT this line.
+namespace.sphal.link.vndk.shared_libs = android.hardware.renderscript@1.0.so:android.hardware.graphics.allocator@2.0.so:android.hardware.graphics.mapper@2.0.so:android.hardware.graphics.common@1.0.so:android.hidl.memory@1.0.so:libhwbinder.so:libbase.so:libcutils.so:libhardware.so:libhidlbase.so:libhidlmemory.so:libhidltransport.so:libion.so:libutils.so:libc++.so
+
+# Renderscript gets separate namespace
+namespace.sphal.link.rs.shared_libs = libRS_internal.so
+
+###############################################################################
+--
+# of the genuine characteristics of Renderscript; /data is in the permitted path
+# to load the compiled *.so file and libmediandk.so can be used here.
+###############################################################################
+namespace.rs.isolated = true
+namespace.rs.visible = true
+namespace.rs.search.paths = /vendor/${LIB}/vndk-sp:/system/${LIB}/vndk-sp:/vendor/${LIB}
+namespace.rs.permitted.paths = /vendor/${LIB}:/data
+
+namespace.rs.asan.search.paths = /data/asan/vendor/${LIB}/vndk-sp:/vendor/${LIB}/vndk-sp:/data/asan/system/${LIB}/vndk-sp:/system/${LIB}/vndk-sp:/data/asan/vendor/${LIB}:/vendor/${LIB}
+namespace.rs.asan.permitted.paths = /data/asan/vendor/${LIB}:/vendor/${LIB}:/data
+
+namespace.rs.links = default,vndk
+namespace.rs.link.default.shared_libs = libc.so:libm.so:libdl.so:libstdc++.so:liblog.so:libnativewindow.so:libEGL.so:libsync.so:libGLESv1_CM.so:libGLESv2.so:libmediandk.so:libvndksupport.so:libz.so:libft2.so
+namespace.rs.link.vndk.shared_libs = android.hardware.renderscript@1.0.so:android.hardware.graphics.allocator@2.0.so:android.hardware.graphics.mapper@2.0.so:android.hardware.graphics.common@1.0.so:android.hidl.memory@1.0.so:libhwbinder.so:libbase.so:libcutils.so:libhardware.so:libhidlbase.so:libhidlmemory.so:libhidltransport.so:libion.so:libutils.so:libc++.so
+
+###############################################################################
+# "vndk" namespace
+#
+# This namespace is exclusively for vndk-sp libs.
+###############################################################################
+namespace.vndk.isolated = true
+namespace.vndk.visible = true
+namespace.vndk.search.paths = /vendor/${LIB}/vndk-sp:/system/${LIB}/vndk-sp
+namespace.vndk.permitted.paths = /vendor/${LIB}/hw:/vendor/${LIB}/egl
+
+namespace.vndk.asan.search.paths = /data/asan/vendor/${LIB}/vndk-sp:/vendor/${LIB}/vndk-sp:/data/asan/system/${LIB}/vndk-sp:/system/${LIB}/vndk-sp
+namespace.vndk.asan.permitted.paths = /data/asan/vendor/${LIB}/hw:/vendor/${LIB}/hw:/data/asan/vendor/${LIB}/egl:/vendor/${LIB}/egl
+
+# When these NDK libs are required inside this namespace, then it is redirected
+# to the default namespace. This is possible since their ABI is stable across
+# Android releases.
+namespace.vndk.links = default
+namespace.vndk.link.default.shared_libs = android.hidl.memory@1.0-impl.so:libc.so:libm.so:libdl.so:libstdc++.so:liblog.so:libnativewindow.so:libEGL.so:libsync.so:libvndksupport.so:libz.so
+
+###############################################################################
+# Namespace config for vendor processes. In O, no restriction is enforced for
+# them. However, in O-MR1, access to /system/${LIB} will not be allowed to
+# the default namespace. 'system' namespace will be added to give limited
+# (LL-NDK only) access.
+###############################################################################
+[vendor]
+namespace.default.isolated = false
+namespace.default.search.paths = /vendor/${LIB}/hw:/vendor/${LIB}/egl:/vendor/${LIB}:/system/${LIB}/vndk:/vendor/${LIB}/vndk-sp:/system/${LIB}/vndk-sp:/system/${LIB}
+
+namespace.default.asan.search.paths = /data/asan/vendor/${LIB}/hw:/vendor/${LIB}/hw:/data/asan/vendor/${LIB}/egl:/vendor/${LIB}/egl:/data/asan/vendor/${LIB}:/vendor/${LIB}:/data/asan/system/${LIB}/vndk:/system/${LIB}/vndk:/data/asan/vendor/${LIB}/vndk-sp:/vendor/${LIB}/vndk-sp:/data/asan/system/${LIB}/vndk-sp:/system/${LIB}/vndk-sp:/data/asan/system/${LIB}:/system/${LIB}
+PS C:\Users\Ambrite> adb shell su -c "cat /system/etc/ld.config.27.txt | grep -n 'search.paths\|permitted.paths'"
+PS C:\Users\Ambrite>
