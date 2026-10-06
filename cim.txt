@@ -1,3 +1,40 @@
+PowerShell 7.6.6
+PS C:\Users\Ambrite> C:\Users\Ambrite\Desktop\check.ps1
+
+cmdlet check.ps1 位于命令管道位置 1
+请提供以下参数的值:
+ImagePath:C:\Users\Ambrite\Desktop\system-arm-aonly-vanilla-nosu.img
+File         : C:\Users\Ambrite\Desktop\system-arm-aonly-vanilla-nosu.img
+Block size   : 4096 bytes
+Total blocks : 258048
+Expanded size: 1056964608 bytes
+Expanded size: 1008 MiB
+System size  : 1024 MiB
+Result      : OK - fits in 1 GiB system partition
+PS C:\Users\Ambrite> C:\Users\Ambrite\Desktop\check.ps1
+
+cmdlet check.ps1 位于命令管道位置 1
+请提供以下参数的值:
+ImagePath:C:\Users\Ambrite\Desktop\system-arm-aonly-go-su.img
+File         : C:\Users\Ambrite\Desktop\system-arm-aonly-go-su.img
+Block size   : 4096 bytes
+Total blocks : 258048
+Expanded size: 1056964608 bytes
+Expanded size: 1008 MiB
+System size  : 1024 MiB
+Result      : OK - fits in 1 GiB system partition
+PS C:\Users\Ambrite> C:\Users\Ambrite\Desktop\check.ps1
+
+cmdlet check.ps1 位于命令管道位置 1
+请提供以下参数的值:
+ImagePath:C:\Users\Ambrite\Downloads\system-arm-aonly-vanilla-nosu.img
+File         : C:\Users\Ambrite\Downloads\system-arm-aonly-vanilla-nosu.img
+Block size   : 4096 bytes
+Total blocks : 258048
+Expanded size: 1056964608 bytes
+Expanded size: 1008 MiB
+System size  : 1024 MiB
+Result      : OK - fits in 1 GiB system partition
 PS C:\Users\Ambrite> adb shell getprop | findstr /i "ril rild radio mtk modem"
 [af.modem_1.epof]: [0]
 [dalvik.vm.mtk-stack-trace-file]: [/data/anr/mtk_traces.txt]
@@ -573,4 +610,465 @@ PS C:\Users\Ambrite> adb logcat -b radio -d | findstr /i "error fail reject deni
 10-06 10:50:26.521  1248  1248 D SST     : Poll ServiceState done:  oldSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=0(Unknown), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0}] newSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=0(Unknown), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0}] oldMaxDataCalls=1 mNewMaxDataCalls=1 oldReasonDataDenied=0 mNewReasonDataDenied=0
 10-06 10:50:26.521  1248  1248 D SST     : pollStateDone: hasRegistered=false hasDeregistered=false hasDataAttached=false hasDataDetached=false hasDataRegStateChanged=false hasRilVoiceRadioTechnologyChanged= false hasRilDataRadioTechnologyChanged=false hasChanged=false hasVoiceRoamingOn=false hasVoiceRoamingOff=false hasDataRoamingOn=false hasDataRoamingOff=false hasLocationChanged=false has4gHandoff = false hasMultiApnSupport=false hasLostMultiApnSupport=false
 PS C:\Users\Ambrite> adb logcat -d | findstr /i "RIL RILD MTK RADIO REGISTRATION MODEM"
+PS C:\Users\Ambrite> adb shell su -c "find / -type f -name 'libmtk-rilop.so' 2>/dev/null"
+PS C:\Users\Ambrite> adb shell su -c "find /vendor /system /system_ext /product -type f 2>/dev/null | grep -Ei 'ril|radio|mtk.*op|operator'"
+/vendor/bin/hw/android.hardware.broadcastradio@1.1-service
+/vendor/bin/hw/mtkfusionrild
+/vendor/bin/hw/rild
+/vendor/etc/init/android.hardware.broadcastradio@1.1-service.rc
+/vendor/etc/init/rild.rc
+/vendor/lib/libmtk-ril.so
+/vendor/lib/libreference-ril.so
+/vendor/lib/libril.so
+/vendor/lib/librilfusion.so
+/vendor/lib/librilutils.so
+/vendor/lib/librilutilsmtk.so
+/vendor/lib/vendor.mediatek.hardware.radio.deprecated@1.1_vendor.so
+/vendor/lib/vendor.mediatek.hardware.radio@2.0_vendor.so
+/vendor/lib/vendor.mediatek.hardware.radio@2.10_vendor.so
+/vendor/lib/vendor.mediatek.hardware.radio@2.11_vendor.so
+/vendor/lib/vendor.mediatek.hardware.radio@2.1_vendor.so
+/vendor/lib/vendor.mediatek.hardware.radio@2.2_vendor.so
+/vendor/lib/vendor.mediatek.hardware.radio@2.3_vendor.so
+/vendor/lib/vendor.mediatek.hardware.radio@2.4_vendor.so
+/vendor/lib/vendor.mediatek.hardware.radio@2.5_vendor.so
+/vendor/lib/vendor.mediatek.hardware.radio@2.6_vendor.so
+/vendor/lib/vendor.mediatek.hardware.radio@2.7_vendor.so
+/vendor/lib/vendor.mediatek.hardware.radio@2.8_vendor.so
+/vendor/lib/vendor.mediatek.hardware.radio@2.9_vendor.so
+/system/etc/init/lineage-radio.rc
+/system/lib/android.hardware.broadcastradio@1.1.so
+/system/lib/libradio_metadata.so
+/system/lib/vndk/android.hardware.broadcastradio@1.1.so
+/system/lib/vndk/libradio_metadata.so
+/system/lib/vndk/android.hardware.radio.deprecated@1.0.so
+/system/lib/vndk/android.hardware.radio@1.0.so
+/system/lib/vndk/android.hardware.radio@1.1.so
+/system/lib/vndk/android.hardware.broadcastradio@1.0.so
+/system/lib/vndk-26/android.hardware.broadcastradio@1.1.so
+/system/lib/vndk-26/libradio_metadata.so
+/system/lib/vndk-26/libradio.so
+/system/lib/vndk-26/android.hardware.radio.deprecated@1.0.so
+/system/lib/vndk-26/android.hardware.radio@1.0.so
+/system/lib/vndk-26/android.hardware.broadcastradio@1.0.so
+/system/lib/vndk-26/librilutils.so
+/system/lib/android.hardware.broadcastradio@1.0.so
+PS C:\Users\Ambrite> adb logcat -b radio -d | grep -i -C 5 "libmtk-rilop"
+grep: 术语 'grep' 不会被识别为 cmdlet、函数、脚本文件或可执行程序的名称。
+请检查名称的拼写或验证路径是否正确(如果包含路径)，然后重试。
+
+[General Feedback]
+  最相似的命令是:
+    > gres
+
+PS C:\Users\Ambrite> adb logcat -b radio -d | findstr /i /c:"libmtk-rilop"
+10-06 10:44:16.956   847   847 I RilOpProxy: [initOpLibrary] dlopen failed in libmtk-rilop.so: dlopen failed: library "libmtk-rilop.so" not found
+10-06 10:44:16.971   847   847 I RilOpProxy: [registerOpService] dlopen failed in libmtk-rilop.so: (null)
+10-06 10:44:17.135   847   864 I RilOpProxy: [getOpUnsolResponseInfo] dlopen failed in libmtk-rilop.so: (null)
+10-06 10:44:17.903   847   864 I RilOpProxy: [getOpUnsolResponseInfo] dlopen failed in libmtk-rilop.so: (null)
+10-06 10:44:17.908   847   864 I RilOpProxy: [getOpUnsolResponseInfo] dlopen failed in libmtk-rilop.so: (null)
+10-06 10:44:17.914   847   864 I RilOpProxy: [getOpUnsolResponseInfo] dlopen failed in libmtk-rilop.so: (null)
+10-06 10:49:38.396   847   864 I RilOpProxy: [getOpUnsolResponseInfo] dlopen failed in libmtk-rilop.so: (null)
+10-06 10:50:26.408   847   864 I RilOpProxy: [getOpUnsolResponseInfo] dlopen failed in libmtk-rilop.so: (null)
+10-06 10:52:33.011   847   864 I RilOpProxy: [getOpUnsolResponseInfo] dlopen failed in libmtk-rilop.so: (null)
+10-06 10:52:43.810   847   864 I RilOpProxy: [getOpUnsolResponseInfo] dlopen failed in libmtk-rilop.so: (null)
+PS C:\Users\Ambrite> adb shell pidof mtkfusionrild
+847
+PS C:\Users\Ambrite> adb shell su -c "cat /proc/847/maps | grep -Ei 'ril|radio|mtk'"
+82102000-82106000 r-xp 00000000 b3:1f 111        /vendor/bin/hw/mtkfusionrild
+82106000-82107000 r--p 00003000 b3:1f 111        /vendor/bin/hw/mtkfusionrild
+82107000-82108000 rw-p 00004000 b3:1f 111        /vendor/bin/hw/mtkfusionrild
+a5d42000-a5ee6000 r-xp 00000000 b3:1f 804        /vendor/lib/libmtk-ril.so
+a5ee7000-a5ef5000 r--p 001a4000 b3:1f 804        /vendor/lib/libmtk-ril.so
+a5ef5000-a5f0d000 rw-p 001b2000 b3:1f 804        /vendor/lib/libmtk-ril.so
+a6287000-a63a2000 r-xp 00000000 b3:1f 921        /vendor/lib/vendor.mediatek.hardware.radio@2.8_vendor.so
+a63a2000-a63bd000 r--p 0011a000 b3:1f 921        /vendor/lib/vendor.mediatek.hardware.radio@2.8_vendor.so
+a63bd000-a63be000 rw-p 00135000 b3:1f 921        /vendor/lib/vendor.mediatek.hardware.radio@2.8_vendor.so
+a650e000-a6625000 r-xp 00000000 b3:1f 920        /vendor/lib/vendor.mediatek.hardware.radio@2.7_vendor.so
+a6626000-a663f000 r--p 00117000 b3:1f 920        /vendor/lib/vendor.mediatek.hardware.radio@2.7_vendor.so
+a663f000-a6640000 rw-p 00130000 b3:1f 920        /vendor/lib/vendor.mediatek.hardware.radio@2.7_vendor.so
+a665e000-a6760000 r-xp 00000000 b3:1f 914        /vendor/lib/vendor.mediatek.hardware.radio@2.1_vendor.so
+a6761000-a6771000 r--p 00102000 b3:1f 914        /vendor/lib/vendor.mediatek.hardware.radio@2.1_vendor.so
+a6771000-a6772000 rw-p 00112000 b3:1f 914        /vendor/lib/vendor.mediatek.hardware.radio@2.1_vendor.so
+a67cb000-a691d000 r-xp 00000000 b3:1f 922        /vendor/lib/vendor.mediatek.hardware.radio@2.9_vendor.so
+a691e000-a693f000 r--p 00152000 b3:1f 922        /vendor/lib/vendor.mediatek.hardware.radio@2.9_vendor.so
+a693f000-a6940000 rw-p 00173000 b3:1f 922        /vendor/lib/vendor.mediatek.hardware.radio@2.9_vendor.so
+a6a05000-a6a08000 r-xp 00000000 b3:1f 837        /vendor/lib/librilutils.so
+a6a08000-a6a09000 r--p 00002000 b3:1f 837        /vendor/lib/librilutils.so
+a6a09000-a6a0a000 rw-p 00003000 b3:1f 837        /vendor/lib/librilutils.so
+a6a50000-a6b55000 r-xp 00000000 b3:1f 915        /vendor/lib/vendor.mediatek.hardware.radio@2.2_vendor.so
+a6b55000-a6b67000 r--p 00104000 b3:1f 915        /vendor/lib/vendor.mediatek.hardware.radio@2.2_vendor.so
+a6b67000-a6b68000 rw-p 00116000 b3:1f 915        /vendor/lib/vendor.mediatek.hardware.radio@2.2_vendor.so
+a6b8c000-a6c51000 r-xp 00000000 103:00 1938      /system/lib/vndk/android.hardware.radio@1.1.so
+a6c51000-a6c5b000 r--p 000c4000 103:00 1938      /system/lib/vndk/android.hardware.radio@1.1.so
+a6c5b000-a6c5c000 rw-p 000ce000 103:00 1938      /system/lib/vndk/android.hardware.radio@1.1.so
+a6d08000-a6e31000 r-xp 00000000 b3:1f 917        /vendor/lib/vendor.mediatek.hardware.radio@2.4_vendor.so
+a6e32000-a6e49000 r--p 00129000 b3:1f 917        /vendor/lib/vendor.mediatek.hardware.radio@2.4_vendor.so
+a6e49000-a6e4a000 rw-p 00140000 b3:1f 917        /vendor/lib/vendor.mediatek.hardware.radio@2.4_vendor.so
+a6ee4000-a6eee000 r-xp 00000000 b3:1f 838        /vendor/lib/librilutilsmtk.so
+a6eef000-a6ef0000 r--p 0000a000 b3:1f 838        /vendor/lib/librilutilsmtk.so
+a6ef0000-a6ef1000 rw-p 0000b000 b3:1f 838        /vendor/lib/librilutilsmtk.so
+a6f00000-a7025000 r-xp 00000000 b3:1f 913        /vendor/lib/vendor.mediatek.hardware.radio@2.11_vendor.so
+a7026000-a7045000 r--p 00125000 b3:1f 913        /vendor/lib/vendor.mediatek.hardware.radio@2.11_vendor.so
+a7045000-a7046000 rw-p 00144000 b3:1f 913        /vendor/lib/vendor.mediatek.hardware.radio@2.11_vendor.so
+a708f000-a70b2000 r-xp 00000000 b3:1f 910        /vendor/lib/vendor.mediatek.hardware.radio.deprecated@1.1_vendor.so
+a70b2000-a70b5000 r--p 00022000 b3:1f 910        /vendor/lib/vendor.mediatek.hardware.radio.deprecated@1.1_vendor.so
+a70b5000-a70b6000 rw-p 00025000 b3:1f 910        /vendor/lib/vendor.mediatek.hardware.radio.deprecated@1.1_vendor.so
+a710c000-a726c000 r-xp 00000000 103:00 1904      /system/lib/vndk/android.hardware.radio@1.0.so
+a726d000-a7277000 r--p 00160000 103:00 1904      /system/lib/vndk/android.hardware.radio@1.0.so
+a7277000-a7278000 rw-p 0016a000 103:00 1904      /system/lib/vndk/android.hardware.radio@1.0.so
+a7292000-a72b6000 r-xp 00000000 103:00 1881      /system/lib/vndk/android.hardware.radio.deprecated@1.0.so
+a72b6000-a72b9000 r--p 00023000 103:00 1881      /system/lib/vndk/android.hardware.radio.deprecated@1.0.so
+a72b9000-a72ba000 rw-p 00026000 103:00 1881      /system/lib/vndk/android.hardware.radio.deprecated@1.0.so
+a72cc000-a7331000 r-xp 00000000 b3:1f 836        /vendor/lib/librilfusion.so
+a7332000-a7339000 r--p 00065000 b3:1f 836        /vendor/lib/librilfusion.so
+a7339000-a733a000 rw-p 0006c000 b3:1f 836        /vendor/lib/librilfusion.so
+a7384000-a74a2000 r-xp 00000000 b3:1f 918        /vendor/lib/vendor.mediatek.hardware.radio@2.5_vendor.so
+a74a2000-a74ba000 r--p 0011d000 b3:1f 918        /vendor/lib/vendor.mediatek.hardware.radio@2.5_vendor.so
+a74ba000-a74bb000 rw-p 00135000 b3:1f 918        /vendor/lib/vendor.mediatek.hardware.radio@2.5_vendor.so
+a765d000-a779a000 r-xp 00000000 b3:1f 912        /vendor/lib/vendor.mediatek.hardware.radio@2.10_vendor.so
+a779b000-a77bb000 r--p 0013d000 b3:1f 912        /vendor/lib/vendor.mediatek.hardware.radio@2.10_vendor.so
+a77bb000-a77bc000 rw-p 0015d000 b3:1f 912        /vendor/lib/vendor.mediatek.hardware.radio@2.10_vendor.so
+a77cc000-a78e0000 r-xp 00000000 b3:1f 919        /vendor/lib/vendor.mediatek.hardware.radio@2.6_vendor.so
+a78e1000-a78f9000 r--p 00114000 b3:1f 919        /vendor/lib/vendor.mediatek.hardware.radio@2.6_vendor.so
+a78f9000-a78fa000 rw-p 0012c000 b3:1f 919        /vendor/lib/vendor.mediatek.hardware.radio@2.6_vendor.so
+a790c000-a7ad2000 r-xp 00000000 b3:1f 911        /vendor/lib/vendor.mediatek.hardware.radio@2.0_vendor.so
+a7ad2000-a7aea000 r--p 001c5000 b3:1f 911        /vendor/lib/vendor.mediatek.hardware.radio@2.0_vendor.so
+a7aea000-a7aeb000 rw-p 001dd000 b3:1f 911        /vendor/lib/vendor.mediatek.hardware.radio@2.0_vendor.so
+a7be0000-a7ce9000 r-xp 00000000 b3:1f 916        /vendor/lib/vendor.mediatek.hardware.radio@2.3_vendor.so
+a7cea000-a7cfd000 r--p 00109000 b3:1f 916        /vendor/lib/vendor.mediatek.hardware.radio@2.3_vendor.so
+a7cfd000-a7cfe000 rw-p 0011c000 b3:1f 916        /vendor/lib/vendor.mediatek.hardware.radio@2.3_vendor.so
+a805a000-a807a000 r--s 00000000 00:13 9356       /dev/__properties__/u:object_r:mtk_em_ims_prop:s0
+a8083000-a80a3000 r--s 00000000 00:13 9349       /dev/__properties__/u:object_r:ril_mux_report_case_prop:s0
+a80f0000-a8110000 r--s 00000000 00:13 9357       /dev/__properties__/u:object_r:mtk_telephony_sensitive_prop:s0
+a8157000-a815a000 r-xp 00000000 b3:1f 783        /vendor/lib/libifcutils_mtk.so
+a815a000-a815b000 r--p 00002000 b3:1f 783        /vendor/lib/libifcutils_mtk.so
+a815b000-a815c000 rw-p 00003000 b3:1f 783        /vendor/lib/libifcutils_mtk.so
+a83ac000-a83cc000 r--s 00000000 00:13 9451       /dev/__properties__/u:object_r:radio_prop:s0
+PS C:\Users\Ambrite> adb shell su -c "getprop | grep -Ei 'ld.library|vndk|linker|ril'"
+[gsm.ril.ct3g]: [0]
+[gsm.ril.eboot]: [0]
+[gsm.ril.fulluicctype]: [USIM]
+[gsm.ril.uicc.mccmnc]: [46007]
+[gsm.ril.uicctype]: [USIM]
+[gsm.sim.ril.phbready]: [true]
+[gsm.sim.ril.testsim]: [0]
+[gsm.version.ril-impl]: [android reference-ril 1.0]
+[init.svc.ril-daemon-mtk]: [running]
+[persist.log.tag.C2K_RIL-DATA]: [I]
+[persist.log.tag.IMSRILRequest]: [I]
+[persist.log.tag.IMS_RILA]: [I]
+[persist.log.tag.Mtk_RIL_ImsSms]: [I]
+[persist.log.tag.RIL]: [I]
+[persist.log.tag.RIL-CC]: [I]
+[persist.log.tag.RIL-DATA]: [I]
+[persist.log.tag.RIL-Fusion]: [I]
+[persist.log.tag.RIL-OEM]: [I]
+[persist.log.tag.RIL-PHB]: [I]
+[persist.log.tag.RIL-RP]: [I]
+[persist.log.tag.RIL-SIM]: [I]
+[persist.log.tag.RIL-SMS]: [I]
+[persist.log.tag.RIL-SS]: [I]
+[persist.log.tag.RILC]: [I]
+[persist.log.tag.RILC-MTK]: [I]
+[persist.log.tag.RILC-RP]: [I]
+[persist.log.tag.RILD]: [I]
+[persist.log.tag.RILMD2-SS]: [I]
+[persist.log.tag.RILMUXD]: [I]
+[persist.log.tag.RIL_Mux]: [I]
+[persist.log.tag.RIL_UIM_SOCKET]: [I]
+[persist.log.tag.RfxRilAdapter]: [I]
+[persist.log.tag.RfxRilUtils]: [I]
+[persist.log.tag.RilClient]: [I]
+[persist.log.tag.RilMalClient]: [I]
+[persist.log.tag.RpRilClientCtrl]: [I]
+[persist.radio.rilj_nw_type1]: [9]
+[persist.sys.vndk]: [27]
+[ril.active.md]: [9]
+[ril.apc.support]: [1]
+[ril.cdma.card.omh]: [-1]
+[ril.cdma.card.type.1]: [2]
+[ril.cdma.ecclist]: []
+[ril.data.gsm_imsi0]: [460077770095852]
+[ril.data.gsm_mcc_mnc0]: [46007]
+[ril.data.gsm_spn0]: [00434D4343FFFFFFFFFFFFFFFFFFFFFFFF]
+[ril.ecclist]: [112,-1;911,-1]
+[ril.epdg.interface.ctrl]: [1]
+[ril.external.md]: [0]
+[ril.fd.mode]: [1]
+[ril.first.md]: [1]
+[ril.flightmode.poweroffMD]: [1]
+[ril.iccid.sim1]: [898600a72026f0036320]
+[ril.ipo.radiooff]: [0]
+[ril.mtk]: [1]
+[ril.mux.ee.md1]: [0]
+[ril.mux.report.case]: [0]
+[ril.muxreport.run]: [0]
+[ril.nw.signalstrength.lte.1]: [-102,13]
+[ril.nw.worldmode.activemode]: [1]
+[ril.nw.worldmode.keep_3g_mode]: [0]
+[ril.radiooff.poweroffMD]: [0]
+[ril.read.imsi]: [1]
+[ril.simswitch.no_reset_support]: [1]
+[ril.simswitch.tpluswsupport]: [1]
+[ril.specific.sm_cause]: [0]
+[ril.telephony.mode]: [0]
+[ro.boottime.ril-daemon-mtk]: [15815648229]
+[ro.mtk_ril_mode]: [c6m_1rild]
+[ro.mtk_rild_read_imsi]: [1]
+PS C:\Users\Ambrite> adb shell su -c "echo \$LD_LIBRARY_PATH"
+
+PS C:\Users\Ambrite> adb shell su -c "ls -l /vendor/lib /vendor/lib64 2>/dev/null | grep -Ei 'ril|radio|mtk'"
+-rw-r--r-- 1 root root     74220 2009-01-01 00:00 libBnMtkCodec.so
+-rw-r--r-- 1 root root     62060 2009-01-01 00:00 libMtkOmxAdpcmDec.so
+-rw-r--r-- 1 root root     58056 2009-01-01 00:00 libMtkOmxAdpcmEnc.so
+-rw-r--r-- 1 root root     57812 2009-01-01 00:00 libMtkOmxAlacDec.so
+-rw-r--r-- 1 root root     62416 2009-01-01 00:00 libMtkOmxApeDec.so
+-rw-r--r-- 1 root root     28660 2009-01-01 00:00 libMtkOmxCore.so
+-rw-r--r-- 1 root root     49448 2009-01-01 00:00 libMtkOmxG711Dec.so
+-rw-r--r-- 1 root root     62384 2009-01-01 00:00 libMtkOmxGsmDec.so
+-rw-r--r-- 1 root root    103284 2009-01-01 00:00 libMtkOmxMp3Dec.so
+-rw-r--r-- 1 root root     62800 2009-01-01 00:00 libMtkOmxRawDec.so
+-rw-r--r-- 1 root root    215860 2009-01-01 00:00 libMtkOmxVdecEx.so
+-rw-r--r-- 1 root root    153916 2009-01-01 00:00 libMtkOmxVenc.so
+-rw-r--r-- 1 root root    116028 2009-01-01 00:00 libMtkOmxVorbisEnc.so
+-rw-r--r-- 1 root root    435172 2009-01-01 00:00 libMtkSpeechEnh.so
+-rw-r--r-- 1 root root   2640020 2009-01-01 00:00 libRSDriver_mtk.so
+-rw-r--r-- 1 root root     71356 2009-01-01 00:00 libbessound_hd_mtk_vendor.so
+-rw-r--r-- 1 root root     29664 2009-01-01 00:00 libbluetooth_mtk.so
+-rw-r--r-- 1 root root     29992 2009-01-01 00:00 libbluetooth_mtk_pure.so
+-rw-r--r-- 1 root root     20252 2009-01-01 00:00 libbluetoothem_mtk.so
+-rw-r--r-- 1 root root     55108 2009-01-01 00:00 libcvsd_mtk.so
+-rw-r--r-- 1 root root     16072 2009-01-01 00:00 libifcutils_mtk.so
+-rw-r--r-- 1 root root     16132 2009-01-01 00:00 libion_mtk.so
+-rw-r--r-- 1 root root     26284 2009-01-01 00:00 libmsbc_mtk.so
+-rw-r--r-- 1 root root   1910100 2009-01-01 00:00 libmtk-ril.so
+-rw-r--r-- 1 root root     24500 2009-01-01 00:00 libmtk_drvb.so
+-rw-r--r-- 1 root root     45992 2009-01-01 00:00 libmtkcam_debugutils.so
+-rw-r--r-- 1 root root    192236 2009-01-01 00:00 libmtkcam_device1.so
+-rw-r--r-- 1 root root     78300 2009-01-01 00:00 libmtkcam_fwkutils.so
+-rw-r--r-- 1 root root     46712 2009-01-01 00:00 libmtkcam_grallocutils.so
+-rw-r--r-- 1 root root    149088 2009-01-01 00:00 libmtkcam_imgbuf.so
+-rw-r--r-- 1 root root    129992 2009-01-01 00:00 libmtkcam_metadata.so
+-rw-r--r-- 1 root root     16136 2009-01-01 00:00 libmtkcam_modulehelper.so
+-rw-r--r-- 1 root root     79612 2009-01-01 00:00 libmtkcam_stdutils.so
+-rw-r--r-- 1 root root     49984 2009-01-01 00:00 libmtkcam_sysutils.so
+-rw-r--r-- 1 root root    230100 2009-01-01 00:00 libmtkjpeg.so
+-rw-r--r-- 1 root root     34484 2009-01-01 00:00 libmtklimiter_vendor.so
+-rw-r--r-- 1 root root     18100 2009-01-01 00:00 libmtkshifter_vendor.so
+-rw-r--r-- 1 root root     79852 2009-01-01 00:00 libreference-ril.so
+-rw-r--r-- 1 root root    227592 2009-01-01 00:00 libril.so
+-rw-r--r-- 1 root root    456680 2009-01-01 00:00 librilfusion.so
+-rw-r--r-- 1 root root     16088 2009-01-01 00:00 librilutils.so
+-rw-r--r-- 1 root root     49388 2009-01-01 00:00 librilutilsmtk.so
+-rw-r--r-- 1 root root    148528 2009-01-01 00:00 vendor.mediatek.hardware.mtkcodecservice@1.1_vendor.so
+-rw-r--r-- 1 root root    161972 2009-01-01 00:00 vendor.mediatek.hardware.radio.deprecated@1.1_vendor.so
+-rw-r--r-- 1 root root   2078084 2009-01-01 00:00 vendor.mediatek.hardware.radio@2.0_vendor.so
+-rw-r--r-- 1 root root   1526364 2009-01-01 00:00 vendor.mediatek.hardware.radio@2.10_vendor.so
+-rw-r--r-- 1 root root   1413888 2009-01-01 00:00 vendor.mediatek.hardware.radio@2.11_vendor.so
+-rw-r--r-- 1 root root   1206528 2009-01-01 00:00 vendor.mediatek.hardware.radio@2.1_vendor.so
+-rw-r--r-- 1 root root   1223064 2009-01-01 00:00 vendor.mediatek.hardware.radio@2.2_vendor.so
+-rw-r--r-- 1 root root   1248008 2009-01-01 00:00 vendor.mediatek.hardware.radio@2.3_vendor.so
+-rw-r--r-- 1 root root   1405748 2009-01-01 00:00 vendor.mediatek.hardware.radio@2.4_vendor.so
+-rw-r--r-- 1 root root   1353820 2009-01-01 00:00 vendor.mediatek.hardware.radio@2.5_vendor.so
+-rw-r--r-- 1 root root   1314140 2009-01-01 00:00 vendor.mediatek.hardware.radio@2.6_vendor.so
+-rw-r--r-- 1 root root   1331156 2009-01-01 00:00 vendor.mediatek.hardware.radio@2.7_vendor.so
+-rw-r--r-- 1 root root   1351768 2009-01-01 00:00 vendor.mediatek.hardware.radio@2.8_vendor.so
+-rw-r--r-- 1 root root   1625376 2009-01-01 00:00 vendor.mediatek.hardware.radio@2.9_vendor.so
+PS C:\Users\Ambrite> adb shell getprop | findstr /i "ril"
+[gsm.ril.ct3g]: [0]
+[gsm.ril.eboot]: [0]
+[gsm.ril.fulluicctype]: [USIM]
+[gsm.ril.uicc.mccmnc]: [46007]
+[gsm.ril.uicctype]: [USIM]
+[gsm.sim.ril.phbready]: [true]
+[gsm.sim.ril.testsim]: [0]
+[gsm.version.ril-impl]: [android reference-ril 1.0]
+[init.svc.ril-daemon-mtk]: [running]
+[persist.log.tag.C2K_RIL-DATA]: [I]
+[persist.log.tag.IMSRILRequest]: [I]
+[persist.log.tag.IMS_RILA]: [I]
+[persist.log.tag.Mtk_RIL_ImsSms]: [I]
+[persist.log.tag.RIL]: [I]
+[persist.log.tag.RIL-CC]: [I]
+[persist.log.tag.RIL-DATA]: [I]
+[persist.log.tag.RIL-Fusion]: [I]
+[persist.log.tag.RIL-OEM]: [I]
+[persist.log.tag.RIL-PHB]: [I]
+[persist.log.tag.RIL-RP]: [I]
+[persist.log.tag.RIL-SIM]: [I]
+[persist.log.tag.RIL-SMS]: [I]
+[persist.log.tag.RIL-SS]: [I]
+[persist.log.tag.RILC]: [I]
+[persist.log.tag.RILC-MTK]: [I]
+[persist.log.tag.RILC-RP]: [I]
+[persist.log.tag.RILD]: [I]
+[persist.log.tag.RILMD2-SS]: [I]
+[persist.log.tag.RILMUXD]: [I]
+[persist.log.tag.RIL_Mux]: [I]
+[persist.log.tag.RIL_UIM_SOCKET]: [I]
+[persist.log.tag.RfxRilAdapter]: [I]
+[persist.log.tag.RfxRilUtils]: [I]
+[persist.log.tag.RilClient]: [I]
+[persist.log.tag.RilMalClient]: [I]
+[persist.log.tag.RpRilClientCtrl]: [I]
+[persist.radio.rilj_nw_type1]: [9]
+[ril.active.md]: [9]
+[ril.apc.support]: [1]
+[ril.cdma.card.omh]: [-1]
+[ril.cdma.card.type.1]: [2]
+[ril.cdma.ecclist]: []
+[ril.data.gsm_imsi0]: [460077770095852]
+[ril.data.gsm_mcc_mnc0]: [46007]
+[ril.data.gsm_spn0]: [00434D4343FFFFFFFFFFFFFFFFFFFFFFFF]
+[ril.ecclist]: [112,-1;911,-1]
+[ril.epdg.interface.ctrl]: [1]
+[ril.external.md]: [0]
+[ril.fd.mode]: [1]
+[ril.first.md]: [1]
+[ril.flightmode.poweroffMD]: [1]
+[ril.ipo.radiooff]: [0]
+[ril.mtk]: [1]
+[ril.mux.ee.md1]: [0]
+[ril.mux.report.case]: [0]
+[ril.muxreport.run]: [0]
+[ril.nw.signalstrength.lte.1]: [-102,14]
+[ril.nw.worldmode.activemode]: [1]
+[ril.nw.worldmode.keep_3g_mode]: [0]
+[ril.radiooff.poweroffMD]: [0]
+[ril.read.imsi]: [1]
+[ril.simswitch.no_reset_support]: [1]
+[ril.simswitch.tpluswsupport]: [1]
+[ril.specific.sm_cause]: [0]
+[ril.telephony.mode]: [0]
+[ro.mtk_ril_mode]: [c6m_1rild]
+[ro.mtk_rild_read_imsi]: [1]
+PS C:\Users\Ambrite> adb shell su -c "ls -l /vendor/bin/*ril* /vendor/bin/hw/*ril* /system/bin/*ril* 2>/dev/null"
+-rwxr-xr-x 1 root shell 20520 2009-01-01 00:00 /vendor/bin/hw/mtkfusionrild
+-rwxr-xr-x 1 root shell 20400 2009-01-01 00:00 /vendor/bin/hw/rild
+PS C:\Users\Ambrite> adb shell su -c "dmesg | grep -Ei 'ril|modem|radio|egreg|eons|plmn|network'"
+[  641.672639] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  641.681769] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-98,16] Done
+[  646.792181] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  646.801187] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-99,15] Done
+[  651.911808] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  651.920530] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-98,15] Done
+[  657.032318] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  657.041236] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-98,16] Done
+[  662.152052] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  662.161167] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-99,15] Done
+[  667.272346] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  667.281490] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-99,15] Done
+[  672.392487] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  672.401685] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-99,15] Done
+[  677.512248] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  677.521041] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-99,17] Done
+[  682.631718] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  682.640648] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-99,17] Done
+[  687.751913] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  687.760978] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-100,16] Done
+[  692.871891] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  692.881012] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-99,15] Done
+[  697.992348] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  698.001385] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-99,17] Done
+[  703.112029] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  703.120906] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-99,14] Done
+[  708.232037] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  708.240819] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-99,14] Done
+[  713.351774] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  713.360635] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-99,14] Done
+[  718.472109] .(0)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  718.481018] .(0)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-99,15] Done
+[  723.591989] .(0)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  723.600777] .(0)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-99,16] Done
+[  728.711879] .(0)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  728.720729] .(0)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-100,15] Done
+[  733.831779] .(0)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  733.840606] .(0)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-99,16] Done
+[  738.952115] .(0)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  738.960964] .(0)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-100,15] Done
+[  744.071722] .(0)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  744.080640] .(0)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-100,16] Done
+[  749.191950] .(0)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  749.200787] .(0)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-99,17] Done
+[  754.311790] .(0)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  754.320589] .(0)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-98,16] Done
+[  759.431781] .(0)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  759.440582] .(0)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-99,16] Done
+[  764.551754] .(0)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  764.560574] .(0)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-98,14] Done
+[  769.671554] .(0)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  769.680353] .(0)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-99,17] Done
+[  774.791936] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  774.800779] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-99,17] Done
+[  779.912128] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  779.920937] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-98,18] Done
+[  785.031888] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  785.040656] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-98,17] Done
+[  790.151886] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  790.160729] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-99,17] Done
+[  795.271833] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  795.280590] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-99,17] Done
+[  800.392074] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  800.400878] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-99,17] Done
+[  805.511905] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  805.520725] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-99,16] Done
+[  810.631859] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  810.640696] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-99,18] Done
+[  815.751782] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  815.760642] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-98,18] Done
+[  820.871350] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  820.880166] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-98,16] Done
+[  825.992517] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  826.001343] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-98,17] Done
+[  831.111768] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  831.120512] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-99,15] Done
+[  836.231799] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  836.240591] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-99,16] Done
+[  841.351915] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  841.360714] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-100,17] Done
+[  846.471473] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  846.480271] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-100,17] Done
+[  851.591931] .(1)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  851.599582] .(1)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-100,16] Done
+[  856.711640] .(1)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  856.719272] .(1)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-103,14] Done
+[  861.827161] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  861.830446] .(0)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-103,11] Done
+[  866.946753] .(1)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  866.950131] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-102,10] Done
+[  872.068709] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  872.073912] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-102,13] Done
+[  877.186711] .(0)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  877.190027] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-102,14] Done
+[  882.312361] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  882.321249] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-102,13] Done
+[  887.431856] .(1)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  887.440645] .(1)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-101,15] Done
+[  892.551925] .(1)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  892.559574] .(1)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-102,14] Done
+[  897.671976] .(1)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  897.680856] .(1)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-101,15] Done
+[  902.791555] .(1)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  902.800330] .(1)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-101,14] Done
+[  907.911890] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  907.920784] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-102,14] Done
+[  913.031420] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  913.040296] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-101,13] Done
+[  918.151864] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  918.160649] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-102,10] Done
+[  923.271824] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  923.280577] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-102,12] Done
+[  928.391602] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  928.402187] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-102,13] Done
+[  933.506877] .(0)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  933.510134] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-102,14] Done
+[  938.631915] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  938.641161] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-102,12] Done
+[  943.751837] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  943.760730] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-102,14] Done
+[  948.867188] .(2)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  948.870462] .(0)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-102,14] Done
+[  953.992201] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[2147483647,214748364] Done
+[  954.000985] .(3)[1:init]init: PropSet [ril.nw.signalstrength.lte.1]=[-102,13] Done
 PS C:\Users\Ambrite>
