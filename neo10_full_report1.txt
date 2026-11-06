@@ -1,0 +1,2960 @@
+===== DEVICE =====
+List of devices attached
+10CECN1X35000N5	device
+
+[aaudio.hw_burst_min_usec]: [2000]
+[aaudio.mmap_exclusive_policy]: [2]
+[aaudio.mmap_policy]: [2]
+[apex.all.ready]: [true]
+[arm64.memtag.process.system_server]: [off]
+[audio.sys.mute.latency.factor]: [2]
+[audio.sys.noisy.broadcast.delay]: [500]
+[audio.sys.offload.pstimeout.secs]: [3]
+[audio.sys.routing.latency]: [0]
+[bluetooth.device.class_of_device]: [90,2,12]
+[bluetooth.hfp.codec_aptx_voice.enabled]: [false]
+[bluetooth.hfp.swb.aptx.power_management.enabled]: [true]
+[bluetooth.profile.a2dp.source.enabled]: [true]
+[bluetooth.profile.avrcp.controller.enabled]: [false]
+[bluetooth.profile.avrcp.target.enabled]: [true]
+[bluetooth.profile.bap.broadcast.assist.enabled]: [false]
+[bluetooth.profile.bap.broadcast.source.enabled]: [false]
+[bluetooth.profile.bap.unicast.client.enabled]: [false]
+[bluetooth.profile.bas.client.enabled]: [true]
+[bluetooth.profile.ccp.server.enabled]: [false]
+[bluetooth.profile.csip.set_coordinator.enabled]: [false]
+[bluetooth.profile.gatt.enabled]: [true]
+[bluetooth.profile.hap.client.enabled]: [true]
+[bluetooth.profile.hfp.ag.enabled]: [true]
+[bluetooth.profile.hid.device.enabled]: [true]
+[bluetooth.profile.hid.host.enabled]: [true]
+[bluetooth.profile.map.server.enabled]: [true]
+[bluetooth.profile.mcp.server.enabled]: [false]
+[bluetooth.profile.opp.enabled]: [true]
+[bluetooth.profile.pan.nap.enabled]: [true]
+[bluetooth.profile.pan.panu.enabled]: [true]
+[bluetooth.profile.pbap.server.enabled]: [true]
+[bluetooth.profile.pbap.sim.enabled]: [false]
+[bluetooth.profile.sap.server.enabled]: [false]
+[bluetooth.profile.vcp.controller.enabled]: [false]
+[bootreceiver.enable]: [0]
+[build.version.extensions.ad_services]: [17]
+[build.version.extensions.b]: [17]
+[build.version.extensions.r]: [17]
+[build.version.extensions.s]: [17]
+[build.version.extensions.t]: [17]
+[build.version.extensions.u]: [17]
+[build.version.extensions.v]: [17]
+[cache_key.bluetooth.bluetooth_adapter_get_connection_state]: [6491621254464834599]
+[cache_key.bluetooth.bluetooth_adapter_get_profile_connection_state]: [6491621254464834598]
+[cache_key.bluetooth.bluetooth_adapter_get_state_internal]: [6491621254464834590]
+[cache_key.bluetooth.bluetooth_adapter_is_offloaded_filtering_supported]: [6491621254464834581]
+[cache_key.bluetooth.bluetooth_device_get_bond_state]: [6491621254464834591]
+[cache_key.bluetooth.bluetooth_map_get_connection_state]: [6491621254464834587]
+[cache_key.bluetooth.bluetooth_sap_get_connection_state]: [6491621254464834580]
+[cache_key.telephony.phone_account_to_subid]: [-7649892807712913846]
+[cache_key.telephony.subscription_manager_service]: [-7649892807712913849]
+[config.disable_rtt]: [true]
+[dalvik.vm.appimageformat]: [lz4]
+[dalvik.vm.boot-dex2oat-threads]: [8]
+[dalvik.vm.dex2oat-Xms]: [64m]
+[dalvik.vm.dex2oat-Xmx]: [512m]
+[dalvik.vm.dex2oat-max-image-block-size]: [524288]
+[dalvik.vm.dex2oat-minidebuginfo]: [true]
+[dalvik.vm.dex2oat-resolve-startup-strings]: [true]
+[dalvik.vm.dex2oat-threads]: [4]
+[dalvik.vm.dex2oat64.enabled]: [true]
+[dalvik.vm.dexopt.secondary]: [true]
+[dalvik.vm.dexopt.thermal-cutoff]: [2]
+[dalvik.vm.enable_pr_dexopt]: [true]
+[dalvik.vm.finalizer-timeout-ms]: [300000]
+[dalvik.vm.heapgrowthlimit]: [256m]
+[dalvik.vm.heapmaxfree]: [8m]
+[dalvik.vm.heapminfree]: [2m]
+[dalvik.vm.heapsize]: [512m]
+[dalvik.vm.heapstartsize]: [8m]
+[dalvik.vm.heaptargetutilization]: [0.75]
+[dalvik.vm.image-dex2oat-Xms]: [64m]
+[dalvik.vm.image-dex2oat-Xmx]: [64m]
+[dalvik.vm.isa.arm.features]: [default]
+[dalvik.vm.isa.arm.variant]: [cortex-a75]
+[dalvik.vm.isa.arm64.features]: [default]
+[dalvik.vm.isa.arm64.variant]: [kryo300]
+[dalvik.vm.madvise.odexfile.size]: [104857600]
+[dalvik.vm.madvise.vdexfile.size]: [104857600]
+[dalvik.vm.minidebuginfo]: [true]
+[dalvik.vm.pr_dexopt_async_for_ota]: [true]
+[dalvik.vm.ps-min-first-save-ms]: [4000]
+[dalvik.vm.systemservercompilerfilter]: [speed-profile]
+[dalvik.vm.thread-suspend-timeout-ms]: [30000]
+[dalvik.vm.usap_pool_enabled]: [false]
+[dalvik.vm.usap_pool_refill_delay_ms]: [3000]
+[dalvik.vm.usap_pool_size_max]: [3]
+[dalvik.vm.usap_pool_size_min]: [1]
+[dalvik.vm.usap_refill_threshold]: [1]
+[dalvik.vm.useartservice]: [true]
+[dalvik.vm.usejit]: [true]
+[debug.MB.inner.running]: [0]
+[debug.MB.prepare]: [0]
+[debug.MB.realpath]: [/data/log_temp/boot_3__normal/]
+[debug.MB.running]: [0]
+[debug.MB.sublog]: [0x00000081]
+[debug.angle.feature_overrides_enabled]: [preferLinearFilterForYUV:mapUnspecifiedColorSpaceToPassThrough]
+[debug.animboost.shellstartingsurface]: [true]
+[debug.atrace.tags.enableflags]: [0]
+[debug.c2.use_dmabufheaps]: [1]
+[debug.egl.force_msaa]: [false]
+[debug.egl.hw]: [0]
+[debug.epm.carnetworking.forbid.rec]: [0]
+[debug.force_rtl]: [false]
+[debug.hwui.force_dark]: []
+[debug.hwui.show_dirty_regions]: []
+[debug.hwui.show_layers_updates]: []
+[debug.hwui.skia_atrace_enabled]: [false]
+[debug.hwui.skia_tracing_enabled]: [false]
+[debug.hwui.skia_use_perfetto_track_events]: [false]
+[debug.layout]: [false]
+[debug.mdpcomp.logs]: [0]
+[debug.perfetto.sdk_sysprop_guard_generation]: [0]
+[debug.renderengine.skia_tracing_enabled]: [false]
+[debug.renderengine.skia_use_perfetto_track_events]: [false]
+[debug.rms.egl_vrs_enabled]: [false]
+[debug.rms.refresh_rate_adjuster_version]: [230409]
+[debug.sf.auto_latch_unsignaled]: [0]
+[debug.sf.disable_client_composition_cache]: [1]
+[debug.sf.early.app.duration]: [13666666]
+[debug.sf.early.sf.duration]: [15666666]
+[debug.sf.earlyGl.app.duration]: [13666666]
+[debug.sf.earlyGl.sf.duration]: [15666666]
+[debug.sf.enable_advanced_sf_phase_offset]: [1]
+[debug.sf.enable_gl_backpressure]: [1]
+[debug.sf.enable_hwc_vds]: [0]
+[debug.sf.hw]: [0]
+[debug.sf.latch_unsignaled]: [1]
+[debug.sf.late.app.duration]: [13666666]
+[debug.sf.late.sf.duration]: [15666666]
+[debug.sf.predict_hwc_composition_strategy]: [0]
+[debug.sf.treat_170m_as_sRGB]: [1]
+[debug.sf.use_phase_offsets_as_durations]: [1]
+[debug.stability.layerLeak]: [false]
+[debug.stability.offScreenLayerLeak]: [false]
+[debug.stagefright.c2inputsurface]: [-1]
+[debug.stagefright.ccodec]: [4]
+[debug.stagefright.omx_default_rank]: [0]
+[debug.tracing.battery_status]: [2]
+[debug.tracing.device_state]: [0:DEFAULT]
+[debug.tracing.mcc]: [460]
+[debug.tracing.mnc]: [11]
+[debug.tracing.plug_type]: [1]
+[debug.tracing.screen_brightness]: [0.027994214]
+[debug.tracing.screen_state]: [2]
+[dev.bootcomplete]: [1]
+[dev.mnt.blk.data]: [sda29]
+[dev.mnt.blk.data.user.0]: [sda29]
+[dev.mnt.blk.data_mirror.cur_profiles]: [sda29]
+[dev.mnt.blk.data_mirror.data_ce.null]: [sda29]
+[dev.mnt.blk.data_mirror.data_ce.null.0]: [sda29]
+[dev.mnt.blk.data_mirror.data_de.null]: [sda29]
+[dev.mnt.blk.data_mirror.misc_ce.null]: [sda29]
+[dev.mnt.blk.data_mirror.misc_de.null]: [sda29]
+[dev.mnt.blk.data_mirror.ref_profiles]: [sda29]
+[dev.mnt.blk.data_mirror.storage_area]: [sda29]
+[dev.mnt.blk.logdata]: [sda27]
+[dev.mnt.blk.metadata]: [sda8]
+[dev.mnt.blk.mnt.product.vm-persist]: [sde65]
+[dev.mnt.blk.mnt.saleinfo]: [sda2]
+[dev.mnt.blk.mnt.vendor.persist]: [sda2]
+[dev.mnt.blk.mnt.vendor.qmcs]: [sde23]
+[dev.mnt.blk.mnt.vendor.spunvm]: [sde69]
+[dev.mnt.blk.mnt.vendor.vgc]: [sda28]
+[dev.mnt.blk.odm]: [sda28]
+[dev.mnt.blk.oem]: [sda28]
+[dev.mnt.blk.product]: [sda28]
+[dev.mnt.blk.product.vm-system]: [sde19]
+[dev.mnt.blk.root]: [sda28]
+[dev.mnt.blk.system_dlkm]: [sda28]
+[dev.mnt.blk.system_ext]: [sda28]
+[dev.mnt.blk.vendor]: [sda28]
+[dev.mnt.blk.vendor.bt_firmware]: [sde7]
+[dev.mnt.blk.vendor.dsp]: [sde9]
+[dev.mnt.blk.vendor.firmware_mnt]: [sde6]
+[dev.mnt.blk.vendor_dlkm]: [sda28]
+[dev.mnt.blk.vgc]: [sda28]
+[dev.mnt.dev.data]: [dm-62]
+[dev.mnt.dev.data.user.0]: [dm-62]
+[dev.mnt.dev.data_mirror.cur_profiles]: [dm-62]
+[dev.mnt.dev.data_mirror.data_ce.null]: [dm-62]
+[dev.mnt.dev.data_mirror.data_ce.null.0]: [dm-62]
+[dev.mnt.dev.data_mirror.data_de.null]: [dm-62]
+[dev.mnt.dev.data_mirror.misc_ce.null]: [dm-62]
+[dev.mnt.dev.data_mirror.misc_de.null]: [dm-62]
+[dev.mnt.dev.data_mirror.ref_profiles]: [dm-62]
+[dev.mnt.dev.data_mirror.storage_area]: [dm-62]
+[dev.mnt.dev.logdata]: [sda27]
+[dev.mnt.dev.metadata]: [sda8]
+[dev.mnt.dev.mnt.product.vm-persist]: [sde65]
+[dev.mnt.dev.mnt.saleinfo]: [sda2]
+[dev.mnt.dev.mnt.vendor.persist]: [sda2]
+[dev.mnt.dev.mnt.vendor.qmcs]: [sde23]
+[dev.mnt.dev.mnt.vendor.spunvm]: [sde69]
+[dev.mnt.dev.mnt.vendor.vgc]: [dm-21]
+[dev.mnt.dev.odm]: [dm-19]
+[dev.mnt.dev.oem]: [dm-20]
+[dev.mnt.dev.product]: [dm-15]
+[dev.mnt.dev.product.vm-system]: [sde19]
+[dev.mnt.dev.root]: [dm-13]
+[dev.mnt.dev.system_dlkm]: [dm-18]
+[dev.mnt.dev.system_ext]: [dm-14]
+[dev.mnt.dev.vendor]: [dm-16]
+[dev.mnt.dev.vendor.bt_firmware]: [sde7]
+[dev.mnt.dev.vendor.dsp]: [sde9]
+[dev.mnt.dev.vendor.firmware_mnt]: [sde6]
+[dev.mnt.dev.vendor_dlkm]: [dm-17]
+[dev.mnt.dev.vgc]: [dm-21]
+[dev.mnt.rootdisk.data]: [sda]
+[dev.mnt.rootdisk.data.user.0]: [sda]
+[dev.mnt.rootdisk.data_mirror.cur_profiles]: [sda]
+[dev.mnt.rootdisk.data_mirror.data_ce.null]: [sda]
+[dev.mnt.rootdisk.data_mirror.data_ce.null.0]: [sda]
+[dev.mnt.rootdisk.data_mirror.data_de.null]: [sda]
+[dev.mnt.rootdisk.data_mirror.misc_ce.null]: [sda]
+[dev.mnt.rootdisk.data_mirror.misc_de.null]: [sda]
+[dev.mnt.rootdisk.data_mirror.ref_profiles]: [sda]
+[dev.mnt.rootdisk.data_mirror.storage_area]: [sda]
+[dev.mnt.rootdisk.logdata]: [sda]
+[dev.mnt.rootdisk.metadata]: [sda]
+[dev.mnt.rootdisk.mnt.product.vm-persist]: [sde]
+[dev.mnt.rootdisk.mnt.saleinfo]: [sda]
+[dev.mnt.rootdisk.mnt.vendor.persist]: [sda]
+[dev.mnt.rootdisk.mnt.vendor.qmcs]: [sde]
+[dev.mnt.rootdisk.mnt.vendor.spunvm]: [sde]
+[dev.mnt.rootdisk.mnt.vendor.vgc]: [sda]
+[dev.mnt.rootdisk.odm]: [sda]
+[dev.mnt.rootdisk.oem]: [sda]
+[dev.mnt.rootdisk.product]: [sda]
+[dev.mnt.rootdisk.product.vm-system]: [sde]
+[dev.mnt.rootdisk.root]: [sda]
+[dev.mnt.rootdisk.system_dlkm]: [sda]
+[dev.mnt.rootdisk.system_ext]: [sda]
+[dev.mnt.rootdisk.vendor]: [sda]
+[dev.mnt.rootdisk.vendor.bt_firmware]: [sde]
+[dev.mnt.rootdisk.vendor.dsp]: [sde]
+[dev.mnt.rootdisk.vendor.firmware_mnt]: [sde]
+[dev.mnt.rootdisk.vendor_dlkm]: [sda]
+[dev.mnt.rootdisk.vgc]: [sda]
+[dev.pm.dyn_samplingrate]: [1]
+[graphics.gpu.profiler.support]: [true]
+[gsm.current.phone-type]: [1,1]
+[gsm.network.type]: [NR_SA,NR_SA]
+[gsm.operator.iso-country]: [cn,cn]
+[gsm.operator.numeric]: [46000,46011]
+[gsm.sim.operator.alpha]: [CMCC,涓浗鐢典俊]
+[gsm.sim.operator.iso-country]: [cn,cn]
+[gsm.sim.operator.numeric]: [46002,46011]
+[gsm.sim.state]: [LOADED,LOADED]
+[gsm.sim.vivo.newcard]: [new,new]
+[gsm.version.baseband]: [PSS.DE.5.0-02496.6-LANAI_GEN_PACK-1.60893.355,PSS.DE.5.0-02496.6-LANAI_GEN_PACK-1.60893.355]
+[gsm.vivo.confinfo0]: [0]
+[gsm.vivo.confinfo1]: [0]
+[gsm.vivo.countrycode]: [cn]
+[hwservicemanager.ready]: [true]
+[init.svc.adbd]: [running]
+[init.svc.aiservice_res]: [stopped]
+[init.svc.analysis-service-aidl]: [running]
+[init.svc.apexd]: [stopped]
+[init.svc.apexd-bootstrap]: [stopped]
+[init.svc.apexd-snapshotde]: [stopped]
+[init.svc.art_boot]: [stopped]
+[init.svc.artd]: [running]
+[init.svc.atcid-factory]: [stopped]
+[init.svc.atcid-user]: [stopped]
+[init.svc.atcid_default_simlock]: [stopped]
+[init.svc.atcid_fbe]: [stopped]
+[init.svc.atcid_vendor_init]: [stopped]
+[init.svc.atcid_vendor_socket]: [running]
+[init.svc.audioserver]: [running]
+[init.svc.bbk_atrace]: [running]
+[init.svc.biometrics-face]: [running]
+[init.svc.biometrics-fingerprint]: [running]
+[init.svc.bootanim]: [stopped]
+[init.svc.boringssl_self_test64]: [stopped]
+[init.svc.boringssl_self_test64_vendor]: [stopped]
+[init.svc.boringssl_self_test_apex64]: [stopped]
+[init.svc.bpfloader]: [stopped]
+[init.svc.bspservice-hal-1-0]: [running]
+[init.svc.camera3rd-provider-1-0]: [running]
+[init.svc.cameraserver]: [running]
+[init.svc.capacity_key-aidl_hal]: [running]
+[init.svc.catselog]: [stopped]
+[init.svc.check_ex_att]: [stopped]
+[init.svc.circulated_wlan_logs]: [stopped]
+[init.svc.clear_artpp]: [stopped]
+[init.svc.clear_dump_log]: [stopped]
+[init.svc.cnss-daemon]: [running]
+[init.svc.cnss_diag_pktlog]: [stopped]
+[init.svc.cnss_diag_system]: [stopped]
+[init.svc.cotamnt]: [stopped]
+[init.svc.cp_panic]: [stopped]
+[init.svc.credstore]: [running]
+[init.svc.customcenter]: [running]
+[init.svc.dcdiming]: [stopped]
+[init.svc.derive_classpath]: [stopped]
+[init.svc.derive_sdk]: [stopped]
+[init.svc.dpmQmiMgr]: [running]
+[init.svc.dpmd]: [stopped]
+[init.svc.dr]: [running]
+[init.svc.drm]: [running]
+[init.svc.e2eebase-1-0]: [running]
+[init.svc.eid-1]: [running]
+[init.svc.enable_ppdu_logs]: [stopped]
+[init.svc.feature_enabler_client]: [running]
+[init.svc.fs_trace_set]: [stopped]
+[init.svc.gatekeeperd]: [running]
+[init.svc.gki.modprobe]: [stopped]
+[init.svc.gnss_service]: [running]
+[init.svc.gpu]: [running]
+[init.svc.hal_cameralog_default]: [running]
+[init.svc.hal_visdisplaysrv_default]: [running]
+[init.svc.heapprofd]: [stopped]
+[init.svc.hidl_memory]: [running]
+[init.svc.hwservicemanager]: [running]
+[init.svc.idmap2d]: [stopped]
+[init.svc.incidentd]: [running]
+[init.svc.installd]: [running]
+[init.svc.io_enhance]: [stopped]
+[init.svc.ioinitialize]: [stopped]
+[init.svc.irsc_util]: [stopped]
+[init.svc.kernel-boot]: [stopped]
+[init.svc.kernel-post-boot]: [stopped]
+[init.svc.keystore2]: [running]
+[init.svc.lcmctl-service]: [running]
+[init.svc.lmkd]: [running]
+[init.svc.loc_launcher]: [running]
+[init.svc.logd]: [running]
+[init.svc.logd-auditctl]: [stopped]
+[init.svc.logd-reinit]: [stopped]
+[init.svc.mainline_aconfigd_init]: [stopped]
+[init.svc.mainline_aconfigd_socket_service]: [stopped]
+[init.svc.media]: [running]
+[init.svc.media.swcodec]: [running]
+[init.svc.media.vivocodec]: [running]
+[init.svc.mediadrm]: [running]
+[init.svc.mediaextractor]: [running]
+[init.svc.mediametrics]: [running]
+[init.svc.memory-early-boot]: [stopped]
+[init.svc.memory-post-boot]: [stopped]
+[init.svc.misctrl]: [stopped]
+[init.svc.mlid]: [running]
+[init.svc.mobile_log_d]: [running]
+[init.svc.modify_app]: [stopped]
+[init.svc.netboosterd]: [running]
+[init.svc.netd]: [running]
+[init.svc.odsign]: [stopped]
+[init.svc.omnipotentservice-hal-1-0]: [running]
+[init.svc.only_triger_vts_app]: [stopped]
+[init.svc.pasr-hal]: [stopped]
+[init.svc.perfetto_persistent_sysui_tracing_for_bugreport]: [stopped]
+[init.svc.poweropt-service]: [running]
+[init.svc.prng_seeder]: [running]
+[init.svc.psiclient]: [stopped]
+[init.svc.qccsyshal@1.2-service]: [running]
+[init.svc.qccsyshal_aidl-service]: [stopped]
+[init.svc.qcom-c_core-sh]: [stopped]
+[init.svc.qcom-c_main-sh]: [stopped]
+[init.svc.qcom-post-boot]: [stopped]
+[init.svc.qcom-sh]: [stopped]
+[init.svc.qseecom-service]: [running]
+[init.svc.qspmhal]: [running]
+[init.svc.qti-debug-early-boot]: [stopped]
+[init.svc.qti-debug-early-debug]: [stopped]
+[init.svc.qti-media]: [stopped]
+[init.svc.qti-testscripts]: [stopped]
+[init.svc.qti_display_boot]: [stopped]
+[init.svc.roundphone]: [running]
+[init.svc.secureprocessor-1-0]: [running]
+[init.svc.servicemanager]: [running]
+[init.svc.set_sec_prop]: [stopped]
+[init.svc.ssgqmigd]: [running]
+[init.svc.statsd]: [running]
+[init.svc.storaged]: [running]
+[init.svc.surfaceflinger]: [running]
+[init.svc.system_aconfigd_mainline_init]: [stopped]
+[init.svc.system_aconfigd_platform_init]: [stopped]
+[init.svc.system_aconfigd_socket_service]: [stopped]
+[init.svc.system_suspend]: [running]
+[init.svc.tam-1-0]: [running]
+[init.svc.tcmd]: [running]
+[init.svc.thermal-engine]: [running]
+[init.svc.time_daemon]: [running]
+[init.svc.tombstoned]: [running]
+[init.svc.touch_property-set]: [stopped]
+[init.svc.touchaddpanel_vts]: [stopped]
+[init.svc.touchrecord]: [stopped]
+[init.svc.touchtest]: [stopped]
+[init.svc.touchupdate_vts]: [stopped]
+[init.svc.traced]: [running]
+[init.svc.traced_perf]: [stopped]
+[init.svc.traced_probes]: [running]
+[init.svc.traced_relay]: [stopped]
+[init.svc.trust-1-0]: [running]
+[init.svc.ueventd]: [running]
+[init.svc.update_engine]: [running]
+[init.svc.update_verifier]: [stopped]
+[init.svc.usbd]: [stopped]
+[init.svc.usbdbgd]: [running]
+[init.svc.vbpf_client]: [running]
+[init.svc.vcode-hal-1-0]: [running]
+[init.svc.vdfs]: [stopped]
+[init.svc.vdfsfile]: [stopped]
+[init.svc.vdtf]: [running]
+[init.svc.vendor-early_eth]: [stopped]
+[init.svc.vendor-qti-media-c2-hal-1-0]: [running]
+[init.svc.vendor_qti_graphics_boot]: [stopped]
+[init.svc.vgnss-hal]: [running]
+[init.svc.vgnss-hal-1-0]: [running]
+[init.svc.virtualizationservice]: [stopped]
+[init.svc.vivo-bbkts-aidl_hal]: [running]
+[init.svc.vivo-configstore-hal-1-0]: [running]
+[init.svc.vivo-fingerprint-sh]: [stopped]
+[init.svc.vivo-nfc-sh]: [stopped]
+[init.svc.vivo-sensorfactory-aidl]: [running]
+[init.svc.vivo-vdtf-service]: [running]
+[init.svc.vivo-vperf-hal-1-0]: [running]
+[init.svc.vivo_bsp_boottime]: [stopped]
+[init.svc.vivo_bsp_boottime_dmesglog]: [stopped]
+[init.svc.vivo_daemon]: [running]
+[init.svc.vivo_em_float]: [stopped]
+[init.svc.vivo_em_svr]: [stopped]
+[init.svc.vivo_em_svr_init]: [stopped]
+[init.svc.vivo_em_svr_late_init]: [stopped]
+[init.svc.vivo_em_tf]: [stopped]
+[init.svc.vivo_nrt_service]: [running]
+[init.svc.vivoasem-hal-1]: [running]
+[init.svc.vivoatcmd-hal-1]: [stopped]
+[init.svc.vivobpf-hal-1]: [running]
+[init.svc.vivocameraserver]: [running]
+[init.svc.vivoem-hal-1]: [running]
+[init.svc.vmediametrics-hal-1-0]: [running]
+[init.svc.vndservicemanager]: [running]
+[init.svc.vold]: [running]
+[init.svc.vsp_service]: [stopped]
+[init.svc.vspflinger]: [running]
+[init.svc.vtsthpService0]: [running]
+[init.svc.vusbd]: [stopped]
+[init.svc.wfdhdcphalservice]: [running]
+[init.svc.wfdvndservice]: [running]
+[init.svc.wificond]: [running]
+[init.svc.wifidisplayhalservice]: [running]
+[init.svc.wpa_supplicant]: [running]
+[init.svc.zygote]: [running]
+[init.svc.zygote_secondary]: [stopped]
+[init.svc.zygote_third]: [stopped]
+[kcmdline.binder]: [c]
+[kcmdline.loaded]: [1]
+[log.ratelimit.level]: [1]
+[log.tag]: [I]
+[log.tag.APM_AudioPolicyManager]: [D]
+[log.tag.audio.usertype]: [0]
+[log.tag.audit]: [0]
+[log.tag.stats_log]: [I]
+[logd.ready]: [true]
+[media.aac_51_output_enabled]: [true]
+[media.settings.xml]: [/vendor/etc/media_profiles_vendor.xml]
+[media.stagefright.audio.deep]: [false]
+[media.stagefright.enable-aac]: [true]
+[media.stagefright.enable-fma2dp]: [true]
+[media.stagefright.enable-http]: [true]
+[media.stagefright.enable-player]: [true]
+[media.stagefright.enable-qcp]: [true]
+[media.stagefright.enable-scan]: [true]
+[media.stagefright.thumbnail.prefer_hw_codecs]: [true]
+[mmp.enable.3g2]: [true]
+[net.bt.name]: [Android]
+[net.hostname]: [iQOO-Neo10]
+[net.tcp.2g_init_rwnd]: [10]
+[net.wifi.msta.dns_fail_counter]: [4]
+[net.wifi.msta.dns_timeout_counter]: [1]
+[nfc.aidl_Service]: [true]
+[nfc.auth]: []
+[nfc.auth.endata]: [302277b800aa8b4b2e79969510760d3b]
+[nfc.commitRouting.retry]: [false]
+[nfc.crash.state]: [1]
+[nfc.disc.state]: [DISCOVERY]
+[nfc.esereboot.state]: [0]
+[nfc.fw.update]: [false]
+[nfc.hce_route]: [0]
+[nfc.iserrorreadcardconfig]: [no]
+[nfc.isjustbootstate]: [0]
+[nfc.mifare_classic]: [0]
+[nfc.sim.status]: [5]
+[nfc.vivo.cmd_reset_nci]: [no]
+[nfc.vivo.core_generic_error_clear_flag]: [1]
+[nfc.vivo.core_generic_error_ntf]: [1]
+[nfc.vivo.isrebootphone]: [no]
+[nfc.vivo.lpdet_error_ntf_recovery]: [false]
+[nfc.vivo.rfconf.blk.error]: [false]
+[nfc.vivo.sp_sys_read_card_notice_not_disturb_support]: [0]
+[odsign.key.done]: [1]
+[odsign.verification.done]: [1]
+[odsign.verification.success]: [1]
+[partition.odm.verified]: [2]
+[partition.odm.verified.check_at_most_once]: [0]
+[partition.odm.verified.hash_alg]: [sha256]
+[partition.odm.verified.root_digest]: [727f43515f9f2b55e22dcc9543718e62a97116c02fe2f3a4518e05217774fbe0]
+[partition.oem.verified]: [2]
+[partition.oem.verified.check_at_most_once]: [0]
+[partition.oem.verified.hash_alg]: [sha256]
+[partition.oem.verified.root_digest]: [7d9974d4c9801faf0b9eb42856d17b58c3823c64c9224e52598562b9860dfb1c]
+[partition.product.verified]: [2]
+[partition.product.verified.check_at_most_once]: [0]
+[partition.product.verified.hash_alg]: [sha256]
+[partition.product.verified.root_digest]: [f77794dc1e36f7ac72fcedf12e1e7f8e5356cddfb2fcdb653b2c090bc1a991b1]
+[partition.system.verified]: [2]
+[partition.system.verified.check_at_most_once]: [0]
+[partition.system.verified.hash_alg]: [sha256]
+[partition.system.verified.root_digest]: [48849235cbf8dc9fbfa9dc8842751f96adc874f4b7b4bacd51a96ed17f51fa4c]
+[partition.system_dlkm.verified]: [2]
+[partition.system_dlkm.verified.check_at_most_once]: [0]
+[partition.system_dlkm.verified.hash_alg]: [sha256]
+[partition.system_dlkm.verified.root_digest]: [ca0657494893eb482f2bf7d86e048f2fba9051ded1fba24ce0a239f14770a939]
+[partition.system_ext.verified]: [2]
+[partition.system_ext.verified.check_at_most_once]: [0]
+[partition.system_ext.verified.hash_alg]: [sha256]
+[partition.system_ext.verified.root_digest]: [55a823a4bc144de5ef320662395a594d503663c2ef11e2c44c1cc559ff4933bd]
+[partition.vendor.verified]: [2]
+[partition.vendor.verified.check_at_most_once]: [0]
+[partition.vendor.verified.hash_alg]: [sha256]
+[partition.vendor.verified.root_digest]: [c4b0658c285cc6baa8cd77afbe777e7f6d0523518161744653c5a3c6ca5efa2a]
+[partition.vendor_dlkm.verified]: [2]
+[partition.vendor_dlkm.verified.check_at_most_once]: [0]
+[partition.vendor_dlkm.verified.hash_alg]: [sha256]
+[partition.vendor_dlkm.verified.root_digest]: [1b532891bf3274b155e5e4b2d347dbc177f183a0b709b89312175a8988f6831c]
+[partition.vgc.verified]: [2]
+[partition.vgc.verified.check_at_most_once]: [0]
+[partition.vgc.verified.hash_alg]: [sha256]
+[partition.vgc.verified.root_digest]: [53ca296eefabcdcecdc8469f7d748771b4a8a0851abdf568cf43199561dc7bc0]
+[persist.backup.ntpServer]: ["0.pool.ntp.org"]
+[persist.camera.privapp.list]: [org.codeaurora.snapcam,com.android.camera]
+[persist.cellbroadcast.roaming_plmn_supported]: [XXX]
+[persist.data.df.agg.dl_pkt]: [10]
+[persist.data.df.agg.dl_size]: [4096]
+[persist.data.df.dev_name]: [rmnet_usb0]
+[persist.data.df.dl_mode]: [5]
+[persist.data.df.iwlan_mux]: [9]
+[persist.data.df.mux_count]: [8]
+[persist.data.df.ul_mode]: [5]
+[persist.data.wda.enable]: [true]
+[persist.debug.coresight.config]: [stm-events]
+[persist.debug.sps.permission]: [true]
+[persist.debug.wfd.enable]: [1]
+[persist.device_config.runtime_native_boot.iorap_perfetto_enable]: [true]
+[persist.fuse_sdcard]: [true]
+[persist.graphics.egl]: []
+[persist.home.restr.enable]: [true]
+[persist.log.ratelimit]: [1]
+[persist.log.tag.QMI_FW]: [S]
+[persist.logd.size]: []
+[persist.mm.enable.prefetch]: [true]
+[persist.nfc.fw.update_status]: [1]
+[persist.operator.sv.number]: [49]
+[persist.radio.allow_mock_modem]: [false]
+[persist.radio.cdmasupport]: [1]
+[persist.radio.fiveg.plus]: [1]
+[persist.radio.incallui.type]: [1]
+[persist.radio.iroaming_new_dir]: [true]
+[persist.radio.is_vonr_enabled_0]: [true]
+[persist.radio.is_vonr_enabled_1]: [true]
+[persist.radio.multisim.config]: [dsds]
+[persist.radio.nr5g_scs_type]: [1]
+[persist.radio.sim1.discern]: [898600F]
+[persist.radio.sim1.gid1]: [FFFFFFFF]
+[persist.radio.sim1.gid2]: [FFFFFFFF]
+[persist.radio.sim1.nr.ca]: [0]
+[persist.radio.sim1.nwcfg]: [0]
+[persist.radio.sim1.plmn]: [46002]
+[persist.radio.sim1.spn]: [CMCC]
+[persist.radio.sim2.discern]: [8986112]
+[persist.radio.sim2.nr.ca]: [0]
+[persist.radio.sim2.plmn]: [46011]
+[persist.radio.sim2.spn]: [涓浗鐢典俊]
+[persist.radio.simple.incallui.type]: [2]
+[persist.radio.snslicense.copyed]: [1]
+[persist.radio.snslicense.support]: [1]
+[persist.radio.vivo.avcall_scene_recognition]: [true]
+[persist.radio.vivo.commonslot.testmode]: [0]
+[persist.radio.vivo.crs_support]: [true]
+[persist.radio.vivo.defmdtype]: [0]
+[persist.radio.vivo.dsda_support]: [true]
+[persist.radio.vivo.dualfiveg]: [true]
+[persist.radio.vivo.elev_sensor]: [true]
+[persist.radio.vivo.fiveg]: [true]
+[persist.radio.vivo.game_feature]: [1]
+[persist.radio.vivo.iccuppercase]: [1]
+[persist.radio.vivo.mcc]: [460]
+[persist.radio.vivo.modemtype]: [0]
+[persist.radio.vivo.smartanswer]: [1]
+[persist.radio.vivo.support.ims_expire]: [true]
+[persist.radio.vivo.support.tau_expire]: [true]
+[persist.radio.vivo.volte]: [3]
+[persist.radio.vivo.volte.sim2]: [3]
+[persist.radio.vmdri.total_boot_num]: [3]
+[persist.rild.nitz_long_ons_0]: []
+[persist.rild.nitz_long_ons_1]: []
+[persist.rild.nitz_long_ons_2]: []
+[persist.rild.nitz_long_ons_3]: []
+[persist.rild.nitz_plmn]: []
+[persist.rild.nitz_short_ons_0]: []
+[persist.rild.nitz_short_ons_1]: []
+[persist.rild.nitz_short_ons_2]: []
+[persist.rild.nitz_short_ons_3]: []
+[persist.rmnet.data.enable]: [true]
+[persist.sys.1h1p_supported_fps]: []
+[persist.sys.adb.simulate.ic]: [true]
+[persist.sys.add.trace_categories]: [disk]
+[persist.sys.animation.nosound]: [0]
+[persist.sys.app.move.internal]: [0]
+[persist.sys.appfilterbroadcast]: [off]
+[persist.sys.appisolationversion]: [1]
+[persist.sys.att_max_cache]: [0]
+[persist.sys.audio.stereoEffect.type]: [3]
+[persist.sys.audio.vapc.btfakepause.enable]: [true]
+[persist.sys.audio.vapc.collectepmdata.enable]: [true]
+[persist.sys.audio.vapc.enable]: [true]
+[persist.sys.audio.vapc.focus.abandon_intercept.enable]: [true]
+[persist.sys.audio.vapc.focus.bind_playback.enable]: [true]
+[persist.sys.audio.vapc.focus.device_change.enable]: [true]
+[persist.sys.audio.vapc.focus.duck_player.enable]: [false]
+[persist.sys.audio.vapc.focus.enable]: [true]
+[persist.sys.audio.vapc.focus.fadeout_player.enable]: [true]
+[persist.sys.audio.vapc.focus.gain_focus.enable]: [true]
+[persist.sys.audio.vapc.focus.interactive.enable]: [true]
+[persist.sys.audio.vapc.focus.request_intercept.enable]: [false]
+[persist.sys.audio.vapc.focus.share_focus.enable]: [false]
+[persist.sys.audio.vapc.playback.enable]: [true]
+[persist.sys.audio.vapc.playback.force_pause_mute.enable]: [false]
+[persist.sys.audio.vapc.playback.lastmode_pause_media.enable]: [true]
+[persist.sys.audio.vapc.playback.media_mute_detection.enable]: [true]
+[persist.sys.audio.vapc.playback.pause_mute.enable]: [false]
+[persist.sys.audio.vapc.playback.phonecall_advolume.enable]: [true]
+[persist.sys.audio.vapc.record.enable]: [true]
+[persist.sys.audio.vapc.record.share_record.enable]: [true]
+[persist.sys.audio.vapc.record.silent_mode.enable]: [true]
+[persist.sys.audio.vapc.sco.enable]: [true]
+[persist.sys.audio.vapc.sco.reroute_speaker.enable]: [true]
+[persist.sys.audio.vapc.speakerphone.enable]: [true]
+[persist.sys.audio.vapc.speakerphone.intercept.enable]: [true]
+[persist.sys.audio.vapc.voip.adapte_volume.enable]: [false]
+[persist.sys.audio.vapc.voip.doze_remit.enable]: [true]
+[persist.sys.audio.vapc.voip.enable]: [true]
+[persist.sys.audio.vapc.voip.force_reroute_record.enable]: [false]
+[persist.sys.audio.vapc.voip.force_ring_stop.enable]: [true]
+[persist.sys.audio.vapc.voip.reroute_record.enable]: [false]
+[persist.sys.audio.vapc.volume.adapte_volume.enable]: [false]
+[persist.sys.audio.vapc.volume.adapte_volume_phonecall.enable]: [true]
+[persist.sys.audio.vapc.volume.adjust_streamtype.enable]: [true]
+[persist.sys.audio.vapc.volume.change.enable]: [true]
+[persist.sys.audio.vapc.volume.enable]: [true]
+[persist.sys.audio.vapc.volume.intercept.enable]: [false]
+[persist.sys.audio.vapc.volume.intercept_localkeyboard.enable]: [false]
+[persist.sys.audio.vapc.volume.recording_adapte_volume.enable]: [false]
+[persist.sys.audio.vapc.volume.voip_ring_oneclick_mute.enable]: [true]
+[persist.sys.base_threshold_prox]: [1111]
+[persist.sys.base_threshold_prox_b]: [2000]
+[persist.sys.base_threshold_prox_low]: [2000]
+[persist.sys.base_threshold_prox_under]: [1111]
+[persist.sys.bbkem]: [0]
+[persist.sys.bbklog.adblimit]: [2048]
+[persist.sys.bluetooth.btsnooplogmode]: [disabled]
+[persist.sys.boot.reason]: []
+[persist.sys.boot.reason.history]: [shutdown,userrequested,1783285694
+shutdown,userrequested,1783097410]
+[persist.sys.btvh.first]: [true]
+[persist.sys.cali.TMF8801.clock]: [0]
+[persist.sys.cali.TMF8801.crosstalk]: [0]
+[persist.sys.cali.factor_b]: [0.000000]
+[persist.sys.cali.factor_c]: [0.000000]
+[persist.sys.cali.factor_g]: [0.828656]
+[persist.sys.cali.factor_r]: [0.909151]
+[persist.sys.cali.factor_w]: [0.000000]
+[persist.sys.cct_cali_flag]: [1]
+[persist.sys.circulated_wlan_logs]: [0]
+[persist.sys.content.long.press.time]: [600]
+[persist.sys.currentuser]: [0]
+[persist.sys.dalvik.vm.lib.2]: [libart.so]
+[persist.sys.dc1p_supported_fps]: [60|120]
+[persist.sys.dcdiming.en.vivo]: [0]
+[persist.sys.disable_rescue]: [true]
+[persist.sys.disp.pq.gammaidx]: []
+[persist.sys.displayinset.top]: [0]
+[persist.sys.dlt.capibilities]: [2]
+[persist.sys.doframe_opt]: [true]
+[persist.sys.dualwifi.version]: [3]
+[persist.sys.easyshare.ap.limit]: [true]
+[persist.sys.factory.mode]: [no]
+[persist.sys.fflag.override.settings_bluetooth_hearing_aid]: [true]
+[persist.sys.fflag.override.settings_enable_monitor_phantom_procs]: [true]
+[persist.sys.fling_curvelocity]: [7000]
+[persist.sys.fling_initvelocity]: [4000]
+[persist.sys.fling_optversion]: [5000]
+[persist.sys.force_sw_gles]: [1]
+[persist.sys.fuse]: [true]
+[persist.sys.fuse.passthrough.enable]: [true]
+[persist.sys.gnss.start]: [0]
+[persist.sys.gps.lpp]: [15]
+[persist.sys.gs_cal_flag]: [1]
+[persist.sys.gsensor_cal_xyz]: [8,-22,-7]
+[persist.sys.gw.tracectl]: [true]
+[persist.sys.gyroscope_cal_flag]: [1]
+[persist.sys.gyroscope_cal_xyz]: [-11,0,-3]
+[persist.sys.gyroscope_ois_cal_xyz]: [0,0,0]
+[persist.sys.hall_swith_cali_val]: [0.000000]
+[persist.sys.hardcoder]: [1]
+[persist.sys.hardcoder.name]: [mmServer]
+[persist.sys.identifierid.oaid.att.supported]: [0]
+[persist.sys.identifierid.oaid.state.supported]: [1]
+[persist.sys.identifierid.supported]: [1]
+[persist.sys.is_root]: [0]
+[persist.sys.is_wlan_log]: [0]
+[persist.sys.last_enabled_state]: [succ]
+[persist.sys.lastfingerprint]: [PD2425_A_16.1.17.10.W10]
+[persist.sys.light.factor_ch0]: [1000]
+[persist.sys.light.factor_ch1]: [1000]
+[persist.sys.light.factor_ch2]: [1000]
+[persist.sys.light.factor_ch3]: [1000]
+[persist.sys.light.factor_ch4]: [1000]
+[persist.sys.light.full_color_cali]: [265616.4,25424.42,222628.42,19224.42]
+[persist.sys.light.location_cali1]: [930.82,2102.42,2598.42,1098.42,1764.42,8502.42,17710.42,4660.42]
+[persist.sys.light.location_cali2]: [2002.42,9718.42,13624.42,14194.42,758.42,3148.42,6160.42,2492.42]
+[persist.sys.light.location_cali_position]: [795.59985,46.433765]
+[persist.sys.light.low_color_cali]: [10467.22,874.42,8348.42,694.42]
+[persist.sys.light_all_bright]: [0]
+[persist.sys.light_nd_thresh]: [0]
+[persist.sys.light_sensor_leak_cur_val]: [0.00]
+[persist.sys.light_threshold]: [500]
+[persist.sys.light_threshold_b]: [500]
+[persist.sys.linear_motor_driver]: [1]
+[persist.sys.lmk.reportkills]: [true]
+[persist.sys.loc.dr.fingerprint.pendding]: [0]
+[persist.sys.log.ctrl]: [no]
+[persist.sys.log.firstboot]: [no]
+[persist.sys.metal_data.b]: [0.000000]
+[persist.sys.metal_data.c]: [0.000000]
+[persist.sys.metal_data.cct]: [0.000000]
+[persist.sys.metal_data.g]: [0.000000]
+[persist.sys.metal_data.r]: [0.000000]
+[persist.sys.metal_data.w]: [0.000000]
+[persist.sys.mscct.cali.factor_b]: [1.007073]
+[persist.sys.mscct.cali.factor_c]: [1.012515]
+[persist.sys.mscct.cali.factor_g]: [1.050075]
+[persist.sys.mscct.cali.factor_r]: [0.988285]
+[persist.sys.mscct.cali.factor_w]: [1.058135]
+[persist.sys.mscct.metal_data.b]: [0.000000]
+[persist.sys.mscct.metal_data.c]: [0.000000]
+[persist.sys.mscct.metal_data.cct]: [0.000000]
+[persist.sys.mscct.metal_data.g]: [0.000000]
+[persist.sys.mscct.metal_data.r]: [0.000000]
+[persist.sys.mscct.metal_data.w]: [0.000000]
+[persist.sys.mscct_back.cali.factor_b]: [0.000000]
+[persist.sys.mscct_back.cali.factor_c]: [0.000000]
+[persist.sys.mscct_back.cali.factor_g]: [0.000000]
+[persist.sys.mscct_back.cali.factor_r]: [0.000000]
+[persist.sys.mscct_back.cali.factor_w]: [0.000000]
+[persist.sys.mscct_cali_flag]: [1]
+[persist.sys.name.ec.enable]: [2]
+[persist.sys.nlp.cloud.swtich]: [true]
+[persist.sys.oem_switched_yet]: [1]
+[persist.sys.onlineIcon.frameworkSwitch]: [on]
+[persist.sys.pem.pattern.enable]: [14]
+[persist.sys.pem.temperature_ctlinfo]: [off]
+[persist.sys.perf.tracectl]: [true]
+[persist.sys.perfdata.scene_switch]: [2]
+[persist.sys.primary.emulate]: [1]
+[persist.sys.private_fps]: [144]
+[persist.sys.promotion_supported]: [true]
+[persist.sys.ps_cali_data_short]: [0]
+[persist.sys.ps_cali_data_short_b]: [0]
+[persist.sys.ps_cali_flag]: [1]
+[persist.sys.ps_cali_flag_under]: [1]
+[persist.sys.ps_cali_offset_data]: [0,0]
+[persist.sys.ps_cali_offset_data0]: [0]
+[persist.sys.ps_cali_offset_data1]: [0]
+[persist.sys.ps_cali_offset_data_b]: [0,0]
+[persist.sys.ps_offset]: [0]
+[persist.sys.ps_offset_b]: [0]
+[persist.sys.rms.re_enable]: [true]
+[persist.sys.runtimestart]: [2026-07-06 05:08:14;boot_progress_start;4887]
+[persist.sys.sd_card_support]: [0]
+[persist.sys.sf.color_mode]: [0]
+[persist.sys.sf.color_saturation]: [1.0]
+[persist.sys.sf.night_mode]: [0]
+[persist.sys.sf.precompiled_shaders_utc]: [1789638486]
+[persist.sys.show.device.imei]: []
+[persist.sys.shutdowndone]: [1]
+[persist.sys.smartppi.select]: [0]
+[persist.sys.strictmode.disable]: [true]
+[persist.sys.strictmode.visual]: []
+[persist.sys.support.dlt]: [true]
+[persist.sys.support.sla]: [yes]
+[persist.sys.support.smartppi]: [0]
+[persist.sys.support.wmr]: [true]
+[persist.sys.supportddc]: [1]
+[persist.sys.supportvivosync]: [1]
+[persist.sys.theme.color]: [color01]
+[persist.sys.timezone]: [Asia/Shanghai]
+[persist.sys.tkdn.state]: [0]
+[persist.sys.ud_engineermode]: [0]
+[persist.sys.ultra.flag]: [1]
+[persist.sys.updater.silent]: [false]
+[persist.sys.usb.config]: [adb]
+[persist.sys.usb.notify.sound]: [1]
+[persist.sys.user.action]: [network_connected]
+[persist.sys.user.bbkem]: [0]
+[persist.sys.vfwversion]: [7]
+[persist.sys.vic.supported]: [1]
+[persist.sys.vivo.appstore.directory_of_channel_backup]: [7676]
+[persist.sys.vivo.appstore.first_install_referrer_time]: [1782864010962]
+[persist.sys.vivo.appstore.md5_of_channel_backup]: [7c7330976266bb943a2e92b518bcf865]
+[persist.sys.vivo.face.assistant]: [0]
+[persist.sys.vivo.face.multi]: [2]
+[persist.sys.vivo.face.privacy.brightness.adjustment]: [1]
+[persist.sys.vivo.face.securecamera]: [0]
+[persist.sys.vivo.face.unlock.convenience.scheme]: [0]
+[persist.sys.vivo.face.unlock.strong]: [1]
+[persist.sys.vivo.face.unlock.support4hidletimeout]: [0]
+[persist.sys.vivo.face.wallpaper.brightness.adjustment]: [1]
+[persist.sys.vivo.otaPostinstallMaxDuration]: [600]
+[persist.sys.vivo.platform_info]: [6/3]
+[persist.sys.vivo.product.cust]: [N]
+[persist.sys.vivo.qtilowlatencyleveldl]: [1]
+[persist.sys.vivo.qtilowlatencylevelul]: [1]
+[persist.sys.vivo.wlan.log.trigger.flag]: [0]
+[persist.sys.vivo_smartshot.capture]: [false]
+[persist.sys.vivofirewall]: [1]
+[persist.sys.vivolog.logtype]: [4491531]
+[persist.sys.vivolog.state]: [off]
+[persist.sys.vivolog.usertype]: [0]
+[persist.sys.wfd.virtual]: [0]
+[persist.sys.wifi.autoconnect]: [false]
+[persist.sys.wifi.autodefault.support]: [true]
+[persist.sys.wifi.enable_print_key_frame]: [0]
+[persist.sys.wifi.internal.trial]: [false]
+[persist.sys.wifi.vivo.dualinterface]: [yes]
+[persist.sys.wifi.vivo.maxlinkspeed]: [yes]
+[persist.sys.wifi.vivo.smartwifi]: [yes]
+[persist.sys.wifi.vivo.wifitowifi]: [yes]
+[persist.sys.wifi.weakpoint.maxusercheckdialogcountperday]: [0]
+[persist.sys.wizard.activelock]: [1]
+[persist.sys.wizard.setup]: [2]
+[persist.timed.enable]: [true]
+[persist.traced.enable]: [1]
+[persist.vendor.camera.camera_config_xml_name]: [camera_config.xml]
+[persist.vendor.camera.front_camera_main_otp_status]: [0]
+[persist.vendor.camera.rear_camera_main_otp_status]: [0]
+[persist.vendor.camera.rear_camera_wide_otp_status]: [0]
+[persist.vendor.camera.sensor.number]: [3]
+[persist.vendor.camera.sensor0]: [imx921]
+[persist.vendor.camera.sensor1]: [s5k3p9sp]
+[persist.vendor.camera.sensor2]: [ov08d10]
+[persist.vendor.camera.vivo_torch]: [1]
+[persist.vendor.camera.vivo_torch.use_google_interface]: [1]
+[persist.vendor.dpm.feature]: [0]
+[persist.vendor.dpm.vndr.feature]: [11]
+[persist.vendor.dpm.vndr.halservice.enable]: [1]
+[persist.vendor.dpm.vndr.idletimer.mode]: [default]
+[persist.vendor.dpm.vndr.tcm]: [2]
+[persist.vendor.rcs.singlereg.feature]: [1]
+[persist.vendor.vivo.camera.model]: [0]
+[persist.vendor.vivo.nfc.autoswitch]: [1]
+[persist.vendor.vivo.nfc.cardreadft]: [1]
+[persist.vendor.vivo.nfc.chip.type]: [SN220]
+[persist.vendor.vivo.nfc.function]: [11010111]
+[persist.vendor.vivo.nfc.passivelisten]: [1]
+[persist.vendor.vivo.nfc.readerevents]: [1]
+[persist.vendor.vivo.nfc.repeat]: [true]
+[persist.vendor.vivo.nfc.share]: [0]
+[persist.vendor.vivo.support.ese]: [true]
+[persist.vendor.vivo.wallet.nfc.channel]: [1]
+[persist.vendor.vivo.wfc.delay_wifi]: [1]
+[persist.vivo.ai_charge_support]: [1]
+[persist.vivo.all_bypass_charge_support]: [1]
+[persist.vivo.apmd.ratchangecc.basementmode.support]: [1]
+[persist.vivo.apmd.sa_time]: [1793962798695]
+[persist.vivo.app.optimize.card.status]: [0]
+[persist.vivo.apps.restriction]: [yes]
+[persist.vivo.apps_dexopt_completed]: [0]
+[persist.vivo.appstoreweb_ip]: [39.107.67.132]
+[persist.vivo.assistant.map_choose]: [2]
+[persist.vivo.audio.feature.3rdapk.offload.available]: [true]
+[persist.vivo.audio.feature.APM.route.enable]: [true]
+[persist.vivo.audio.feature.MusicVolumeLimit.enable]: [true]
+[persist.vivo.audio.feature.MusicVolumeLimit.volume]: [0]
+[persist.vivo.audio.feature.a11y_wechat.enable]: [true]
+[persist.vivo.audio.feature.adsp.decoder.list.mtk]: [mpeg,mp4a-latm]
+[persist.vivo.audio.feature.adsp.decoder.list.mtk.kugou]: [mpeg,flac]
+[persist.vivo.audio.feature.adsp.decoder.list.mtk.qqmusic]: [mpeg,flac]
+[persist.vivo.audio.feature.adsp.decoder.list.qcom]: [mpeg,vorbis,flac,mp4a-latm,alac,ape,wma,wma-pro]
+[persist.vivo.audio.feature.adsp.decoder.list.qcom.kugou]: [mpeg,vorbis,flac]
+[persist.vivo.audio.feature.adsp.decoder.list.qcom.qqmusic]: [mpeg,vorbis,flac]
+[persist.vivo.audio.feature.adsp.visualizer.enable]: [true]
+[persist.vivo.audio.feature.anchor_bt_pcm.enable]: [false]
+[persist.vivo.audio.feature.anchor_db_upload.enable]: [true]
+[persist.vivo.audio.feature.anchor_log_upload.enable]: [true]
+[persist.vivo.audio.feature.anchor_rule_config.day_limit_freq]: [24]
+[persist.vivo.audio.feature.anchor_rule_config.interval_time]: [3600000]
+[persist.vivo.audio.feature.anchor_rule_config.limit_freq]: [1]
+[persist.vivo.audio.feature.anchor_upload.days]: [365]
+[persist.vivo.audio.feature.ap.audioeffect.type]: [0]
+[persist.vivo.audio.feature.ap.offload.enable]: [false]
+[persist.vivo.audio.feature.audio.camera.use.single.speaker.enable]: [false]
+[persist.vivo.audio.feature.audio.offload.enable]: [true]
+[persist.vivo.audio.feature.audio_automated_test.enable]: [false]
+[persist.vivo.audio.feature.audio_dump_gdpr_optimize.enable]: [false]
+[persist.vivo.audio.feature.audio_satellite.enable]: [false]
+[persist.vivo.audio.feature.audio_vcode.enable]: [true]
+[persist.vivo.audio.feature.audioclient.xrun.anchor.enable]: [true]
+[persist.vivo.audio.feature.audioclient.xrun.checkcount]: [10]
+[persist.vivo.audio.feature.audioclient.xrun.threshold]: [1]
+[persist.vivo.audio.feature.audioeffect.anchor.enable]: [true]
+[persist.vivo.audio.feature.audioeffect.check.interval]: [5]
+[persist.vivo.audio.feature.audioeffect.xrun.checkcount]: [10]
+[persist.vivo.audio.feature.audioeffect.xrun.threshold]: [1]
+[persist.vivo.audio.feature.avsync_simulate_latency_delta.enable]: [true]
+[persist.vivo.audio.feature.bbksoundrecorder_voip_switch]: [false]
+[persist.vivo.audio.feature.bili.catch.error.code]: [false]
+[persist.vivo.audio.feature.blevoip.control.enable]: [true]
+[persist.vivo.audio.feature.bluetooth.noresample.enable]: [false]
+[persist.vivo.audio.feature.boost.audioQos.enable]: [true]
+[persist.vivo.audio.feature.boost.audiothread.enable]: [true]
+[persist.vivo.audio.feature.bt_appdeque.size]: [20]
+[persist.vivo.audio.feature.bt_notallowed_cover.enable]: [true]
+[persist.vivo.audio.feature.bt_recorder.enable]: [true]
+[persist.vivo.audio.feature.bt_recorder.no_nxp.enable]: [true]
+[persist.vivo.audio.feature.btignore.mediakey.time.ms]: [1000]
+[persist.vivo.audio.feature.cache_state.enable]: [true]
+[persist.vivo.audio.feature.callmute_threshold]: [95]
+[persist.vivo.audio.feature.callmute_vcode.enable]: [false]
+[persist.vivo.audio.feature.carlink_av_sync_optimize.enable]: [true]
+[persist.vivo.audio.feature.checkframe.delay.timems]: [80]
+[persist.vivo.audio.feature.ckmutebyuid.enable]: [true]
+[persist.vivo.audio.feature.codec.refine.enable]: [true]
+[persist.vivo.audio.feature.deepbuf.extra.latency.ms]: [0]
+[persist.vivo.audio.feature.directional_playback.enable]: [true]
+[persist.vivo.audio.feature.displayEnhance.vdec.aisr.enable]: [false]
+[persist.vivo.audio.feature.dynamic.sleeptime.enable]: [true]
+[persist.vivo.audio.feature.encoder.liveStream.enable]: [false]
+[persist.vivo.audio.feature.encoder.lowpowerScreenRecord.enable]: [true]
+[persist.vivo.audio.feature.extended_ring_level.enable]: [true]
+[persist.vivo.audio.feature.extended_volume_level.enable]: [true]
+[persist.vivo.audio.feature.firstboot.timems]: [1783285980673]
+[persist.vivo.audio.feature.focus.abandonevent.max_delay.timems]: [20]
+[persist.vivo.audio.feature.focus.intercept.requestfocus.timems]: [100]
+[persist.vivo.audio.feature.focus.longplay.mintimems]: [180000]
+[persist.vivo.audio.feature.focus.playdetection.max_delay.timems]: [3000]
+[persist.vivo.audio.feature.focus.shortplay.maxtimems]: [180000]
+[persist.vivo.audio.feature.focus.togetherplay.timems]: [110]
+[persist.vivo.audio.feature.game_custom_sound_effect.enable]: [true]
+[persist.vivo.audio.feature.game_custom_sound_effect_default_status.enable]: [false]
+[persist.vivo.audio.feature.game_custom_sound_effect_enhancement.enable]: [true]
+[persist.vivo.audio.feature.game_custom_sound_effect_spatializer.enable]: [true]
+[persist.vivo.audio.feature.game_guide_assistant.enable]: [true]
+[persist.vivo.audio.feature.game_guide_assistant.volume]: [60]
+[persist.vivo.audio.feature.game_hangup.enable]: [true]
+[persist.vivo.audio.feature.gamevoiprx_lowlatency.mtk.enable]: [true]
+[persist.vivo.audio.feature.haptic.support]: [true]
+[persist.vivo.audio.feature.hires.enable]: [true]
+[persist.vivo.audio.feature.independ_adjust_assistant_volume_inBt.enable]: [true]
+[persist.vivo.audio.feature.individual.media.vol.enable]: [true]
+[persist.vivo.audio.feature.ktvmode.enable]: [true]
+[persist.vivo.audio.feature.leaktv.enable]: [true]
+[persist.vivo.audio.feature.learecording.enable]: [true]
+[persist.vivo.audio.feature.lite_anchor_log_upload.enable]: [false]
+[persist.vivo.audio.feature.lite_anchor_upload.days]: [90]
+[persist.vivo.audio.feature.livephoto.metrics.report.enable]: [true]
+[persist.vivo.audio.feature.livephoto.video.check.enable]: [true]
+[persist.vivo.audio.feature.livephoto.wc.enable]: [true]
+[persist.vivo.audio.feature.media_autoboost.enable]: [true]
+[persist.vivo.audio.feature.media_evaluation.imei.enable]: [false]
+[persist.vivo.audio.feature.mediametrics.anchor.debug.enable]: [false]
+[persist.vivo.audio.feature.mediametrics.anchor.enable]: [true]
+[persist.vivo.audio.feature.mediametrics.frequently.reportTHR.timems]: [180000]
+[persist.vivo.audio.feature.mediametrics.limitmemory]: [4294967296]
+[persist.vivo.audio.feature.mediametrics.playback.shorttoneTHR.timems]: [1000]
+[persist.vivo.audio.feature.mediametrics.reportanchor.maxrecords_number]: [200]
+[persist.vivo.audio.feature.mediametrics.service.anchor.enable]: [true]
+[persist.vivo.audio.feature.mediametrics.service.maxrecords_number]: [2000]
+[persist.vivo.audio.feature.mediametrics.vivoanalytics.maxrecords_number]: [2000]
+[persist.vivo.audio.feature.mediasession_blockads.enable]: [true]
+[persist.vivo.audio.feature.micinfo_vcode.enable]: [false]
+[persist.vivo.audio.feature.mistouchprevention_mediasession.enable]: [false]
+[persist.vivo.audio.feature.multiple_volumebar.enable]: [true]
+[persist.vivo.audio.feature.mute.configuration.wired_additional_mute_duration]: [70]
+[persist.vivo.audio.feature.mute.configuration.wired_additional_mute_wait]: [60]
+[persist.vivo.audio.feature.muteplay.closepa.time]: [3000]
+[persist.vivo.audio.feature.muteplay.closepa.type]: [1]
+[persist.vivo.audio.feature.muteplay_disablepa.enable]: [false]
+[persist.vivo.audio.feature.muteplay_disablepa_version2.enable]: [false]
+[persist.vivo.audio.feature.noincallsonification.enable]: [true]
+[persist.vivo.audio.feature.playback.mute.detection.timems]: [180000]
+[persist.vivo.audio.feature.playback.phonecall.unmute.timems]: [3500]
+[persist.vivo.audio.feature.playback.report.delay.timems]: [1500]
+[persist.vivo.audio.feature.playback.silencelike.interval.times]: [6]
+[persist.vivo.audio.feature.playback_silence.audiosuspend.solution]: [0]
+[persist.vivo.audio.feature.pre_start_bt.enable]: [true]
+[persist.vivo.audio.feature.record.touchevent.max_delay.timems]: [1000]
+[persist.vivo.audio.feature.record_silentmode.enable]: [true]
+[persist.vivo.audio.feature.recordevent_vcode.enable]: [true]
+[persist.vivo.audio.feature.restorevolume.enable]: [false]
+[persist.vivo.audio.feature.roi.filter.enable]: [true]
+[persist.vivo.audio.feature.sgame.voice.noisegate.enable]: [true]
+[persist.vivo.audio.feature.slientkey_mute_media_blacklist.enable]: [false]
+[persist.vivo.audio.feature.speaker_vcode.enable]: [false]
+[persist.vivo.audio.feature.speaker_vcode.report.max.count]: [3600]
+[persist.vivo.audio.feature.speaker_vcode.report.time.ms]: [86400000]
+[persist.vivo.audio.feature.speakeron.touchevent.max_delay.timems]: [300]
+[persist.vivo.audio.feature.speciallive.enable]: [true]
+[persist.vivo.audio.feature.spkbvm_vcode.enable]: [true]
+[persist.vivo.audio.feature.standby_disablepa.enable]: [false]
+[persist.vivo.audio.feature.standby_disablepa_version2.enable]: [false]
+[persist.vivo.audio.feature.support_headset_nxp.enable]: [true]
+[persist.vivo.audio.feature.support_lea_lossless_record.enable]: [true]
+[persist.vivo.audio.feature.systemrecordlatency.mtk]: [200]
+[persist.vivo.audio.feature.systemrecordlatency.qcom]: [200]
+[persist.vivo.audio.feature.systemrecordlatency.samsung]: [200]
+[persist.vivo.audio.feature.systemrecordratio]: [7]
+[persist.vivo.audio.feature.twsringtone.enable]: [false]
+[persist.vivo.audio.feature.uselowlatency.enable]: [false]
+[persist.vivo.audio.feature.uselowlatency.mtk.enable]: [true]
+[persist.vivo.audio.feature.uselowlatency.qcom.enable]: [true]
+[persist.vivo.audio.feature.usenxp.enable]: [true]
+[persist.vivo.audio.feature.vafx_eq.enable]: [true]
+[persist.vivo.audio.feature.vc.magic.voicer.version]: [3]
+[persist.vivo.audio.feature.vc.order.voicer.vc_vivo]: [-1,10,11,12,13,14,17,15,16]
+[persist.vivo.audio.feature.vc.order.voicer.vc_vivo_ai]: [-1,140,110,130,210,180,120,190,10,200,17,15,16]
+[persist.vivo.audio.feature.vc.order.voicer.vc_vmagic]: [-1,140,110,130,180,120,190,10,17,15,16]
+[persist.vivo.audio.feature.vcodeEvent_needReport]: [true]
+[persist.vivo.audio.feature.vdec.cpu.unbin.enable]: [true]
+[persist.vivo.audio.feature.vibrate.id.list.forAccessibilityStreamType]: [95,95,81,81,82,82,83,83,84,84,85,85,86,86,87,94]
+[persist.vivo.audio.feature.vibrate.id.list.forDefaultStreamType]: [95,81,81,82,82,83,83,84,84,85,85,86,86,87,87,94]
+[persist.vivo.audio.feature.vibrate.id.list.forScoStreamType]: [95,95,81,81,82,82,83,83,84,84,85,85,86,86,87,94]
+[persist.vivo.audio.feature.vibrate.id.list.forVoiceStreamType]: [95,95,81,82,83,84,85,86,87,88,94]
+[persist.vivo.audio.feature.video.VMBC.FileWatcher.enable]: [true]
+[persist.vivo.audio.feature.video.VMBC.enable]: [true]
+[persist.vivo.audio.feature.video.videobufferwatcher.enable]: [true]
+[persist.vivo.audio.feature.video_check_hwswdec.enable]: [true]
+[persist.vivo.audio.feature.vivo.img.fltflg]: [72]
+[persist.vivo.audio.feature.vivo.img.jqt]: [100]
+[persist.vivo.audio.feature.vivo.img.pcache]: [1]
+[persist.vivo.audio.feature.vivo.img.pdvs]: [4]
+[persist.vivo.audio.feature.vivo.img.pzl]: [0]
+[persist.vivo.audio.feature.vivo_multi_audio_focus.enable]: [true]
+[persist.vivo.audio.feature.vivo_multi_audio_focus.task_window.enable]: [false]
+[persist.vivo.audio.feature.vivo_spat_multi_channel.disable]: [false]
+[persist.vivo.audio.feature.vivobitmap_optimize.enable]: [true]
+[persist.vivo.audio.feature.vivomediaresource_get_activity.enable]: [true]
+[persist.vivo.audio.feature.vivomediaresource_killcpuhighload.enable]: [true]
+[persist.vivo.audio.feature.vivomediaresource_killer.enable]: [true]
+[persist.vivo.audio.feature.vivomediaresource_monitor.enable]: [true]
+[persist.vivo.audio.feature.voice_call_sar.enable]: [true]
+[persist.vivo.audio.feature.voip.ring_forcestop.delay.timems]: [180000]
+[persist.vivo.audio.feature.voip_bbkrecord.enable]: [true]
+[persist.vivo.audio.feature.volume.intercept.volumekey.timems]: [200]
+[persist.vivo.audio.feature.volume.touchevent.max_delay.timems]: [150]
+[persist.vivo.audio.feature.volume_adjuster.enable]: [true]
+[persist.vivo.audio.feature.volumebar_rebound_dynamic.enable]: [true]
+[persist.vivo.audio.feature.volumekey_vibrate.enable]: [true]
+[persist.vivo.audio.feature.wexin.chatting.force.sdr]: [true]
+[persist.vivo.audio.record.volumeproc.enable]: [true]
+[persist.vivo.battery_camera_open_state]: [0]
+[persist.vivo.battery_charge_limit]: [1]
+[persist.vivo.battery_health_curve]: [300]
+[persist.vivo.battery_health_support]: [1]
+[persist.vivo.bluetooth.turnon_by]: [unknow]
+[persist.vivo.bluetooth.turnon_package]: [unknow]
+[persist.vivo.border.mode.departure_status]: []
+[persist.vivo.border.mode.fence_view]: []
+[persist.vivo.border.mode.geo_fence_state]: [true]
+[persist.vivo.border.mode.in_car_state]: [false]
+[persist.vivo.border.mode.poi_view]: []
+[persist.vivo.bottom.light.count]: [0]
+[persist.vivo.bottom.ratio.count]: [0,0,0,0]
+[persist.vivo.bottom.section.count]: [0,0,0,0,0,0]
+[persist.vivo.bsptest_wifi_full_channel]: [0]
+[persist.vivo.buffers_count_control]: [2]
+[persist.vivo.calling_state]: [0]
+[persist.vivo.career_netacc_eachuid_toast]: [false]
+[persist.vivo.carmode.support]: [1]
+[persist.vivo.charge.logo]: [1]
+[persist.vivo.charge.version]: [3]
+[persist.vivo.charge_capacity_up_limit_support]: [1]
+[persist.vivo.charging_power_max]: [120]
+[persist.vivo.check_fast_charge]: [1]
+[persist.vivo.clock.alarm_status]: [off]
+[persist.vivo.compass.no_return]: [true]
+[persist.vivo.cota.cust1]: [N]
+[persist.vivo.cota.cust2]: [N]
+[persist.vivo.cota.notice.display]: [0]
+[persist.vivo.cota.status]: []
+[persist.vivo.crontab.boot]: [false]
+[persist.vivo.cts.adb.enable]: [no]
+[persist.vivo.cts.check.enable]: [no]
+[persist.vivo.device_max_ratio]: [2.22]
+[persist.vivo.dex2oat64.enable]: [true]
+[persist.vivo.directional_playback]: [true]
+[persist.vivo.disable.cngms]: [yes]
+[persist.vivo.disable_charge_support]: [1]
+[persist.vivo.disable_chg_switch]: [1]
+[persist.vivo.display.high_contrast_text]: [true]
+[persist.vivo.displayic.name]: [iQOO0301]
+[persist.vivo.displayic.ver]: [iQOO0301_DPIC1.0_Q2.0]
+[persist.vivo.displayp3.support]: [1]
+[persist.vivo.dpdt.receiver_lock_down]: [1]
+[persist.vivo.dpdt.testsim_lock_down]: [1]
+[persist.vivo.dualwifi.uniformity]: [1]
+[persist.vivo.dualwifi.version]: [3]
+[persist.vivo.durationtime.Bootloader]: [6]
+[persist.vivo.durationtime.RestoreconData]: [0]
+[persist.vivo.dyn.lastversion]: [PD2425_A_16.1.17.10.W10]
+[persist.vivo.dyn.name]: [NULL]
+[persist.vivo.enable_equalizing_charge]: [1]
+[persist.vivo.enable_equalizing_charge_from_keyguard]: [1]
+[persist.vivo.enable_fast_charge]: [1]
+[persist.vivo.equalizing_charge_support]: [1]
+[persist.vivo.ex.count.acc]: [180,0,0,0,180,0,0,0,957,0,0,0]
+[persist.vivo.ex.count.light]: [48,0,0,0,48,0,0,0,305,0,0,0]
+[persist.vivo.ex.count.motion]: [1,0,0,0,1,0,0,0,1,0,0,0]
+[persist.vivo.ex.count.prox]: [41,0,0,0,41,0,0,0,531,0,0,0]
+[persist.vivo.face.reboot]: [user]
+[persist.vivo.findphone.state]: [1]
+[persist.vivo.finger.reboot]: [user]
+[persist.vivo.fingerprint.front]: [true]
+[persist.vivo.fixgroup.workaround]: [1]
+[persist.vivo.flow.detect.count]: [0,0,0,0,0,0]
+[persist.vivo.flow.enable.count]: [180,61,13,48,0,5]
+[persist.vivo.freeform_peak_profile_thermal]: [true]
+[persist.vivo.fuzzy.support]: [true]
+[persist.vivo.fuzzy.support.clone]: [true]
+[persist.vivo.game_bypass_charge_flag]: [0]
+[persist.vivo.game_bypass_charge_support]: [1]
+[persist.vivo.gamecast.id]: [2403d593f4]
+[persist.vivo.gamecube.kpl.support]: [1]
+[persist.vivo.gamecube.support_ai_strategy]: [true]
+[persist.vivo.gamecube.support_fps]: [1]
+[persist.vivo.gcdelay.support]: [true]
+[persist.vivo.gesture.overlay.height]: [18]
+[persist.vivo.ggst.enable_0]: [yes]
+[persist.vivo.ggst.installd_0]: [yes]
+[persist.vivo.grab_ticket.support]: [true]
+[persist.vivo.huname]: []
+[persist.vivo.initial_system_time_millis]: [1737709512845]
+[persist.vivo.install.account.verify]: [0]
+[persist.vivo.install.recommend]: [0]
+[persist.vivo.intell_scene]: [0]
+[persist.vivo.jovi_in_copilot]: [2]
+[persist.vivo.jovicarmode.support]: [1]
+[persist.vivo.jpark.location]: [true]
+[persist.vivo.karaoke.enable]: [true]
+[persist.vivo.last_mode_notify_flag]: [1]
+[persist.vivo.last_mode_support]: [1]
+[persist.vivo.limit_charge_support]: [1]
+[persist.vivo.lock.fail]: [-1]
+[persist.vivo.lockscreen.disable.reset]: [false]
+[persist.vivo.lra.stepless]: [1]
+[persist.vivo.lss.pwd_setting]: [false]
+[persist.vivo.magscreenOn_cali]: [false]
+[persist.vivo.motion_raise2wake]: [enable]
+[persist.vivo.needInstallForSubUser]: [no]
+[persist.vivo.netlock]: [CTCC_CMCC_UNICOM]
+[persist.vivo.network.fuse]: [true]
+[persist.vivo.new_three_finger_gesture]: [true]
+[persist.vivo.nfc.silentdownload]: [0]
+[persist.vivo.notification_show_tips]: [false]
+[persist.vivo.nrtservice]: [false]
+[persist.vivo.on_demand_dexopt.support]: [true]
+[persist.vivo.on_demand_dexopt.version]: [1]
+[persist.vivo.onlineIcon.launcherSwitch]: [1]
+[persist.vivo.panel.calibration]: [5]
+[persist.vivo.pdp.recovery.support.aie]: [1]
+[persist.vivo.perm.init]: [true]
+[persist.vivo.phone.fps_default]: [1]
+[persist.vivo.phone.fps_max]: [120]
+[persist.vivo.phone.hbm_level]: [0]
+[persist.vivo.phone.otg_param]: [5]
+[persist.vivo.phone.panel_gray_limit]: [0]
+[persist.vivo.phone.panel_max_nit]: [800]
+[persist.vivo.phone.panel_type]: [Amoled]
+[persist.vivo.phone.screen_size]: [60]
+[persist.vivo.phone.super_lcd]: [false]
+[persist.vivo.phone.usb_otg]: [Have_otg_usbc]
+[persist.vivo.phone.vivo_promotion]: [1]
+[persist.vivo.phone.wfd]: [Have_wfd]
+[persist.vivo.phone.zero_gray]: [true]
+[persist.vivo.pkg.mismatch]: [false]
+[persist.vivo.preParse.ver]: [2]
+[persist.vivo.preUUpgrade]: [false]
+[persist.vivo.preanimation_opt]: [true]
+[persist.vivo.product.cust]: [N]
+[persist.vivo.product.series]: [IQOO]
+[persist.vivo.profileinstaller.enable]: [true]
+[persist.vivo.push.version]: [5]
+[persist.vivo.qos.activity.control.support]: [false]
+[persist.vivo.qos.app.bigdata.support]: [true]
+[persist.vivo.qos.appstart.cpufreq.support]: [true]
+[persist.vivo.qos.appstart.pid]: [-1]
+[persist.vivo.qos.cgroup.limit.gallery.support]: [false]
+[persist.vivo.qos.downprestartapp]: [true]
+[persist.vivo.qos.gamehangup.support]: [true]
+[persist.vivo.qos.prestartapp]: [true]
+[persist.vivo.qos.setthredrt.support]: [true]
+[persist.vivo.qos.startapp.boost]: [true]
+[persist.vivo.qos.support]: [true]
+[persist.vivo.qos.ui.first]: [true]
+[persist.vivo.qos.uiswitch.support]: [true]
+[persist.vivo.radio.type.abbr]: [A]
+[persist.vivo.radio.type.list]: [TDD-LTE,FDD-LTE,CDMA2000,WCDMA,GSM]
+[persist.vivo.rendering_big_data]: [true]
+[persist.vivo.rgb.shot.count]: [3796]
+[persist.vivo.scroll_opt]: [true]
+[persist.vivo.sdc.call.proximity]: [0_0_0_0_0_0_0_0_0_0_0_0_0_0]
+[persist.vivo.sdc.motion.count]: [0-0-0-0-0-0-0-0]
+[persist.vivo.sdc.prox.cover]: [0_0_0_0]
+[persist.vivo.sdc.sar.invalid]: [0_0]
+[persist.vivo.sensor.crash_count]: [null]
+[persist.vivo.sensor.last_crash_count]: [null]
+[persist.vivo.service.model]: [1]
+[persist.vivo.sessionage.enable]: [yes]
+[persist.vivo.setalpha_async_support]: [true]
+[persist.vivo.sf.support]: [true]
+[persist.vivo.sf.systemapp]: [true]
+[persist.vivo.show_battery_time]: [0]
+[persist.vivo.smartkey.enable]: [true]
+[persist.vivo.softap.maxsta]: [10]
+[persist.vivo.sr.onlinesetting]: [false]
+[persist.vivo.supDowngrade]: [yes]
+[persist.vivo.supHideApps]: [3]
+[persist.vivo.supHybrid]: [v1]
+[persist.vivo.support.cgroup_freeze]: [true]
+[persist.vivo.support.deeppress]: [0]
+[persist.vivo.support.displayic]: [nt72325]
+[persist.vivo.support.double_pay_nonnfc]: [1]
+[persist.vivo.support.dualwifi]: [yes]
+[persist.vivo.support.freeze_fgapp]: [true]
+[persist.vivo.support.gamelib]: [true]
+[persist.vivo.support.gamelib.newupgrade]: [true]
+[persist.vivo.support.gamelib.temp_path]: [/data/vivo-common/gamelib/com_vivo_gamelib_GameLib.zip]
+[persist.vivo.support.iroaming.panel]: [1]
+[persist.vivo.support.lra]: [1]
+[persist.vivo.support.picture_stability_opt]: [true]
+[persist.vivo.support.sound.vibrate]: [1]
+[persist.vivo.support.triplewifi]: [no]
+[persist.vivo.support.wallet.icon]: [true]
+[persist.vivo.support.zygote]: [0]
+[persist.vivo.systemunlock.version]: [1]
+[persist.vivo.temp_color.b]: [1.00]
+[persist.vivo.temp_color.g]: [1.00]
+[persist.vivo.temp_color.r]: [1.00]
+[persist.vivo.top.light.count]: [0]
+[persist.vivo.top.ratio.count]: [0,0,0,0]
+[persist.vivo.top.section.count]: [0,0,0,0,0,0]
+[persist.vivo.tts_state]: [0]
+[persist.vivo.ui_battery_capacity_value]: [91]
+[persist.vivo.usbdbgd]: [1]
+[persist.vivo.vchg_network_set_time]: [1_1793954532806]
+[persist.vivo.vgc.lastversion]: [16.1.1]
+[persist.vivo.vivo_daemon]: [3.1.1]
+[persist.vivo.voicewakeup.chip.type]: [qcom_aidl]
+[persist.vivo.voicewakeup.solution.type]: [chip]
+[persist.vivo.vspservice]: [0]
+[persist.vivo.vturbo.netqos_support]: [true]
+[persist.vivo.wallet.nfc_card_count]: [0]
+[persist.vivo.wechat.count.info]: [0_0_0_0]
+[persist.vivo.weixin_calling_state]: [0]
+[persist.vivo.wifi.tcp.parameter.enable]: [true]
+[persist.vivo.wifimacrandom]: [true]
+[persist.wm.extensions.enabled]: [true]
+[pm.dexopt.ab-ota]: [speed-profile]
+[pm.dexopt.bg-dexopt]: [speed-profile]
+[pm.dexopt.boot-after-mainline-update]: [verify]
+[pm.dexopt.boot-after-ota]: [verify]
+[pm.dexopt.cmdline]: [verify]
+[pm.dexopt.first-boot]: [verify]
+[pm.dexopt.inactive]: [verify]
+[pm.dexopt.install]: [speed-profile]
+[pm.dexopt.install-bulk]: [speed-profile]
+[pm.dexopt.install-bulk-downgraded]: [verify]
+[pm.dexopt.install-bulk-secondary]: [verify]
+[pm.dexopt.install-bulk-secondary-downgraded]: [verify]
+[pm.dexopt.install-fast]: [skip]
+[pm.dexopt.post-boot]: [verify]
+[pm.dexopt.shared]: [speed]
+[qcom.hw.aac.encoder]: [true]
+[qemu.hw.mainkeys.vivo]: [0]
+[remote_provisioning.enable_rkpd]: [true]
+[remote_provisioning.hostname]: [remoteprovisioning.googleapis.com]
+[ril.ecclist]: [112,120,119,08,118,999,*911,000,911,122,110,#911]
+[ril.ecclist1]: [999,08,118,119,120,000,911,122,*911,110,#911,112]
+[ril.multisim.voice_capability]: [3]
+[ril.pdp.end.cause]: []
+[ril.subscription.types]: [NV,RUIM]
+[ril.vmdri.start_count]: [1]
+[rild.libpath]: [/vendor/lib64/libril-qc-hal-qmi.so]
+[ro.actionable_compatible_property.enabled]: [true]
+[ro.adb.secure]: [1]
+[ro.allow.mock.location]: [0]
+[ro.apex.updatable]: [true]
+[ro.appsearch.feature.enable_isolated_storage]: []
+[ro.art.hiddenapi.warning]: [0]
+[ro.baseband]: [msm]
+[ro.bluetooth.library_name]: [libbluetooth_qti.so]
+[ro.board.api_level]: [34]
+[ro.board.bbk]: [MA]
+[ro.board.first_api_level]: [34]
+[ro.board.platform]: [pineapple]
+[ro.boot.anti.avb_anti_ver]: [0]
+[ro.boot.avb_pk_hash]: [0101c4de646dbe072cd3813b66d3b3d8fe4c7d11]
+[ro.boot.avb_version]: [1.2]
+[ro.boot.baseband]: [msm]
+[ro.boot.boot_devices]: [soc/1d84000.ufshc]
+[ro.boot.bootdevice]: [1d84000.ufshc]
+[ro.boot.bootreason]: [shutdown,userrequested]
+[ro.boot.device.authstate]: [no]
+[ro.boot.dpcfg]: [sm8650]
+[ro.boot.dtb_idx]: [4]
+[ro.boot.dtbo_idx]: [2]
+[ro.boot.dynamic_partitions]: [true]
+[ro.boot.facid]: [CQ]
+[ro.boot.facid_check]: [check_ok]
+[ro.boot.flash.locked]: [1]
+[ro.boot.force_normal_boot]: [0]
+[ro.boot.fstab_suffix]: [default]
+[ro.boot.hardware]: [qcom]
+[ro.boot.hardware.cpu.pagesize]: [4096]
+[ro.boot.keymaster]: [1]
+[ro.boot.label_time]: [202412222343]
+[ro.boot.load_modules_parallel]: [true]
+[ro.boot.memcg]: [1]
+[ro.boot.oem_name]: [PD2425_CN-ZH_FULL_SC_NULL]
+[ro.boot.product.hardware.sku]: [null]
+[ro.boot.product.vendor.sku]: [pineapple]
+[ro.boot.rpmb_status]: [1]
+[ro.boot.secureboot_enable]: [1]
+[ro.boot.securebootkey]: [qcom_lanai]
+[ro.boot.securebootkeyhash]: [8a1bb2d4d76e8685f2a782b53fc6090aba88441c7a4c5740740756aec346fb8a]
+[ro.boot.securebootkeyver]: [8]
+[ro.boot.serialno]: [10CECN1X35000N5]
+[ro.boot.slot_suffix]: [_a]
+[ro.boot.usbcontroller]: [a600000.dwc3]
+[ro.boot.vbmeta.avb_version]: [1.2]
+[ro.boot.vbmeta.device]: [PARTUUID=b0b4014f-6195-39af-02cc-3181a6dceebd]
+[ro.boot.vbmeta.device_state]: [locked]
+[ro.boot.vbmeta.digest]: [407e81b288b8da37151045bf01b66cc2bdb13b88f9efd3929bf8ea11ca8221fe]
+[ro.boot.vbmeta.hash_alg]: [sha256]
+[ro.boot.vbmeta.size]: [26752]
+[ro.boot.vc.magic]: [none]
+[ro.boot.vendor.qspa]: [true]
+[ro.boot.vendor.qspa.audio]: [enabled]
+[ro.boot.vendor.qspa.camera]: [enabled]
+[ro.boot.vendor.qspa.comp]: [enabled]
+[ro.boot.vendor.qspa.comp1]: [enabled]
+[ro.boot.vendor.qspa.display]: [enabled]
+[ro.boot.vendor.qspa.display1]: [enabled]
+[ro.boot.vendor.qspa.eva]: [enabled]
+[ro.boot.vendor.qspa.gpu]: [enabled]
+[ro.boot.vendor.qspa.modem]: [enabled]
+[ro.boot.vendor.qspa.nav]: [enabled]
+[ro.boot.vendor.qspa.npu]: [enabled]
+[ro.boot.vendor.qspa.nsp]: [enabled]
+[ro.boot.vendor.qspa.sensors]: [enabled]
+[ro.boot.vendor.qspa.spss]: [enabled]
+[ro.boot.vendor.qspa.video]: [enabled]
+[ro.boot.vendor.qspa.wlan]: [enabled]
+[ro.boot.verifiedbootstate]: [green]
+[ro.boot.veritymode]: [enforcing]
+[ro.boot.vivo.devcfg_type]: [0]
+[ro.bootimage.build.date]: [Thu Sep 17 17:48:06 CST 2026]
+[ro.bootimage.build.date.utc]: [1789638486]
+[ro.bootimage.build.fingerprint]: [vivo/PD2425/PD2425:14/UP1A.231005.007/compiler260917174806:user/release-keys]
+[ro.bootimage.build.id]: [UP1A.231005.007]
+[ro.bootimage.build.tags]: [release-keys]
+[ro.bootimage.build.type]: [user]
+[ro.bootimage.build.version.incremental]: [compiler260917174806]
+[ro.bootimage.build.version.release]: [14]
+[ro.bootimage.build.version.release_or_codename]: [14]
+[ro.bootimage.build.version.sdk]: [34]
+[ro.bootloader]: [unknown]
+[ro.bootmode]: [unknown]
+[ro.build.ab_update]: [true]
+[ro.build.artpp.profile_version]: [015]
+[ro.build.artpp.support]: [true]
+[ro.build.artpp.versioncode]: [1]
+[ro.build.backported_fixes.alias_bitset.long_list]: [18]
+[ro.build.characteristics]: [default]
+[ro.build.date]: [Thu Sep 17 17:48:06 CST 2026]
+[ro.build.date.utc]: [1789638486]
+[ro.build.description]: [PD2425-user 16 BP2A.250605.031.A3_V000L1 compiler260917174806 release-keys]
+[ro.build.display.id]: [PD2425_A_16.1.17.10.W10]
+[ro.build.feature.softsim]: [yes]
+[ro.build.fingerprint]: [vivo/PD2425/PD2425:16/BP2A.250605.031.A3_V000L1/compiler260917174806:user/release-keys]
+[ro.build.flavor]: [qssi-user]
+[ro.build.host]: [comdg01150013]
+[ro.build.id]: [BP2A.250605.031.A3_V000L1]
+[ro.build.netaccess.version]: [PD2425_A_16.1.17.10.W10]
+[ro.build.oem.projects]: [PD2425 PD2425B PD2425C PD2425D PD2425E]
+[ro.build.product]: [qssi]
+[ro.build.representative.fingerprint]: [vivo/PD2425/PD2425:16/BP2A.250605.031.A3_V000L1/compiler260917174806:user/release-keys]
+[ro.build.software.version]: [PD2425_A_16.1.17.10.W10]
+[ro.build.tags]: [release-keys]
+[ro.build.type]: [user]
+[ro.build.use_legacy_signer]: [no]
+[ro.build.user]: [compiler]
+[ro.build.version.all_codenames]: [REL]
+[ro.build.version.base_os]: []
+[ro.build.version.bbk]: [PD2425_A_16.1.17.10.W10.V000L1]
+[ro.build.version.codename]: [REL]
+[ro.build.version.group]: [V2.0]
+[ro.build.version.incremental]: [compiler260917174806]
+[ro.build.version.known_codenames]: [Base,Base11,Cupcake,Donut,Eclair,Eclair01,EclairMr1,Froyo,Gingerbread,GingerbreadMr1,Honeycomb,HoneycombMr1,HoneycombMr2,IceCreamSandwich,IceCreamSandwichMr1,JellyBean,JellyBeanMr1,JellyBeanMr2,Kitkat,KitkatWatch,Lollipop,LollipopMr1,M,N,NMr1,O,OMr1,P,Q,R,S,Sv2,Tiramisu,UpsideDownCake,VanillaIceCream,Baklava]
+[ro.build.version.min_supported_target_sdk]: [28]
+[ro.build.version.preview_sdk]: [0]
+[ro.build.version.preview_sdk_fingerprint]: [REL]
+[ro.build.version.release]: [16]
+[ro.build.version.release_or_codename]: [16]
+[ro.build.version.release_or_preview_display]: [16]
+[ro.build.version.sdk]: [36]
+[ro.build.version.sdk_full]: [36.0]
+[ro.build.version.security_patch]: [2026-07-01]
+[ro.camera.disableHeicUltraHDR]: [true]
+[ro.camera.enableCamera1MaxZsl]: [1]
+[ro.camerax.extensions.enabled]: [true]
+[ro.carrier]: [unknown]
+[ro.cm.feature]: [0x0000001F]
+[ro.com.android.dataroaming]: [false]
+[ro.com.baidu.searchbox]: [data/yzfswj/another/]
+[ro.com.google.clientidbase]: [android-vivo]
+[ro.com.google.gmsversion]: [16_202507]
+[ro.config.alarm_alert]: [New_world.ogg]
+[ro.config.alarm_component_sound]: [/system/media/audio/ui/success.ogg]
+[ro.config.battery_sound2]: [/system/media/audio/ui/LowBattery2.ogg]
+[ro.config.calendar_sound]: [Arrangement.ogg]
+[ro.config.delete_sound]: [/system/media/audio/ui/global_delete.ogg]
+[ro.config.isolated_compilation_enabled]: [true]
+[ro.config.message_sound]: [Fresh.ogg]
+[ro.config.musicplayer_close]: [/system/media/audio/ui/MusicPlayer_close.ogg]
+[ro.config.musicplayer_open]: [/system/media/audio/ui/MusicPlayer_open.ogg]
+[ro.config.notification_sound]: [Encounter.ogg]
+[ro.config.ringtone]: [Newborn.ogg]
+[ro.config.superx_a_sound]: [/system/media/audio/ui/SuperX_a.ogg]
+[ro.config.superx_b_sound]: [/system/media/audio/ui/SuperX_b.ogg]
+[ro.control_privapp_permissions]: [enforce]
+[ro.crypto.metadata.enabled]: [true]
+[ro.crypto.metadata.mount_fstab]: [1]
+[ro.crypto.metadata_init_delete_all_keys.enabled]: [true]
+[ro.crypto.state]: [encrypted]
+[ro.crypto.type]: [file]
+[ro.dalvik.vm.enable_uffd_gc]: [false]
+[ro.dalvik.vm.native.bridge]: [0]
+[ro.debuggable]: [0]
+[ro.dp.level]: [2]
+[ro.factory.adb_flag]: [no]
+[ro.factory.authorized]: [0]
+[ro.factory.bbk_dp]: [0]
+[ro.force.debuggable]: [0]
+[ro.frp.pst]: [/dev/block/bootdevice/by-name/frp]
+[ro.fuse.bpf.is_running]: [true]
+[ro.gfx.driver.1]: [com.qualcomm.qti.gpudrivers.pineapple.api34]
+[ro.hardware]: [qcom]
+[ro.hardware.bbk]: [PD2425MA]
+[ro.hardware.egl]: [adreno]
+[ro.hardware.keystore_desede]: [true]
+[ro.hardware.nfc_nci]: [SN100x]
+[ro.hardware.vulkan]: [adreno]
+[ro.hw.vivo.access_mac]: [no]
+[ro.hwui.drop_shadow_cache_size]: [6]
+[ro.hwui.gradient_cache_size]: [1]
+[ro.hwui.layer_cache_size]: [48]
+[ro.hwui.path_cache_size]: [32]
+[ro.hwui.r_buffer_cache_size]: [8]
+[ro.hwui.text_large_cache_height]: [1024]
+[ro.hwui.text_large_cache_width]: [2048]
+[ro.hwui.text_small_cache_height]: [1024]
+[ro.hwui.text_small_cache_width]: [1024]
+[ro.hwui.texture_cache_flushrate]: [0.4]
+[ro.hwui.texture_cache_size]: [72]
+[ro.hwui.use_vulkan]: []
+[ro.imei_match.status]: [check_ok]
+[ro.kernel.qemu.gles]: [0]
+[ro.kernel.version]: [6.1]
+[ro.launcher.blur.appLaunch]: [0]
+[ro.llndk.api_level]: [202504]
+[ro.lmk.kill_heaviest_task]: [true]
+[ro.lmk.use_minfree_levels]: [false]
+[ro.logd.size.main]: [4096K]
+[ro.logd.size.radio]: [1024K]
+[ro.logd.size.stats]: [64K]
+[ro.logd.size.system]: [4096K]
+[ro.media.recorder-max-base-layer-fps]: [60]
+[ro.media.xml_variant.codecs]: [_pineapple]
+[ro.media.xml_variant.codecs_performance]: [_pineapple]
+[ro.mediaserver.64b.enable]: [true]
+[ro.netflix.bsp_rev]: [Q8650-37577-1]
+[ro.nfc.port]: [I2C]
+[ro.odm.build.date]: [Thu Sep 17 17:48:06 CST 2026]
+[ro.odm.build.date.utc]: [1789638486]
+[ro.odm.build.fingerprint]: [vivo/PD2425/PD2425:14/UP1A.231005.007/compiler260917174806:user/release-keys]
+[ro.odm.build.media_performance_class]: [0]
+[ro.odm.build.version.incremental]: [compiler260917174806]
+[ro.opa.eligible_device]: [true]
+[ro.opengles.version]: [196610]
+[ro.partition_country_super]: [13421772800]
+[ro.postinstall.fstab.prefix]: [/system]
+[ro.preinstall.path]: [/data/yzfswj/another/]
+[ro.preload.cust.version]: [preload_PD2425_1.58]
+[ro.preload.prop]: [test]
+[ro.product.ab_ota_partitions]: [abl,aop,aop_config,bluetooth,boot,cpucp,cpucp_dtb,devcfg,dsp,dtbo,featenabler,hyp,imagefv,init_boot,keymaster,modem,multiimgoem,multiimgqti,odm,oem,product,pvmfw,qupfw,recovery,shrm,spuservice,storage,system,system_dlkm,system_ext,tz,uefi,uefisecapp,vbmeta,vbmeta_oem,vbmeta_system,vbmeta_vgc,vendor,vendor_boot,vendor_dlkm,vgc,vm-bootsys,xbl,xbl_config,xbl_ramdump]
+[ro.product.board]: [pineapple]
+[ro.product.bootimage.brand]: [vivo]
+[ro.product.bootimage.device]: [PD2425]
+[ro.product.bootimage.manufacturer]: [vivo]
+[ro.product.bootimage.model]: [V2425A]
+[ro.product.bootimage.name]: [PD2425]
+[ro.product.brand]: [vivo]
+[ro.product.brand_for_attestation]: [vivo]
+[ro.product.build.date]: [Thu Sep 17 17:48:06 CST 2026]
+[ro.product.build.date.utc]: [1789638486]
+[ro.product.build.fingerprint]: [vivo/PD2425/PD2425:16/BP2A.250605.031.A3/compiler260917174806:user/release-keys]
+[ro.product.build.id]: [BP2A.250605.031.A3]
+[ro.product.build.tags]: [release-keys]
+[ro.product.build.type]: [user]
+[ro.product.build.version.incremental]: [compiler260917174806]
+[ro.product.build.version.release]: [16]
+[ro.product.build.version.release_or_codename]: [16]
+[ro.product.build.version.sdk]: [36]
+[ro.product.build.version.sdk_full]: [36.0]
+[ro.product.country.region]: [CN-ZH]
+[ro.product.cpu.abi]: [arm64-v8a]
+[ro.product.cpu.abilist]: [arm64-v8a]
+[ro.product.cpu.abilist32]: []
+[ro.product.cpu.abilist64]: [arm64-v8a]
+[ro.product.cpu.pagesize.max]: [4096]
+[ro.product.customize.bbk]: [N]
+[ro.product.customize.comercial]: [NULL]
+[ro.product.device]: [PD2425]
+[ro.product.device_for_attestation]: [PD2425]
+[ro.product.dmtklog]: [true]
+[ro.product.first_api_level]: [35]
+[ro.product.locale]: [zh-CN]
+[ro.product.manufacturer]: [vivo]
+[ro.product.manufacturer_for_attestation]: [vivo]
+[ro.product.model]: [V2425A]
+[ro.product.model.bbk]: [PD2425]
+[ro.product.model_for_attestation]: [V2425A]
+[ro.product.name]: [PD2425]
+[ro.product.name_for_attestation]: [PD2425]
+[ro.product.net.entry.bbk]: [no]
+[ro.product.odm.brand]: [vivo]
+[ro.product.odm.device]: [PD2425]
+[ro.product.odm.manufacturer]: [vivo]
+[ro.product.odm.model]: [V2425A]
+[ro.product.odm.name]: [PD2425]
+[ro.product.product.brand]: [vivo]
+[ro.product.product.device]: [PD2425]
+[ro.product.product.manufacturer]: [vivo]
+[ro.product.product.model]: [V2425A]
+[ro.product.product.name]: [PD2425]
+[ro.product.system.brand]: [vivo]
+[ro.product.system.device]: [PD2425]
+[ro.product.system.manufacturer]: [vivo]
+[ro.product.system.model]: [V2425A]
+[ro.product.system.name]: [PD2425]
+[ro.product.system_dlkm.brand]: [vivo]
+[ro.product.system_dlkm.device]: [PD2425]
+[ro.product.system_dlkm.manufacturer]: [vivo]
+[ro.product.system_dlkm.model]: [V2425A]
+[ro.product.system_dlkm.name]: [PD2425]
+[ro.product.system_ext.brand]: [vivo]
+[ro.product.system_ext.device]: [qssi]
+[ro.product.system_ext.manufacturer]: [vivo]
+[ro.product.system_ext.model]: [vivo]
+[ro.product.system_ext.name]: [qssi]
+[ro.product.upgrade.level]: [1.2]
+[ro.product.vendor.brand]: [vivo]
+[ro.product.vendor.device]: [PD2425]
+[ro.product.vendor.manufacturer]: [vivo]
+[ro.product.vendor.model]: [V2425A]
+[ro.product.vendor.name]: [PD2425]
+[ro.product.vendor_dlkm.brand]: [vivo]
+[ro.product.vendor_dlkm.device]: [PD2425]
+[ro.product.vendor_dlkm.manufacturer]: [vivo]
+[ro.product.vendor_dlkm.model]: [V2425A]
+[ro.product.vendor_dlkm.name]: [PD2425]
+[ro.product.vivo.32_bit_support]: [true]
+[ro.product.vivo.art2]: [true]
+[ro.property_service.version]: [2]
+[ro.revision]: [0]
+[ro.secure]: [1]
+[ro.serialno]: [10CECN1X35000N5]
+[ro.sf.lcd_density]: [560]
+[ro.soc.manufacturer]: [QTI]
+[ro.soc.model]: [SM8650]
+[ro.surface_flinger.clear_slots_with_set_layer_buffer]: [false]
+[ro.surface_flinger.force_hwc_copy_for_virtual_displays]: [true]
+[ro.surface_flinger.game_default_frame_rate_override]: [60]
+[ro.surface_flinger.has_HDR_display]: [true]
+[ro.surface_flinger.has_wide_color_display]: [true]
+[ro.surface_flinger.max_frame_buffer_acquired_buffers]: [3]
+[ro.surface_flinger.max_virtual_display_dimension]: [4096]
+[ro.surface_flinger.protected_contents]: [true]
+[ro.surface_flinger.set_touch_timer_ms]: [200]
+[ro.surface_flinger.supports_background_blur]: [1]
+[ro.surface_flinger.use_color_management]: [true]
+[ro.surface_flinger.use_content_detection_for_refresh_rate]: [true]
+[ro.surface_flinger.wcg_composition_dataspace]: [143261696]
+[ro.sys.vivo.first.mass.production]: [yes]
+[ro.sys.vivo.isEnableVspService]: [true]
+[ro.sys.vivo.otaEnablePostinstall]: [false]
+[ro.sys.vivo.otaPackageEnablePostinstall]: [true]
+[ro.system.build.date]: [Thu Sep 17 17:48:06 CST 2026]
+[ro.system.build.date.utc]: [1789638486]
+[ro.system.build.fingerprint]: [vivo/PD2425/PD2425:16/BP2A.250605.031.A3/compiler260917174806:user/release-keys]
+[ro.system.build.id]: [BP2A.250605.031.A3]
+[ro.system.build.tags]: [release-keys]
+[ro.system.build.type]: [user]
+[ro.system.build.version.incremental]: [compiler260917174806]
+[ro.system.build.version.release]: [16]
+[ro.system.build.version.release_or_codename]: [16]
+[ro.system.build.version.sdk]: [36]
+[ro.system.build.version.sdk_full]: [36.0]
+[ro.system.vivo.feature.nr]: [true]
+[ro.system.vivo.operator.sv.number]: [49]
+[ro.system_dlkm.build.date]: [Thu Sep 17 17:48:06 CST 2026]
+[ro.system_dlkm.build.date.utc]: [1789638486]
+[ro.system_dlkm.build.fingerprint]: [vivo/PD2425/PD2425:14/UP1A.231005.007/compiler260917174806:user/release-keys]
+[ro.system_dlkm.build.id]: [UP1A.231005.007]
+[ro.system_dlkm.build.tags]: [release-keys]
+[ro.system_dlkm.build.type]: [user]
+[ro.system_dlkm.build.version.incremental]: [compiler260917174806]
+[ro.system_dlkm.build.version.release]: [14]
+[ro.system_dlkm.build.version.release_or_codename]: [14]
+[ro.system_dlkm.build.version.sdk]: [34]
+[ro.system_ext.build.date]: [Thu Sep 17 17:48:06 CST 2026]
+[ro.system_ext.build.date.utc]: [1789638486]
+[ro.system_ext.build.description]: [qssi-user 16 BP2A.250605.031.A3 compiler260917174806 release-keys]
+[ro.system_ext.build.display.id]: [BP2A.250605.031.A3 release-keys]
+[ro.system_ext.build.fingerprint]: [vivo/PD2425/PD2425:16/BP2A.250605.031.A3/compiler260917174806:user/release-keys]
+[ro.system_ext.build.id]: [BP2A.250605.031.A3]
+[ro.system_ext.build.tags]: [release-keys]
+[ro.system_ext.build.type]: [user]
+[ro.system_ext.build.version.incremental]: [compiler260917174806]
+[ro.system_ext.build.version.release]: [16]
+[ro.system_ext.build.version.release_or_codename]: [16]
+[ro.system_ext.build.version.sdk]: [36]
+[ro.system_ext.build.version.sdk_full]: [36.0]
+[ro.telephony.call_ring.multiple]: [false]
+[ro.telephony.default_network]: [26,26]
+[ro.telephony.sim_slots.count]: [2]
+[ro.treble.enabled]: [true]
+[ro.vendor.api_level]: [34]
+[ro.vendor.beluga.c]: [0x4800]
+[ro.vendor.beluga.p]: [0x3]
+[ro.vendor.beluga.s]: [0x900]
+[ro.vendor.beluga.t]: [0x240]
+[ro.vendor.build.date]: [Thu Sep 17 17:48:06 CST 2026]
+[ro.vendor.build.date.utc]: [1789638486]
+[ro.vendor.build.fingerprint]: [vivo/PD2425/PD2425:14/UP1A.231005.007/compiler260917174806:user/release-keys]
+[ro.vendor.build.id]: [UP1A.231005.007]
+[ro.vendor.build.security_patch]: [2026-07-01]
+[ro.vendor.build.tags]: [release-keys]
+[ro.vendor.build.type]: [user]
+[ro.vendor.build.version.incremental]: [compiler260917174806]
+[ro.vendor.build.version.release]: [14]
+[ro.vendor.build.version.release_or_codename]: [14]
+[ro.vendor.build.version.sdk]: [34]
+[ro.vendor.display.cabl]: [0]
+[ro.vendor.display.sensortype]: [2]
+[ro.vendor.perf.scroll_opt]: [1]
+[ro.vendor.product.cpu.abilist]: [arm64-v8a]
+[ro.vendor.product.cpu.abilist32]: []
+[ro.vendor.product.cpu.abilist64]: [arm64-v8a]
+[ro.vendor.qti.va_aosp.support]: [1]
+[ro.vendor.qti.va_odm.support]: [1]
+[ro.vendor.vivo.hardware.color.management]: [1]
+[ro.vendor.vivo.hardware.color.management:enhance_mode_color_manage_off]: [true]
+[ro.vendor.vivo.hardware.color.management:global_p3]: [true]
+[ro.vendor.vivo.hardware.color.management:icon_force_to_srgb]: [false]
+[ro.vendor.vivo.hardware.color.management:is_support_zygote]: [1]
+[ro.vendor.vivo.hardware.color.management:version]: [2.0]
+[ro.vendor.vivo.hardware.color.management:vivo-support]: [1]
+[ro.vendor.vivo.hardware.display.xdr]: [1]
+[ro.vendor.vivo.hardware.display.xdr:hdrui]: [true]
+[ro.vendor.vivo.hardware.display.xdr:is_support_zygote]: [1]
+[ro.vendor.vivo.hardware.display.xdr:ultrahdrsyncbrightness]: [true]
+[ro.vendor.vivo.hardware.display.xdr:version]: [v3.0]
+[ro.vendor.vivo.hardware.display.xdr:vivo-support]: [1]
+[ro.vendor.vivo.hardware.display.xdr:xdr_switch_time]: [1000]
+[ro.vendor.vivo.software.adaptiveui]: [1]
+[ro.vendor.vivo.software.adaptiveui:is_support_zygote]: [1]
+[ro.vendor.vivo.software.adaptiveui:vivo-support]: [1]
+[ro.vendor.vivo.software.datatrafficmerged]: [1]
+[ro.vendor.vivo.software.datatrafficmerged:is_support_zygote]: [1]
+[ro.vendor.vivo.software.datatrafficmerged:vivo-support]: [1]
+[ro.vendor.vivo.software.datatrafficsubdivision]: [1]
+[ro.vendor.vivo.software.datatrafficsubdivision:is_support_zygote]: [1]
+[ro.vendor.vivo.software.datatrafficsubdivision:vivo-support]: [1]
+[ro.vendor.vivo.software.doubleinstance]: [1]
+[ro.vendor.vivo.software.doubleinstance:is_debug_enable]: [1]
+[ro.vendor.vivo.software.doubleinstance:is_doubleinstance_enable]: [1]
+[ro.vendor.vivo.software.doubleinstance:is_support_zygote]: [1]
+[ro.vendor.vivo.software.doubleinstance:vivo-support]: [1]
+[ro.vendor.vivo.software.favorite]: [1]
+[ro.vendor.vivo.software.favorite:is_support_zygote]: [1]
+[ro.vendor.vivo.software.favorite:show_person_data]: [true]
+[ro.vendor.vivo.software.favorite:vivo-support]: [1]
+[ro.vendor.vivo.software.globaltheme]: [1]
+[ro.vendor.vivo.software.globaltheme:is_support_zygote]: [1]
+[ro.vendor.vivo.software.globaltheme:vivo-support]: [1]
+[ro.vendor.vivo.software.network_analyser]: [1]
+[ro.vendor.vivo.software.network_analyser:is_support_zygote]: [1]
+[ro.vendor.vivo.software.network_analyser:vivo-support]: [1]
+[ro.vendor.vivo.software.nightmode]: [1]
+[ro.vendor.vivo.software.nightmode:is_support_zygote]: [1]
+[ro.vendor.vivo.software.nightmode:vivo-support]: [1]
+[ro.vendor.vivo.software.pem.alarm]: [1]
+[ro.vendor.vivo.software.pem.alarm:is_support_zygote]: [1]
+[ro.vendor.vivo.software.pem.alarm:vivo-support]: [1]
+[ro.vendor.vivo.software.pem.ddc]: [1]
+[ro.vendor.vivo.software.pem.ddc:is_support_zygote]: [1]
+[ro.vendor.vivo.software.pem.ddc:vivo-support]: [1]
+[ro.vendor.vivo.software.pem.frozen]: [1]
+[ro.vendor.vivo.software.pem.frozen:is_support_zygote]: [1]
+[ro.vendor.vivo.software.pem.frozen:vivo-support]: [1]
+[ro.vendor.vivo.software.pem.systemstatus]: [1]
+[ro.vendor.vivo.software.pem.systemstatus:is_support_zygote]: [1]
+[ro.vendor.vivo.software.pem.systemstatus:vivo-support]: [1]
+[ro.vendor.vivo.software.vivobackupmanager]: [1]
+[ro.vendor.vivo.software.vivobackupmanager:is_support_zygote]: [1]
+[ro.vendor.vivo.software.vivobackupmanager:vivo-support]: [1]
+[ro.vendor.vivo.software.vne_kernel_channel]: [1]
+[ro.vendor.vivo.software.vne_kernel_channel:is_support_zygote]: [1]
+[ro.vendor.vivo.software.vne_kernel_channel:vivo-support]: [1]
+[ro.vendor_dlkm.build.date]: [Thu Sep 17 17:48:06 CST 2026]
+[ro.vendor_dlkm.build.date.utc]: [1789638486]
+[ro.vendor_dlkm.build.fingerprint]: [vivo/PD2425/PD2425:14/UP1A.231005.007/compiler260917174806:user/release-keys]
+[ro.vendor_dlkm.build.id]: [UP1A.231005.007]
+[ro.vendor_dlkm.build.tags]: [release-keys]
+[ro.vendor_dlkm.build.type]: [user]
+[ro.vendor_dlkm.build.version.incremental]: [compiler260917174806]
+[ro.vendor_dlkm.build.version.release]: [14]
+[ro.vendor_dlkm.build.version.release_or_codename]: [14]
+[ro.vendor_dlkm.build.version.sdk]: [34]
+[ro.vgc.config.carrierdir]: [/vgc/cust/carrier/]
+[ro.vgc.config.etcdir]: [/vgc/etc/]
+[ro.vgc.config.regiondir]: [/vgc/cust/region/]
+[ro.vgc.config.rootdir]: [/vgc/]
+[ro.vgc.config.vivodir]: [/vgc/cust/vivo/]
+[ro.vgc.cust.name]: [V000]
+[ro.vgc.cust.version]: [16.1.1]
+[ro.vgc.customer]: [NULL]
+[ro.vgc.device.name]: [V000_PD2425MA]
+[ro.vgc.fs_type]: [erofs]
+[ro.vgc.product.version]: [V000L1]
+[ro.vgc.software.version]: [vgc_V000_PD2425MA_16.1.1]
+[ro.vgc.system.product.version]: [PD2425_A_16.1.17.10.W10]
+[ro.virtual_ab.batch_writes]: [true]
+[ro.virtual_ab.compression.enabled]: [true]
+[ro.virtual_ab.compression.threads]: [true]
+[ro.virtual_ab.compression.xor.enabled]: [true]
+[ro.virtual_ab.enabled]: [true]
+[ro.virtual_ab.io_uring.enabled]: [true]
+[ro.virtual_ab.userspace.snapshots.enabled]: [true]
+[ro.vivo.artpp.disable_install_dexopt.support]: [true]
+[ro.vivo.board.version]: [MA]
+[ro.vivo.build.version]: [PD2425_A_16.1.17.10.W10]
+[ro.vivo.build.version.incremental]: [16.1.17.10.W10]
+[ro.vivo.build.version.release_or_codename]: [16]
+[ro.vivo.build.version.sdk]: [1]
+[ro.vivo.camera.livephoto.support]: [1]
+[ro.vivo.camera.support_third_app_beauty]: [1]
+[ro.vivo.carton.version]: [PD2425_A_16.1.17.10.W10.V000L1]
+[ro.vivo.cipherchain.tee.support]: [yes]
+[ro.vivo.cmcc.dm.name]: [com.vivo.devicereg]
+[ro.vivo.comm.share]: [true]
+[ro.vivo.cota.enable]: [1]
+[ro.vivo.ctcc.dm.name]: [com.vivo.devicereg]
+[ro.vivo.default.inputmethod]: [com.baidu.input_vivo]
+[ro.vivo.default.oem.name]: [PD2425_CN-ZH_CMCC_RWA_CN-YD-A]
+[ro.vivo.default.version]: [PD2425_A_16.1.17.10.W10.V000L1]
+[ro.vivo.device.type]: [phone]
+[ro.vivo.dexoptimizer.enable]: [true]
+[ro.vivo.disable.vusbd]: [0]
+[ro.vivo.dm.config]: [CMCC-CTCC-UNICOM]
+[ro.vivo.dsda.dualdata_support]: [false]
+[ro.vivo.durationtime.InitSecondStage]: [0]
+[ro.vivo.dyn.device.name]: [PD2425_NULL]
+[ro.vivo.dyn.evolve.version]: [V1.00.20210421]
+[ro.vivo.dyn.name]: [NULL]
+[ro.vivo.dyn.product.version]: [PD2425_A_16.1.17.10.W10]
+[ro.vivo.dyn.software.version]: [PD2425_A_16.1.17.10.W10]
+[ro.vivo.dyn.support]: [yes]
+[ro.vivo.dyn.type]: [NULL]
+[ro.vivo.dyn.veritystate]: [enforcing]
+[ro.vivo.e2eebase.support]: [true]
+[ro.vivo.fist.os.version]: [15.0]
+[ro.vivo.fs_type.read_only]: [erofs]
+[ro.vivo.gamebox.live.support]: [1]
+[ro.vivo.hardware.version]: [PD2425MA]
+[ro.vivo.hardware_version]: [MP_0.1]
+[ro.vivo.internet.name]: [iQOO Neo10]
+[ro.vivo.launcher_keyguard_aod.anim]: [1]
+[ro.vivo.lcm.xhd]: [FHD_20_9]
+[ro.vivo.livetext.cutout.version]: [1]
+[ro.vivo.livetext.version]: [1]
+[ro.vivo.lra.touchType]: [1]
+[ro.vivo.lte.voice.type]: [CSFB]
+[ro.vivo.market.name]: [iQOO Neo10]
+[ro.vivo.net.entry]: [no]
+[ro.vivo.net_sched_enabled]: [1]
+[ro.vivo.nfc.function]: [11010111]
+[ro.vivo.oem.all.in.one.name]: [PD2425_ALL_IN_ONE_02]
+[ro.vivo.oem.all.in.one.support]: [yes]
+[ro.vivo.oem.name]: [PD2425_CN-ZH_FULL_SC_NULL]
+[ro.vivo.oem.rootdir]: [/oem/PD2425_CN-ZH_FULL_SC_NULL/]
+[ro.vivo.oem.support]: [yes]
+[ro.vivo.oemprop.file]: [/oem/PD2425_CN-ZH_FULL_SC_NULL/oem.prop]
+[ro.vivo.op.dm]: [6]
+[ro.vivo.op.entry]: [FULL_SC]
+[ro.vivo.os.build.display.id]: [OriginOS 6]
+[ro.vivo.os.name]: [Funtouch]
+[ro.vivo.os.version]: [16.0]
+[ro.vivo.ota.status]: [0]
+[ro.vivo.platform.support.dc_call]: [1]
+[ro.vivo.product.cmiit_id]: [24C44W2M9328]
+[ro.vivo.product.model]: [PD2425]
+[ro.vivo.product.overseas]: [no]
+[ro.vivo.product.platform]: [SM8650]
+[ro.vivo.product.release.model]: []
+[ro.vivo.product.release.name]: [PD2425]
+[ro.vivo.product.series]: [IQOO]
+[ro.vivo.product.solution]: [QCOM]
+[ro.vivo.product.version]: [PD2425_A_16.1.17.10.W10.V000L1]
+[ro.vivo.product.version.incremental]: [16.1.17.10.W10.V000L1]
+[ro.vivo.product.vpatch]: [0]
+[ro.vivo.promotion.disable]: [true]
+[ro.vivo.qcom_dc_call_capability]: [1]
+[ro.vivo.recovery.last_action]: []
+[ro.vivo.rom.style]: [vigour]
+[ro.vivo.sa.only]: [true]
+[ro.vivo.sensor.support_light_sensor_algo_ver]: [5]
+[ro.vivo.support.mdc]: [1]
+[ro.vivo.support.sensor_shake]: [true]
+[ro.vivo.support.sensor_touchcheck]: [true]
+[ro.vivo.support.thp_pool]: [1]
+[ro.vivo.support_monster_plus]: [true]
+[ro.vivo.support_monster_plus_combine]: [true]
+[ro.vivo.system.hardware.version]: [PD2425MA]
+[ro.vivo.system.product.model]: [PD2425]
+[ro.vivo.system.product.version]: [PD2425_A_16.1.17.10.W10]
+[ro.vivo.system.region.version]: [W10]
+[ro.vivo.unicom.dm.name]: [com.mobiletools.systemhelper]
+[ro.vivo.uninstall]: [yes]
+[ro.vivo.uninstallable.in.launcher.support]: [yes]
+[ro.vivo.vgc.activate]: [true]
+[ro.vivo.vivo4dgamevib.enable]: [16]
+[ro.vivo.yzfswjmanager.enable]: [1]
+[ro.vndk.version]: [34]
+[ro.wifi.channels]: []
+[ro.zygote]: [zygote64]
+[security.perf_harden]: [1]
+[selinux.restorecon_recursive]: [/data/misc_ce/0]
+[service.sf.present_timestamp]: [1]
+[servicemanager.ready]: [true]
+[sys.als.cali.ver]: [alsiqoo]
+[sys.apScale.status]: [0]
+[sys.appstore.install.artpp]: [0_-1]
+[sys.appstore.install.ctrl]: [com.ss.android.ugc.aweme.lite_1]
+[sys.auth.inside_factory]: [0]
+[sys.battery.loss_event_update]: [1]
+[sys.bbklog.copy]: [9]
+[sys.boot.animaudio]: [0]
+[sys.boot.animshutdown]: [1]
+[sys.boot.reason]: [shutdown,userrequested]
+[sys.boot.reason.last]: [shutdown,userrequested]
+[sys.boot_completed]: [1]
+[sys.bootstat.first_boot_completed]: [1]
+[sys.castdisplay.plus.support]: [yes]
+[sys.castdisplay.support]: [yes]
+[sys.cota_vgc.action]: [default]
+[sys.cota_vgc.mount]: [2]
+[sys.debug.gralloc-4-0]: [0]
+[sys.development.adb]: [1]
+[sys.emsvr.opt]: [0]
+[sys.f2fs_compress_check.pass]: [1]
+[sys.fbe_copy]: [2]
+[sys.foldphone.status]: [0]
+[sys.fsck.cp_trimmed]: [1]
+[sys.fuse.transcode_enabled]: [true]
+[sys.game.memc.postprocessing.enable]: [0]
+[sys.game.vaa.gles.enable]: [1]
+[sys.game.vaa.vivo.enable]: [1]
+[sys.game.vaa.vulkan.enable]: [0]
+[sys.game.vsr.pp.enable]: [1]
+[sys.game.xpq.gles.enable]: [0]
+[sys.game.xpq.vivo.enable]: [0]
+[sys.game.xpq.vulkan.enable]: [0]
+[sys.init.perf_lsm_hooks]: [1]
+[sys.location.fakestate]: [off]
+[sys.qca1530]: [detect]
+[sys.qcmdmp.mark]: [1]
+[sys.qos.cameraserver.pid]: [2427]
+[sys.qrcode.view]: [1]
+[sys.rms.is_supported]: [true]
+[sys.sar.dsi]: [4]
+[sys.setsecprop_completed]: [1]
+[sys.simlock_restore.flag]: [0]
+[sys.sps.enable]: [true]
+[sys.sps.version]: [20]
+[sys.sysctl.extra_free_kbytes]: [41343]
+[sys.system_server.start_count]: [1]
+[sys.system_server.start_elapsed]: [6334]
+[sys.system_server.start_rtctime]: [2026-07-05 21:08:15;system_server_start;6334]
+[sys.system_server.start_uptime]: [6334]
+[sys.systrace.perfetto.tracing]: [0]
+[sys.usb.adb.disabled]: [0]
+[sys.usb.car.mtp]: [3]
+[sys.usb.config]: [mtp,adb]
+[sys.usb.configfs]: [1]
+[sys.usb.controller]: [a600000.dwc3]
+[sys.usb.mtp.batchcancel]: [1]
+[sys.usb.mtp.device_type]: [3]
+[sys.usb.office.suite.support]: [1]
+[sys.usb.quirk.dev]: [0]
+[sys.usb.sleep.mode]: [0]
+[sys.usb.state]: [mtp,adb]
+[sys.usb.vcar.mode]: [0]
+[sys.usb.vidProduct]: [0x6001]
+[sys.usb.vidVendor]: [0x2d95]
+[sys.use_memfd]: [false]
+[sys.user.0.ce_available]: [true]
+[sys.vdfs_version]: [5]
+[sys.vendor.shutdown.waittime]: [500]
+[sys.verify.status]: [success]
+[sys.vivo.abs_strategy_is_disable]: [false]
+[sys.vivo.abs_ui_enable]: [true]
+[sys.vivo.aiservice.data_res_cp]: [0]
+[sys.vivo.apmd.bbkpath]: [/bbk]
+[sys.vivo.apmd.data_stall_stop]: [true,false,true,true,true,true,0,true]
+[sys.vivo.apmd.dns_response_time]: [7111012]
+[sys.vivo.apmd.third.signalcustom]: [1000,]
+[sys.vivo.bootcompleted]: [1]
+[sys.vivo.bt_for_private_format]: [0]
+[sys.vivo.carlife_state]: [0]
+[sys.vivo.cellnetwork.rtt]: [54883,0,0,0]
+[sys.vivo.custverify_complete]: [1]
+[sys.vivo.dota_code]: [0]
+[sys.vivo.dota_info0]: [AKgAAAAALpdp3wAEGHJhbmRvbWtleV92MkB2b3RhX2NsaWVudAAGEgxYH0P2X1CZy4H0LLkQq4W7V4IjWZrhRp-YX4]
+[sys.vivo.dota_info1]: [Q-MBAqU_dg6oQgOUmbzpxhdXRCQQSUH9coO-cNkmMLwvxkdLXHaiVaMFn6o24TzaYoKpbfoAYTIamQFkLGQBKBWLvB]
+[sys.vivo.dota_info2]: [EKZDtqKGEQRsKKKOY6fxenb5AAAAA2NwcAAAAAAAAAAAD9V8stPOZN2R44AnPeOUqI1nFEuo9L-tC9srxLjB-UBamz]
+[sys.vivo.dota_info3]: [yIjU2aONnt592NzNupkJRQQAQND6oceiWnWkxkHhYkvl1VEJAgZYzXebNWZK0LAD5NaJWdGYTgE8xy2JtwBF_Sd-1g]
+[sys.vivo.dota_info4]: [QV1Qk04UQbx79TvlFLbN92uwblZuqzKz_756tJ7n5bMhomRTP7iSXTzbjjTr2op2dwA53xlXuSlj7rPc3cBhHxp9e5]
+[sys.vivo.dota_info5]: [ikv-TM7lVxNfjlFSpCWWA6_Q3FGRr38hSJxGwTr5Zz]
+[sys.vivo.firstly.open.wifi]: [false]
+[sys.vivo.frozen.uids]: [10060,10308,10316,10081,10168,10274,10088,10359,10098,10295,10110,10357,10052,10078,10132,]
+[sys.vivo.gw_vgt_list]: []
+[sys.vivo.imi_complete]: [1]
+[sys.vivo.is_mass_production]: [yes]
+[sys.vivo.memcg.delayinit]: [1]
+[sys.vivo.privacy_ring]: [true]
+[sys.vivo.privnetwork.phone_restart_count]: [1]
+[sys.vivo.product_state]: [4]
+[sys.vivo.project.ramsize]: [12]
+[sys.vivo.recent_visible]: [false]
+[sys.vivo.refine_low_volume_coefficient]: [9]
+[sys.vivo.refine_low_volume_on]: [true]
+[sys.vivo.refine_low_volume_threshold]: [13]
+[sys.vivo.reserved_time]: []
+[sys.vivo.spl_update]: [0]
+[sys.vivo.support_gamecast]: [1]
+[sys.vivo.system_update]: [0]
+[sys.vivo.telephony.netx.start_count]: [1]
+[sys.vivo.tip_switch_perfmode]: [1-2]
+[sys.vivo.vbpf_sock_stat]: [running]
+[sys.vivo.vlftp_version]: [6]
+[sys.vivo.wlan.autominidump.enabled]: [0]
+[sys.wifi.changeId]: [I0fbb462ffd54ac536c7b71c0f3dfad551eedc594]
+[sys.wifitracing.started]: [1]
+[sys.yzfsj.symlink]: [1]
+[tango.debug]: [off]
+[tango.enabled]: [1]
+[tango.pretrans.apk]: [true]
+[tango.pretrans.debug]: [off]
+[tango.pretrans.lib]: [true]
+[tango.pretrans.max_size]: [67108864]
+[tango.pretrans_on_install]: [true]
+[telephony.active_modems.max_count]: [2]
+[telephony.lteOnCdmaDevice]: [1]
+[tunnel.audio.encode]: [true]
+[use.voice.path.for.pcm.voip]: [true]
+[vendor.display.comp_mask]: [0]
+[vendor.display.disable_3d_adaptive_tm]: [0]
+[vendor.display.disable_dynamic_fps]: [1]
+[vendor.display.disable_excl_rect]: [0]
+[vendor.display.disable_excl_rect_partial_fb]: [1]
+[vendor.display.disable_hw_recovery_dump]: [1]
+[vendor.display.disable_offline_rotator]: [1]
+[vendor.display.disable_rcmask_simd_opt]: [1]
+[vendor.display.disable_scaler]: [0]
+[vendor.display.disable_sdr_dimming]: [0]
+[vendor.display.disable_sdr_histogram]: [1]
+[vendor.display.disable_skip_validate]: [1]
+[vendor.display.disable_stc_dimming]: [1]
+[vendor.display.enable_allow_idle_fallback]: [1]
+[vendor.display.enable_async_powermode]: [0]
+[vendor.display.enable_async_vds_creation]: [1]
+[vendor.display.enable_display_extensions]: [1]
+[vendor.display.enable_dpps_dynamic_fps]: [1]
+[vendor.display.enable_early_wakeup]: [1]
+[vendor.display.enable_fb_scaling]: [1]
+[vendor.display.enable_hdr10_gpu_target]: [0]
+[vendor.display.enable_hist_intr]: [1]
+[vendor.display.enable_inline_writeback]: [1]
+[vendor.display.enable_latch_media_content]: [1]
+[vendor.display.enable_optimize_refresh]: [0]
+[vendor.display.enable_perf_hint_large_comp_cycle]: [1]
+[vendor.display.enable_posted_start_dyn]: [2]
+[vendor.display.enable_rc_support]: [1]
+[vendor.display.enable_rotator_ui]: [1]
+[vendor.display.enable_rounded_corner]: [1]
+[vendor.display.enable_spec_fence]: [1]
+[vendor.display.force_tonemapping]: [1]
+[vendor.display.gpu_rendering]: [true]
+[vendor.display.hdrloglevel]: [0]
+[vendor.display.lcd_density]: [480]
+[vendor.display.scaling_dest_opt_mode]: [4]
+[vendor.display.scaling_source_opt_mode]: [4]
+[vendor.display.target.version]: [4]
+[vendor.display.thermal.version]: [1]
+[vendor.display.timed_render_enable]: [1]
+[vendor.display.use_smooth_motion]: [1]
+[vendor.display.vds_allow_hwc]: [1]
+[vendor.gralloc.disable_ubwc]: [0]
+[vendor.gralloc.enable_logs]: [0]
+[vendor.gralloc.hw_supports_ubwcp]: [0]
+[vendor.gralloc.use_dma_buf_heaps]: [1]
+[vendor.perf.framepacing.enable]: [0]
+[vendor.vivoconfigstore.ready]: [true]
+[vivo.primary.wifi.iface]: [wlan0]
+[vivo.secondary.wifi.iface]: [wlan1]
+[vivo.wifi.disable.ipv6.wlan0]: [false]
+[vold.cryptfs.fbeLogToLogsystem_finished]: [1]
+[vold.cryptfs.log_finished]: [0]
+[vold.decrypt.app.move.internal]: [0]
+[vold.decrypt.primary.emulate]: [1]
+[vold.decrypt.sd_card_support]: [0]
+[vold.durm.version]: [1]
+[vold.has_adoptable]: [0]
+[vold.has_compress]: [1]
+[vold.has_quota]: [1]
+[vold.has_reserved]: [1]
+===== BATTERY =====
+Current Battery Service state:
+  AC powered: true
+  USB powered: false
+  Wireless powered: false
+  Dock powered: false
+  Max charging current: 0
+ Time when the latest updated value of the Max charging current was sent via battery changed broadcast: +8s717ms
+  Max charging voltage: 0
+  Charge counter: 1966000
+  engine: 0
+  soc decimal: 0
+  adapter power: 0
+  board temp status: 0
+  low bat status: 0
+  reverse wl chg status: 0
+  reverse wl chg exception: 0
+  chg shut vbat: 3200
+  last mode flag: 0
+  last mode keep time: 4
+  status: 2
+  health: 2
+  present: true
+  level: 76
+  scale: 100
+  voltage: 4137
+ Time when the latest updated value of the voltage was sent via battery changed broadcast: +2h22m52s1ms
+ The last voltage value sent via the battery changed broadcast: 4137
+  temperature: 342
+  technology: Li-poly
+  Charging state: 0
+  Charging policy: 0
+  Capacity level: -1
+===== CPU =====
+processor	: 0
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd80
+CPU revision	: 1
+
+processor	: 1
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd80
+CPU revision	: 1
+
+processor	: 2
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd81
+CPU revision	: 1
+
+processor	: 3
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd81
+CPU revision	: 1
+
+processor	: 4
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd81
+CPU revision	: 1
+
+processor	: 5
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd81
+CPU revision	: 1
+
+processor	: 6
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd81
+CPU revision	: 1
+
+processor	: 7
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd82
+CPU revision	: 1
+
+===== MEMORY =====
+MemTotal:       11463700 kB
+MemFree:          967920 kB
+MemAvailable:    4825676 kB
+Buffers:           12684 kB
+Cached:          3745688 kB
+SwapCached:         9380 kB
+Active:          2003608 kB
+Inactive:        2939732 kB
+Active(anon):     873948 kB
+Inactive(anon):  1183780 kB
+Active(file):    1897360 kB
+Inactive(file):  1755952 kB
+Unevictable:      104712 kB
+Vital:            767700 kB
+Staple:                0 kB
+Mlocked:          103420 kB
+SwapTotal:      12582908 kB
+SwapFree:        7637240 kB
+Dirty:               128 kB
+Writeback:             0 kB
+AnonPages:       2053468 kB
+Mapped:          2207676 kB
+Shmem:             32564 kB
+KReclaimable:     528716 kB
+Slab:             927156 kB
+SReclaimable:     220244 kB
+SUnreclaim:       706912 kB
+KernelStack:       76504 kB
+ShadowCallStack:       0 kB
+PageTables:       325200 kB
+SecPageTables:         0 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    18314756 kB
+Committed_AS:   287773960 kB
+VmallocTotal:   259653632 kB
+VmallocUsed:      309400 kB
+VmallocChunk:          0 kB
+Percpu:            12256 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+CmaTotal:         589824 kB
+CmaFree:               0 kB
+===== STORAGE =====
+Filesystem        Size Used Avail Use% Mounted on
+/dev/block/dm-13  8.0G 8.0G     0 100% /
+tmpfs             5.4G  12M  5.4G   1% /dev
+tmpfs             5.4G    0  5.4G   0% /mnt
+/dev/block/dm-14  250M 250M     0 100% /system_ext
+/dev/block/dm-15  377M 377M     0 100% /product
+/dev/block/dm-16  2.6G 2.6G     0 100% /vendor
+/dev/block/dm-17   75M  75M     0 100% /vendor_dlkm
+/dev/block/dm-19   22M  22M     0 100% /odm
+/dev/block/dm-20  3.6M 3.6M     0 100% /oem
+tmpfs             5.4G  16K  5.4G   1% /apex
+tmpfs             5.4G 4.0K  5.4G   1% /bootstrap-apex
+/dev/block/loop3  788K 756K   16K  98% /bootstrap-apex/com.android.tzdata@360000009
+/dev/block/loop1   39M  39M     0 100% /bootstrap-apex/com.android.i18n@1
+/dev/block/loop2   40M  40M     0 100% /bootstrap-apex/com.android.vndk.v34@1
+/dev/block/loop0   90M  90M     0 100% /bootstrap-apex/com.android.virt@3
+/dev/block/loop4   12M  12M     0 100% /bootstrap-apex/com.android.runtime@1
+tmpfs             5.4G    0  5.4G   0% /tmp
+/dev/block/dm-21  8.0K 8.0K     0 100% /vgc
+/dev/block/sda27  224M  19M  197M   9% /logdata
+/dev/block/dm-62  222G  29G  192G  14% /data
+/dev/block/loop15 788K 756K   16K  98% /apex/com.android.tzdata@360000009
+/dev/block/loop13  40M  40M     0 100% /apex/com.android.vndk.v34@1
+/dev/block/loop7  3.5M 3.5M     0 100% /apex/com.android.compos@3
+/dev/block/loop6   40M  39M     0 100% /apex/com.android.vndk.v32@1
+/dev/block/loop21  90M  90M     0 100% /apex/com.android.virt@3
+/dev/block/loop10  12M  12M     0 100% /apex/com.android.runtime@1
+/dev/block/loop11  28M  28M     0 100% /apex/com.android.bt@360000009
+/dev/block/loop5  108M 108M     0 100% /apex/com.android.vndk.v30@1
+/dev/block/loop9   11M  10M     0 100% /apex/com.android.healthfitness@360000009
+/dev/block/dm-38  6.7M 6.7M     0 100% /apex/com.android.media@360000009
+/dev/block/loop8   39M  39M     0 100% /apex/com.android.vndk.v31@1
+/dev/block/loop16  39M  39M     0 100% /apex/com.android.i18n@1
+/dev/block/loop20 3.9M 3.9M     0 100% /apex/com.google.android.widevine@343213000
+/dev/block/loop17 1.2M 1.2M  8.0K 100% /apex/com.android.rkpd@360000009
+/dev/block/loop18  45M  45M     0 100% /apex/com.android.vndk.v33@1
+/dev/block/loop19 3.2M 3.1M     0 100% /apex/com.android.os.statsd@360000009
+/dev/block/loop22 780K 752K   12K  99% /apex/com.android.sdkext@360000009
+/dev/block/loop34 5.4M 5.4M     0 100% /apex/com.android.devicelock@1
+/dev/block/dm-55   48M  48M     0 100% /apex/com.android.art@360000009
+/dev/block/dm-33   30M  30M     0 100% /apex/com.android.media.swcodec@360000009
+/dev/block/dm-59  7.0M 7.0M     0 100% /apex/com.android.conscrypt@360000009
+/dev/block/dm-31  1.5M 1.5M     0 100% /apex/com.android.uprobestats@360000009
+/dev/block/dm-47  1.7M 1.7M     0 100% /apex/com.android.profiling@360000009
+/dev/block/dm-44   11M  11M     0 100% /apex/com.android.configinfrastructure@360000009
+/dev/block/dm-26  232K 108K  120K  48% /apex/com.android.scheduling@360000009
+/dev/block/dm-42   17M  17M     0 100% /apex/com.android.adservices@360000009
+/dev/block/dm-22   33M  33M     0 100% /apex/com.android.wifi@360000009
+/dev/block/dm-24   26M  26M     0 100% /apex/com.android.tethering@360000009
+/dev/block/dm-30   61M  61M     0 100% /apex/com.android.mediaprovider@360000009
+/dev/block/loop25 232K 112K  116K  50% /apex/com.android.apex.cts.shim@1
+/dev/block/dm-29  7.4M 7.3M     0 100% /apex/com.android.neuralnetworks@360000009
+/dev/block/dm-56   12M  12M     0 100% /apex/com.android.permission@360000009
+/dev/block/dm-28   14M  14M     0 100% /apex/com.android.ondevicepersonalization@360000009
+/dev/block/dm-54   19M  19M     0 100% /apex/com.android.extservices@360000009
+/dev/block/dm-52  316K 284K   28K  92% /apex/com.android.crashrecovery@360000009
+/dev/block/dm-46  5.8M 5.8M     0 100% /apex/com.android.appsearch@360000009
+/dev/block/dm-27  4.5M 4.4M     0 100% /apex/com.android.resolv@360000009
+/dev/block/dm-53  6.0M 6.0M     0 100% /apex/com.android.uwb@360000009
+/dev/block/dm-32   10M  10M     0 100% /apex/com.android.adbd@360000009
+/dev/block/dm-39  836K 808K   12K  99% /apex/com.android.ipsec@360000009
+/dev/block/dm-63  8.0K 8.0K     0 100% /system/dyn
+/dev/fuse         222G  29G  192G  14% /storage/emulated
+===== DISPLAY =====
+Physical size: 1260x2800
+Physical density: 560
+DISPLAY MANAGER (dumpsys display)
+  mSafeMode=false
+  mPendingTraversal=false
+  mViewports=[DisplayViewport{type=INTERNAL, valid=true, isActive=true, displayId=0, uniqueId='local:4630946231300050819', physicalPort=131, orientation=0, logicalFrame=Rect(0, 0 - 1260, 2800), physicalFrame=Rect(0, 0 - 1260, 2800), deviceWidth=1260, deviceHeight=2800}]
+  mDefaultDisplayDefaultColorMode=0
+  mWifiDisplayScanRequestCount=0
+  mStableDisplaySize=Point(1260, 2800)
+  mMinimumBrightnessCurve=[(0.0, 0.0), (2000.0, 50.0), (4000.0, 90.0)]
+  mMaxImportanceForRRCallbacks=200
+
+  mHdrConversionMode=HdrConversionMode{ConversionMode=HDR_CONVERSION_SYSTEM, PreferredHdrOutputType=HDR_TYPE_INVALID}
+
+Display States: size=1
+---------------------
+  Display Id=0
+  Display State=ON
+  Display Brightness=0.04271176
+  Display SdrBrightness=0.04271176
+
+Display Adapters: size=4
+------------------------
+  LocalDisplayAdapter
+  VirtualDisplayAdapter
+  OverlayDisplayAdapter
+    mCurrentOverlaySetting=
+    mOverlays: size=0
+  WifiDisplayAdapter
+    mCurrentStatus=WifiDisplayStatus{featureState=2, scanState=0, activeDisplayState=0, activeDisplay=null, displays=[], sessionInfo=WifiDisplaySessionInfo:
+        Client/Owner: Client
+        GroupId: 
+        Passphrase: 
+        SessionId: 0
+        IP Address: }
+    mFeatureState=2
+    mScanState=0
+    mActiveDisplayState=0
+    mActiveDisplay=null
+    mDisplays=[]
+    mAvailableDisplays=[]
+    mRememberedDisplays=[]
+    mPendingStatusChangeBroadcast=false
+    mSupportsProtectedBuffers=true
+    mDisplayController:
+      mWifiDisplayOnSetting=false
+      mWifiP2pEnabled=true
+      mWfdEnabled=false
+      mWfdEnabling=false
+      mNetworkInfo=null
+      mScanRequested=false
+      mDiscoverPeersInProgress=false
+      mDesiredDevice=null
+      mConnectingDisplay=null
+      mDisconnectingDisplay=null
+      mCancelingDisplay=null
+      mConnectedDevice=null
+      mConnectionRetriesLeft=0
+      mRemoteDisplay=null
+      mRemoteDisplayInterface=null
+      mRemoteDisplayConnected=false
+      mAdvertisedDisplay=null
+      mAdvertisedDisplaySurface=null
+      mAdvertisedDisplayWidth=0
+      mAdvertisedDisplayHeight=0
+      mAdvertisedDisplayFlags=0
+      mAvailableWifiDisplayPeers: size=0
+
+Display Devices: size=1
+-----------------------
+  DisplayDeviceInfo{"鍐呯疆灞忓箷": uniqueId="local:4630946231300050819", 1260 x 2800, modeId 1, renderFrameRate 120.00001, hasArrSupport false, frameRateCategoryRate FrameRateCategoryRate {normal=60.0, high=90.0}, supportedRefreshRates [120.00001, 144.00002, 120.00001, 120.00001, 90.0, 90.0, 60.000004, 60.000004, 60.000004, 144.00002, 120.00001], defaultModeId 1, userPreferredModeId -1, supportedModes [{id=1, width=1260, height=2800, fps=120.00001, vsync=120.00001, synthetic=false, alternativeRefreshRates=[60.000004, 90.0], supportedHdrTypes=[2, 3, 4]}, {id=2, width=1260, height=2800, fps=144.00002, vsync=144.00002, synthetic=false, alternativeRefreshRates=[], supportedHdrTypes=[2, 3, 4]}, {id=3, width=1260, height=2800, fps=90.0, vsync=90.0, synthetic=false, alternativeRefreshRates=[60.000004, 120.00001], supportedHdrTypes=[2, 3, 4]}, {id=4, width=1260, height=2800, fps=60.000004, vsync=60.000004, synthetic=false, alternativeRefreshRates=[90.0, 120.00001], supportedHdrTypes=[2, 3, 4]}], colorMode 0, supportedColorModes [0, 7, 9], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[2, 3, 4], mMaxLuminance=800.0, mMaxAverageLuminance=400.001, mMinLuminance=0.002}, isForceSdr false, allmSupported false, gameContentTypeSupported false, density 560, 450.76 x 452.993 dpi, appVsyncOff 1000000, presDeadline 11333333, cutout DisplayCutout{insets=Rect(0, 125 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(590, 0 - 670, 125), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1260 displayHeight=2800 physicalDisplayWidth=1260 physicalDisplayHeight=2800 density={3.5} cutoutSpec={M -40,0 L 40, 0 L 40, 125 L -40, 125 Z} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, touch INTERNAL, rotation 0, type INTERNAL, address {port=131, model=0x40446d0fc292cf}, deviceProductInfo DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=1}, state ON, committedState ON, frameRateOverride , brightnessMinimum 7.000001E-5, brightnessMaximum 1.0, brightnessDefault 0.39763778, brightnessDim 0.05, hdrSdrRatio 1.0, roundedCorners RoundedCorners{[RoundedCorner{position=TopLeft, radius=105, center=Point(105, 105)}, RoundedCorner{position=TopRight, radius=105, center=Point(1155, 105)}, RoundedCorner{position=BottomRight, radius=105, center=Point(1155, 2695)}, RoundedCorner{position=BottomLeft, radius=105, center=Point(105, 2695)}]}, FLAG_ALLOWED_TO_BE_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_TRUSTED, installOrientation 0, displayShape DisplayShape{ spec=1406003047 displayWidth=1260 displayHeight=2800 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}}
+    mAdapter=LocalDisplayAdapter
+    mUniqueId=local:4630946231300050819
+    mDisplayToken=android.os.BinderProxy@b03bfe1
+    mCurrentLayerStack=0
+    mCurrentFlags=1
+    mCurrentOrientation=0
+    mCurrentLayerStackRect=Rect(0, 0 - 1260, 2800)
+    mCurrentDisplayRect=Rect(0, 0 - 1260, 2800)
+    mCurrentSurface=null
+    mPhysicalDisplayId=4630946231300050819
+    mDisplayModeSpecs={baseModeId=1 allowGroupSwitching=false primary=physical: (0.0 0.0) render:  (0.0 0.0) appRequest=physical: (0.0 0.0) render:  (0.0 0.0) idleScreenRefreshRateConfig=null}
+    mDisplayModeSpecsInvalid=true
+    mActiveModeId=1
+    mActiveColorMode=0
+    mDefaultModeId=1
+    mUserPreferredModeId=-1
+    mHasArrSupport=false
+    mSupportedRefreshRates=[120.00001, 144.00002, 120.00001, 120.00001, 90.0, 90.0, 60.000004, 60.000004, 60.000004, 144.00002, 120.00001]
+    mState=ON
+    mCommittedState=ON
+    mBrightnessState=0.04271176
+    mBacklightAdapter=BacklightAdapter [useSurfaceControl=true (force_anyway? false), backlight=null]
+    mAllmSupported=false
+    mAllmRequested=false
+    mGameContentTypeSupported=false
+    mGameContentTypeRequested=false
+    mStaticDisplayInfo=StaticDisplayInfo{isInternal=true, density=3.5, secure=true, deviceProductInfo=DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=1}, installOrientation=0}
+    mSfDisplayModes=
+      DisplayMode{id=0, width=1260, height=2800, xDpi=450.76, yDpi=452.993, peakRefreshRate=120.00001, vsyncRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=11333333, supportedHdrTypes=[4, 2, 3], group=0}
+      DisplayMode{id=1, width=1260, height=2800, xDpi=450.76, yDpi=452.993, peakRefreshRate=144.00002, vsyncRate=144.00002, appVsyncOffsetNanos=152777, presentationDeadlineNanos=11347222, supportedHdrTypes=[4, 2, 3], group=1}
+      DisplayMode{id=2, width=1260, height=2800, xDpi=450.76, yDpi=452.993, peakRefreshRate=120.00001, vsyncRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=11333333, supportedHdrTypes=[4, 2, 3], group=524290}
+      DisplayMode{id=3, width=1260, height=2800, xDpi=450.76, yDpi=452.993, peakRefreshRate=120.00001, vsyncRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=11333333, supportedHdrTypes=[4, 2, 3], group=16387}
+      DisplayMode{id=4, width=1260, height=2800, xDpi=450.76, yDpi=452.993, peakRefreshRate=90.0, vsyncRate=90.0, appVsyncOffsetNanos=6555557, presentationDeadlineNanos=14111110, supportedHdrTypes=[4, 2, 3], group=0}
+      DisplayMode{id=5, width=1260, height=2800, xDpi=450.76, yDpi=452.993, peakRefreshRate=90.0, vsyncRate=90.0, appVsyncOffsetNanos=6555557, presentationDeadlineNanos=14111110, supportedHdrTypes=[4, 2, 3], group=8197}
+      DisplayMode{id=6, width=1260, height=2800, xDpi=450.76, yDpi=452.993, peakRefreshRate=60.000004, vsyncRate=60.000004, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=16666666, supportedHdrTypes=[4, 2, 3], group=2054}
+      DisplayMode{id=7, width=1260, height=2800, xDpi=450.76, yDpi=452.993, peakRefreshRate=60.000004, vsyncRate=60.000004, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=16666666, supportedHdrTypes=[4, 2, 3], group=524295}
+      DisplayMode{id=8, width=1260, height=2800, xDpi=450.76, yDpi=452.993, peakRefreshRate=60.000004, vsyncRate=60.000004, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=16666666, supportedHdrTypes=[4, 2, 3], group=0}
+      DisplayMode{id=9, width=1080, height=2400, xDpi=386.366, yDpi=388.28, peakRefreshRate=144.00002, vsyncRate=144.00002, appVsyncOffsetNanos=152777, presentationDeadlineNanos=11347222, supportedHdrTypes=[4, 2, 3], group=1048585}
+      DisplayMode{id=10, width=1080, height=2400, xDpi=386.366, yDpi=388.28, peakRefreshRate=120.00001, vsyncRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=11333333, supportedHdrTypes=[4, 2, 3], group=1048586}
+    mActiveSfDisplayMode=DisplayMode{id=0, width=1260, height=2800, xDpi=450.76, yDpi=452.993, peakRefreshRate=120.00001, vsyncRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=11333333, supportedHdrTypes=[4, 2, 3], group=0}
+    mActiveRenderFrameRate=120.00001
+    mSupportedModes=
+      DisplayModeRecord{mMode={id=1, width=1260, height=2800, fps=120.00001, vsync=120.00001, synthetic=false, alternativeRefreshRates=[60.000004, 90.0], supportedHdrTypes=[2, 3, 4]}}
+      DisplayModeRecord{mMode={id=2, width=1260, height=2800, fps=144.00002, vsync=144.00002, synthetic=false, alternativeRefreshRates=[], supportedHdrTypes=[2, 3, 4]}}
+      DisplayModeRecord{mMode={id=3, width=1260, height=2800, fps=90.0, vsync=90.0, synthetic=false, alternativeRefreshRates=[60.000004, 120.00001], supportedHdrTypes=[2, 3, 4]}}
+      DisplayModeRecord{mMode={id=4, width=1260, height=2800, fps=60.000004, vsync=60.000004, synthetic=false, alternativeRefreshRates=[90.0, 120.00001], supportedHdrTypes=[2, 3, 4]}}
+    mSupportedColorModes=[0, 7, 9]
+    
+    DisplayDeviceConfig: 
+    ---------------------
+    DisplayDeviceConfig{mLoadedFrom=<config.xml>
+    mBacklight=null, mNits=null, mRawBacklight=null, mRawNits=null, mInterpolationType=0mBrightness=null
+    mBrightnessToBacklightSpline=MonotoneCubicSpline{[(0.0, 0.0: 1.0), (1.0, 1.0: 1.0)]}, mBacklightToBrightnessSpline=MonotoneCubicSpline{[(0.0, 0.0: 1.0), (1.0, 1.0: 1.0)]}, mNitsToBacklightSpline=null, mBacklightMinimum=7.0E-5, mBacklightMaximum=1.0, mBrightnessDefault=0.39763778, mBrightnessDim=0.05, mQuirks=null
+    mLuxThrottlingData={}, mHbmData=null, mThermalBrightnessThrottlingDataMapByThrottlingId={}
+    , mPowerThrottlingDataMapByThrottlingId={}
+    mBrightnessRampFastDecrease=0.7058824, mBrightnessRampFastIncrease=0.7058824, mBrightnessRampSlowDecrease=0.23529412, mBrightnessRampSlowIncrease=0.23529412, mBrightnessRampSlowDecreaseIdle=NaN, mBrightnessRampSlowIncreaseIdle=NaN, mBrightnessRampDecreaseMaxMillis=0, mBrightnessRampIncreaseMaxMillis=0, mBrightnessRampDecreaseMaxIdleMillis=0, mBrightnessRampIncreaseMaxIdleMillis=0
+    mAmbientHorizonLong=10000, mAmbientHorizonShort=2000
+    mAmbientBrightnessHysteresis=HysteresisLevels {
+        mBrighteningThresholdLevels=[0.0],
+        mBrighteningThresholdsPercentages=[0.1],
+        mMinBrightening=0.0,
+        mDarkeningThresholdLevels=[0.0],
+        mDarkeningThresholdsPercentages=[0.2],
+        mMinDarkening=0.0
+    }
+    mAmbientIdleHysteresis=HysteresisLevels {
+        mBrighteningThresholdLevels=[0.0],
+        mBrighteningThresholdsPercentages=[0.1],
+        mMinBrightening=0.0,
+        mDarkeningThresholdLevels=[0.0],
+        mDarkeningThresholdsPercentages=[0.2],
+        mMinDarkening=0.0
+    }
+    mScreenBrightnessHysteresis=HysteresisLevels {
+        mBrighteningThresholdLevels=[0.0],
+        mBrighteningThresholdsPercentages=[0.1],
+        mMinBrightening=0.0,
+        mDarkeningThresholdLevels=[0.0],
+        mDarkeningThresholdsPercentages=[0.2],
+        mMinDarkening=0.0
+    }
+    mScreenBrightnessIdleHysteresis=HysteresisLevels {
+        mBrighteningThresholdLevels=[0.0],
+        mBrighteningThresholdsPercentages=[0.1],
+        mMinBrightening=0.0,
+        mDarkeningThresholdLevels=[0.0],
+        mDarkeningThresholdsPercentages=[0.2],
+        mMinDarkening=0.0
+    }
+    mAmbientLightSensor=SensorData{type= , name= , refreshRateRange: [0.0, Infinity], supportedModes=[]}, mScreenOffBrightnessSensor=null, mProximitySensor=SensorData{type= null, name= null, refreshRateRange: [0.0, Infinity], supportedModes=[]}, mTempSensor=SensorData{type= SKIN, name= null, refreshRateRange: [0.0, Infinity], supportedModes=[]}, mRefreshRateLimitations= [], mDensityMapping= null, mAutoBrightnessBrighteningLightDebounce= -1, mAutoBrightnessDarkeningLightDebounce= -1, mAutoBrightnessBrighteningLightDebounceIdle= -1, mAutoBrightnessDarkeningLightDebounceIdle= -1, mDisplayBrightnessMapping= mBrightnessLevelsNits= [], mBrightnessLevelsLuxMap= {default_normal=[0.0, 10.0, 30.0, 60.0, 100.0, 150.0, 210.0, 255.0]}, mBrightnessLevelsMap= {default_normal=[0.039215688, 0.078431375, 0.15686275, 0.27450985, 0.43137258, 0.62745106, 0.7843138, 1.0]}, mDdcAutoBrightnessAvailable= true, mAutoBrightnessAvailable= true, mIdleStylusTimeoutMillis= 0
+    mDefaultLowBlockingZoneRefreshRate= 0, mDefaultHighBlockingZoneRefreshRate= 0, mRefreshRateData= RefreshRateData {defaultRefreshRate: 0, defaultPeakRefreshRate: 240, defaultRefreshRateInHbmHdr: 0, defaultRefreshRateInHbmSunlight: 0, lowPowerSupportedModes=[], lowLightBlockingZoneSupportedModes=[]} , mRefreshRateZoneProfiles= {}, mRefreshRateThrottlingMap= {}, mLowBlockingZoneThermalMapId= null, mHighBlockingZoneThermalMapId= null
+    mLowDisplayBrightnessThresholds= [], mLowAmbientBrightnessThresholds= [], mHighDisplayBrightnessThresholds= [], mHighAmbientBrightnessThresholds= []
+    mScreenOffBrightnessSensorValueToLux= null
+    mUsiVersion= null
+    mHdrBrightnessData= null
+    mBrightnessCapForWearBedtimeMode= 0.078431375
+    mEvenDimmerBrightnessData:null
+    mVrrSupported= false
+    mDozeBrightnessSensorValueToBrightness= null
+    mDefaultDozeBrightness= 0.0
+    }
+    mEvenDimmerEnabled=false
+    mEvenDimmerStrength=-1
+    mNitsToEvenDimmerStrength=null
+
+LogicalDisplayMapper:
+---------------------
+  mSingleDisplayDemoMode=false
+  mCurrentLayout=[{dispId: 0(ON), displayGroupName: , addr: {port=131, model=0x40446d0fc292cf}, mThermalBrightnessThrottlingMapId: null, mRefreshRateZoneId: null, mLeadDisplayId: -1, mLeadDisplayAddress: null, mThermalRefreshRateThrottlingMapId: null, mPowerThrottlingMapId: null}]
+  mDeviceStatesOnWhichToWakeUp={}
+  mDeviceStatesOnWhichSelectiveSleep={}
+  mInteractive=true
+  mBootCompleted=true
+  
+  mDeviceState=0
+  mPendingDeviceState=-1
+  mDeviceStateToBeAppliedAfterBoot=-1
+  
+  Logical Displays: size=1
+  Display 0:
+    mDisplayId=0
+    mPrimaryDisplayDevice=鍐呯疆灞忓箷(local:4630946231300050819)
+    mIsEnabled=true
+    mIsInTransition=false
+    mLayerStack=0
+    mPosition=-1
+    mHasContent=true
+    mDesiredDisplayModeSpecs={baseModeId=0 allowGroupSwitching=false primary=physical: (0.0 0.0) render:  (0.0 0.0) appRequest=physical: (0.0 0.0) render:  (0.0 0.0) idleScreenRefreshRateConfig=null}
+    mRequestedColorMode=0
+    mDisplayOffset=(0, 0)
+    mDisplayScalingDisabled=false
+    mBaseDisplayInfo=DisplayInfo{"鍐呯疆灞忓箷", displayId 0, displayGroupId 0, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_TRUSTED, real 1260 x 2800, largest app 1260 x 2800, smallest app 1260 x 2800, appVsyncOff 1000000, presDeadline 11333333, mode 1, renderFrameRate 120.00001, hasArrSupport false, frameRateCategoryRate FrameRateCategoryRate {normal=60.0, high=90.0}, supportedRefreshRates [120.00001, 144.00002, 120.00001, 120.00001, 90.0, 90.0, 60.000004, 60.000004, 60.000004, 144.00002, 120.00001], defaultMode 1, userPreferredModeId -1, supportedModes [{id=1, width=1260, height=2800, fps=120.00001, vsync=120.00001, synthetic=false, alternativeRefreshRates=[60.000004, 90.0], supportedHdrTypes=[2, 3, 4]}, {id=2, width=1260, height=2800, fps=144.00002, vsync=144.00002, synthetic=false, alternativeRefreshRates=[], supportedHdrTypes=[2, 3, 4]}, {id=3, width=1260, height=2800, fps=90.0, vsync=90.0, synthetic=false, alternativeRefreshRates=[60.000004, 120.00001], supportedHdrTypes=[2, 3, 4]}, {id=4, width=1260, height=2800, fps=60.000004, vsync=60.000004, synthetic=false, alternativeRefreshRates=[90.0, 120.00001], supportedHdrTypes=[2, 3, 4]}], appsSupportedModes [{id=1, width=1260, height=2800, fps=120.00001, vsync=120.00001, synthetic=false, alternativeRefreshRates=[60.000004, 90.0], supportedHdrTypes=[2, 3, 4]}, {id=2, width=1260, height=2800, fps=144.00002, vsync=144.00002, synthetic=false, alternativeRefreshRates=[], supportedHdrTypes=[2, 3, 4]}, {id=3, width=1260, height=2800, fps=90.0, vsync=90.0, synthetic=false, alternativeRefreshRates=[60.000004, 120.00001], supportedHdrTypes=[2, 3, 4]}, {id=4, width=1260, height=2800, fps=60.000004, vsync=60.000004, synthetic=false, alternativeRefreshRates=[90.0, 120.00001], supportedHdrTypes=[2, 3, 4]}], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[2, 3, 4], mMaxLuminance=800.0, mMaxAverageLuminance=400.001, mMinLuminance=0.002}, isForceSdr false, userDisabledHdrTypes [], minimalPostProcessingSupported false, rotation 0, state ON, committedState ON, type INTERNAL, uniqueId "local:4630946231300050819", app 1260 x 2800, density 560 (450.76 x 452.993) dpi, layerStack 0, colorMode 0, supportedColorModes [0, 7, 9], address {port=131, model=0x40446d0fc292cf}, deviceProductInfo DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=1}, removeMode 0, refreshRateOverride 0.0, brightnessMinimum 7.000001E-5, brightnessMaximum 1.0, brightnessDefault 0.39763778, brightnessDim 0.05, installOrientation ROTATION_0, layoutLimitedRefreshRate null, hdrSdrRatio 1.0, thermalRefreshRateThrottling {}, thermalBrightnessThrottlingDataId default, canHostTasks true}
+    mOverrideDisplayInfo=DisplayInfo{"鍐呯疆灞忓箷", displayId 0, displayGroupId 0, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_TRUSTED, real 1260 x 2800, largest app 2800 x 2800, smallest app 1260 x 1260, appVsyncOff 1000000, presDeadline 11333333, mode 1, renderFrameRate 120.00001, hasArrSupport false, frameRateCategoryRate FrameRateCategoryRate {normal=60.0, high=90.0}, supportedRefreshRates [120.00001, 144.00002, 120.00001, 120.00001, 90.0, 90.0, 60.000004, 60.000004, 60.000004, 144.00002, 120.00001], defaultMode 1, userPreferredModeId -1, supportedModes [{id=1, width=1260, height=2800, fps=120.00001, vsync=120.00001, synthetic=false, alternativeRefreshRates=[60.000004, 90.0], supportedHdrTypes=[2, 3, 4]}, {id=2, width=1260, height=2800, fps=144.00002, vsync=144.00002, synthetic=false, alternativeRefreshRates=[], supportedHdrTypes=[2, 3, 4]}, {id=3, width=1260, height=2800, fps=90.0, vsync=90.0, synthetic=false, alternativeRefreshRates=[60.000004, 120.00001], supportedHdrTypes=[2, 3, 4]}, {id=4, width=1260, height=2800, fps=60.000004, vsync=60.000004, synthetic=false, alternativeRefreshRates=[90.0, 120.00001], supportedHdrTypes=[2, 3, 4]}], appsSupportedModes [{id=1, width=1260, height=2800, fps=120.00001, vsync=120.00001, synthetic=false, alternativeRefreshRates=[60.000004, 90.0], supportedHdrTypes=[2, 3, 4]}, {id=2, width=1260, height=2800, fps=144.00002, vsync=144.00002, synthetic=false, alternativeRefreshRates=[], supportedHdrTypes=[2, 3, 4]}, {id=3, width=1260, height=2800, fps=90.0, vsync=90.0, synthetic=false, alternativeRefreshRates=[60.000004, 120.00001], supportedHdrTypes=[2, 3, 4]}, {id=4, width=1260, height=2800, fps=60.000004, vsync=60.000004, synthetic=false, alternativeRefreshRates=[90.0, 120.00001], supportedHdrTypes=[2, 3, 4]}], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[2, 3, 4], mMaxLuminance=800.0, mMaxAverageLuminance=400.001, mMinLuminance=0.002}, isForceSdr false, userDisabledHdrTypes [], minimalPostProcessingSupported false, rotation 0, state ON, committedState ON, type INTERNAL, uniqueId "local:4630946231300050819", app 1260 x 2800, density 560 (450.76 x 452.993) dpi, layerStack 0, colorMode 0, supportedColorModes [0, 7, 9], address {port=131, model=0x40446d0fc292cf}, deviceProductInfo DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=1}, removeMode 0, refreshRateOverride 0.0, brightnessMinimum 7.000001E-5, brightnessMaximum 1.0, brightnessDefault 0.39763778, brightnessDim 0.05, installOrientation ROTATION_0, layoutLimitedRefreshRate null, hdrSdrRatio 1.0, thermalRefreshRateThrottling {}, thermalBrightnessThrottlingDataId default, canHostTasks true}
+    mRequestedMinimalPostProcessing=false
+    mFrameRateOverrides=[]
+    mPendingFrameRateOverrideUids={}
+    mDisplayGroupId=0
+    mDisplayGroupName=
+    mThermalBrightnessThrottlingDataId=default
+    mLeadDisplayId=-1
+    mLayoutLimitedRefreshRate=null
+    mThermalRefreshRateThrottling={}
+    mPowerThrottlingDataId=default
+  
+  
+  Display Groups: size=1
+  Group 0:
+    Display 0 com.android.server.display.LocalDisplayAdapter$LocalDisplayDevice@da39928
+  
+  DeviceStateToLayoutMap:
+  -----------------------
+    mIsPortInDisplayLayoutEnabled=true
+    Registered Layouts:
+    state(-1): [{dispId: 0(ON), displayGroupName: , addr: {port=131, model=0x40446d0fc292cf}, mThermalBrightnessThrottlingMapId: null, mRefreshRateZoneId: null, mLeadDisplayId: -1, mLeadDisplayAddress: null, mThermalRefreshRateThrottlingMapId: null, mPowerThrottlingMapId: null}]
+
+Callbacks: size=51
+-----------------
+  0: mPid=2368 mUid=1000 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  1: mPid=3920 mUid=10360 mWifiDisplayScanRequested=false cached=true frozen=true pendingDisplayEvents=38 pendingTopology=false
+  2: mPid=4255 mUid=10082 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  3: mPid=4280 mUid=1000 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  4: mPid=4413 mUid=1073 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  5: mPid=4422 mUid=1000 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  6: mPid=4453 mUid=1000 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  7: mPid=4511 mUid=1000 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  8: mPid=4533 mUid=1000 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  9: mPid=4622 mUid=1000 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  10: mPid=4702 mUid=1000 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  11: mPid=4737 mUid=1001 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  12: mPid=4774 mUid=1000 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  13: mPid=5661 mUid=10104 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  14: mPid=6640 mUid=1000 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  15: mPid=6661 mUid=1027 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  16: mPid=7811 mUid=1000 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  17: mPid=8074 mUid=10359 mWifiDisplayScanRequested=false cached=false frozen=true pendingDisplayEvents=1 pendingTopology=false
+  18: mPid=8081 mUid=10055 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  19: mPid=9191 mUid=10074 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  20: mPid=9273 mUid=10076 mWifiDisplayScanRequested=false cached=true frozen=false pendingDisplayEvents=1 pendingTopology=false
+  21: mPid=9304 mUid=10255 mWifiDisplayScanRequested=false cached=true frozen=true pendingDisplayEvents=1 pendingTopology=false
+  22: mPid=11286 mUid=10052 mWifiDisplayScanRequested=false cached=false frozen=true pendingDisplayEvents=0 pendingTopology=false
+  23: mPid=11469 mUid=1000 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  24: mPid=11670 mUid=10052 mWifiDisplayScanRequested=false cached=false frozen=true pendingDisplayEvents=0 pendingTopology=false
+  25: mPid=11725 mUid=10356 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  26: mPid=11906 mUid=10060 mWifiDisplayScanRequested=false cached=false frozen=true pendingDisplayEvents=215 pendingTopology=false
+  27: mPid=12079 mUid=10125 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  28: mPid=12130 mUid=10125 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  29: mPid=13408 mUid=1002 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  30: mPid=13505 mUid=10169 mWifiDisplayScanRequested=false cached=true frozen=false pendingDisplayEvents=0 pendingTopology=false
+  31: mPid=13810 mUid=1000 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  32: mPid=15160 mUid=10082 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  33: mPid=15203 mUid=1000 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  34: mPid=16382 mUid=10174 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  35: mPid=18212 mUid=10116 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  36: mPid=18328 mUid=10357 mWifiDisplayScanRequested=false cached=false frozen=true pendingDisplayEvents=0 pendingTopology=false
+  37: mPid=18372 mUid=1000 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  38: mPid=18524 mUid=10357 mWifiDisplayScanRequested=false cached=false frozen=true pendingDisplayEvents=0 pendingTopology=false
+  39: mPid=20338 mUid=10173 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  40: mPid=20828 mUid=10179 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  41: mPid=21402 mUid=10356 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  42: mPid=21406 mUid=10147 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  43: mPid=24346 mUid=10316 mWifiDisplayScanRequested=false cached=true frozen=true pendingDisplayEvents=1 pendingTopology=false
+  44: mPid=26198 mUid=1000 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  45: mPid=26981 mUid=10197 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  46: mPid=28278 mUid=1000 mWifiDisplayScanRequested=false cached=false frozen=false pendingDisplayEvents=0 pendingTopology=false
+  47: mPid=29198 mUid=10274 mWifiDisplayScanRequested=false cached=true frozen=true pendingDisplayEvents=74 pendingTopology=false
+  48: mPid=29714 mUid=10295 mWifiDisplayScanRequested=false cached=false frozen=true pendingDisplayEvents=1 pendingTopology=false
+  49: mPid=30555 mUid=10359 mWifiDisplayScanRequested=false cached=false frozen=true pendingDisplayEvents=24 pendingTopology=false
+  50: mPid=31925 mUid=10078 mWifiDisplayScanRequested=false cached=true frozen=true pendingDisplayEvents=0 pendingTopology=false
+
+PersistentDataStore:
+--------------------
+  mLoaded=true
+  mDirty=false
+  RememberedWifiDisplays:
+  DisplayStates:
+    0: local:4630946231300050819
+      ColorMode=0
+      BrightnessValues: 
+User: 0 Value: 0.8922026
+      DisplayBrightnessConfigurations: 
+      Resolution=0 0
+      RefreshRate=0.0
+  StableDeviceValues:
+      StableDisplayWidth=1260
+      StableDisplayHeight=2800
+  GlobalBrightnessConfigurations:
+  mBrightnessNitsForDefaultDisplay=-1.0
+
+Display Window Policy Controllers: size=0
+
+Display Power Controllers: size=1
+
+Display Power Controller:
+-------------------------
+  mDisplayId=0
+  mLeadDisplayId=-1
+  mLightSensor=null
+  mDisplayBrightnessFollowers={}
+
+Display Power Controller Locked State:
+  mDisplayReadyLocked=true
+  mPendingRequestLocked=policy=BRIGHT, useProximitySensor=false, screenBrightnessOverride=NaN, screenAutoBrightnessAdjustmentOverride=NaN, screenLowPowerBrightnessFactor=1.0, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=NaN, dozeScreenState=UNKNOWN, dozeScreenStateReason=DEFAULT_POLICY, useNormalBrightnessForDoze=false
+  mPendingRequestChangedLocked=false
+  mPendingUpdatePowerStateLocked=false
+
+Display Power Controller Configuration:
+  mScreenBrightnessDozeConfig=0.0
+  mUseSoftwareAutoBrightnessConfig=false
+  mSkipScreenOnBrightnessRamp=false
+  mColorFadeFadesConfig=false
+  mColorFadeEnabled=true
+  mIsDisplayInternal=true
+  mCachedBrightnessInfo.brightness=0.39763778
+  mCachedBrightnessInfo.adjustedBrightness=0.39763778
+  mCachedBrightnessInfo.brightnessMin=1.0
+  mCachedBrightnessInfo.brightnessMax=1.0
+  mCachedBrightnessInfo.hbmMode=0
+  mCachedBrightnessInfo.hbmTransitionPoint=Infinity
+  mCachedBrightnessInfo.brightnessMaxReason =0
+  mCachedBrightnessInfo.brightnessReason =android.util.MutableInt@4429641
+  mDisplayBlanksAfterDozeConfig=false
+  mBrightnessBucketsInDozeConfig=false
+  mDozeScaleFactor=1.0
+
+Display Power Controller Thread State:
+  mPowerRequest=policy=BRIGHT, useProximitySensor=false, screenBrightnessOverride=NaN, screenAutoBrightnessAdjustmentOverride=NaN, screenLowPowerBrightnessFactor=1.0, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=NaN, dozeScreenState=UNKNOWN, dozeScreenStateReason=DEFAULT_POLICY, useNormalBrightnessForDoze=false
+  mBrightnessReason=0
+  mDozing=false
+  mSkipRampState=RAMP_STATE_SKIP_NONE
+  mScreenOnBlockStartRealTime=8360872
+  mScreenOffBlockStartRealTime=8354431
+  mPendingScreenOnUnblocker=null
+  mPendingScreenOffUnblocker=null
+  mPendingScreenOff=false
+  mReportedToPolicy=REPORTED_TO_POLICY_SCREEN_ON
+  mIsRbcActive=false
+AutomaticBrightnessStrategy:
+  mDisplayId=0
+  mAutoBrightnessAdjustment=-0.39311558
+  mPendingAutoBrightnessAdjustment=NaN
+  mTemporaryAutoBrightnessAdjustment=NaN
+  mShouldResetShortTermModel=false
+  mAppliedAutoBrightness=true
+  mAutoBrightnessAdjustmentChanged=true
+  mAppliedTemporaryAutoBrightnessAdjustment=false
+  mUseAutoBrightness=true
+  mWasShortTermModelActive=false
+  mAutoBrightnessAdjustmentReasonsFlags=0
+  mScreenBrightnessRampAnimator.isAnimating=true
+  mColorFadeOnAnimator.isStarted()=false
+  mColorFadeOffAnimator.isStarted()=false
+
+Display Power State:
+  mStopped=false
+  mScreenState=ON
+  mScreenBrightness=0.04264878
+  mSdrScreenBrightness=0.04264878
+  mScreenReady=true
+  mScreenUpdatePending=false
+  mColorFadePrepared=false
+  mColorFadeLevel=1.0
+  mColorFadeReady=true
+  mColorFadeDrawPending=false
+
+Photonic Modulator State:
+  mPendingState=ON
+  mPendingBacklight=0.04264878
+  mPendingSdrBacklight=0.04264878
+  mActualState=ON
+  mActualBacklight=0.04264878
+  mActualSdrBacklight=0.04264878
+  mStateChangeInProgress=false
+  mBacklightChangeInProgress=false
+
+Color Fade State:
+  mPrepared=false
+  mMode=1
+  mDisplayLayerStack=0
+  mDisplayWidth=1260
+  mDisplayHeight=2800
+  mSurfaceVisible=false
+  mSurfaceAlpha=0.0
+
+
+DisplayBrightnessController:
+  mDisplayId=: 0
+  mScreenBrightnessDefault=0.39763778
+  mPersistBrightnessNitsForDefaultDisplay=false
+  mIsStylusBeingUsed=false
+  mPendingScreenBrightness=NaN
+  mCurrentScreenBrightness=0.8922026
+  mLastUserSetScreenBrightness=0.8922026
+  Last selected DisplayBrightnessStrategy= InvalidBrightnessStrategy
+
+DisplayBrightnessStrategySelector:
+----------------------------------
+  mDisplayId= 0
+  mOldBrightnessStrategyName= InvalidBrightnessStrategy
+  mAllowAutoBrightnessWhileDozingConfig= false
+  mAllowAutoBrightnessWhileDozing= false
+FollowerBrightnessStrategy:
+  mDisplayId=0
+  mBrightnessToFollow:NaN
+  mBrightnessToFollowSlowChange:false
+OverrideBrightnessStrategy:
+  mWindowManagerBrightnessOverride=NaN
+  mWindowManagerBrightnessOverrideTag=null
+TemporaryBrightnessStrategy:
+  mTemporaryScreenBrightness:NaN
+OffloadBrightnessStrategy:
+  mOffloadScreenBrightness:NaN
+
+BrightnessClamperController:
+LightSensorController
+  mLightSensor={Sensor name="tcs3743 Ambient Light Sensor Non-wakeup", vendor="ams", version=65793, type=5, maxRange=66110.0, resolution=0.01, power=0.08, minDelay=1}
+  mRegisteredLightSensor=null
+BrightnessThermalClamper:
+  mThrottlingStatus: 0
+  mUniqueDisplayId: local:4630946231300050819
+  mDataId: default
+  mDataOverride: {}
+  mDataFromDeviceConfig: null
+  mDataActive: null
+  mBrightnessCap:1.0
+  mApplied:false
+  ThermalStatusObserver:
+    mStarted: true
+    mObserverTempSensor: SensorData{type= SKIN, name= null, refreshRateRange: [0.0, Infinity], supportedModes=[]}
+    ThermalService available
+BrightnessWearBedtimeModeModifier:
+  mBrightnessCap: 0.078431375
+  mIsActive: false
+  mApplied: false
+DisplayDimModifier:
+  mScreenBrightnessDimConfig=0.05
+  mScreenBrightnessMinimumDimAmount=0.04
+BrightnessModifier:
+  mApplied=false
+BrightnessLowPowerModeModifier:
+BrightnessModifier:
+  mApplied=false
+HdrBrightnessModifier:
+  mHdrBrightnessData=null
+  mScreenSize=3528000.0
+  mMaxDesiredHdrRatio=1.0
+  mHdrLayerSize=-1.0
+  mAmbientLux=-1.0
+  mLowPowerMode=false
+  mMode=NO_HDR
+  mMaxBrightness=1.0
+  mPendingMaxBrightness=1.0
+  mTransitionRate=-1.0
+  mPendingTransitionRate=-1.0
+  mHdrListener registered=false
+  mContentObserverRegistered=false
+
+BrightnessRangeController:
+  mUseHdrClamper=false
+HighBrightnessModeController:
+  mBrightness=0.0
+  mUnthrottledBrightness=0.0
+  mThrottlingReason=none
+  mCurrentMin=0.0
+  mCurrentMax=1.0
+  mHbmMode=off
+  mHbmStatsState=HBM_OFF
+  mHbmData=null
+  mAmbientLux=0.0 (old/invalid)
+  mIsInAllowedAmbientRange=false
+  mIsAutoBrightnessEnabled=false
+  mIsAutoBrightnessOffByState=false
+  mIsHdrLayerPresent=false
+  mBrightnessMin=0.0
+  mBrightnessMax=1.0
+  remainingTime=0
+  mIsTimeAvailable= false
+  mIsBlockedByLowPowerMode=false
+  width*height=1260*2800
+  mHdrBoostDisabled=true
+  mHighBrightnessModeMetadata=null
+NormalBrightnessModeController:
+  mAutoBrightnessEnabled=true
+  mAmbientLux=3.4028235E38
+  mMaxBrightness=1.0
+  mMaxBrightnessLimits={}
+HdrClamper:
+  mMaxBrightness=1.0
+  mDesiredMaxBrightness=1.0
+  mTransitionRate=-1.0
+  mDesiredTransitionRate=-1.0
+  mHdrVisible=false
+  mHdrListener.mHdrMinPixels=3.4028235E38
+  mHdrBrightnessData=null
+  mHdrListener registered=false
+  mAmbientLux=3.4028235E38
+  mAutoBrightnessEnabled=true
+
+No Reduce Bright Colors Adjustments
+
+
+
+WakelockController State:
+-------------------------
+  mDisplayId=0
+  mUnfinishedBusiness=true
+  mOnStateChangePending=false
+  mOnProximityPositiveMessages=false
+  mOnProximityNegativeMessages=false
+  mIsOverrideDozeScreenStateAcquired=false
+
+DisplayStateController:
+-----------------------
+  mShouldSkipScreenOffTransition=false
+  mPerformScreenOffTransition=false
+  mDozeStateOverride=0
+
+DisplayPowerProximityStateController:
+-------------------------------------
+  mPendingWaitForNegativeProximityLocked=false
+  mDisplayId=0
+  mWaitingForNegativeProximity=false
+  mIgnoreProximityUntilChanged=false
+  mProximitySensor={Sensor name="tcs3743 Proximity Sensor Wakeup", vendor="ams", version=65794, type=8, maxRange=1.0, resolution=0.01, power=0.36, minDelay=0}
+  mProximitySensorEnabled=false
+  mProximityThreshold=1.0
+  mProximity=Unknown
+  mPendingProximity=Unknown
+  mPendingProximityDebounceTime=-1 (8140221 ms ago)
+  mScreenOffBecauseOfProximity=false
+  mSkipRampBecauseOfProximityChangeToNegative=false
+
+mPendingCallbackSelfLocked size = 0
+
+BrightnessTracker state:
+------------------------
+  mStarted=false
+  mLightSensor=null
+  mLastBatteryLevel=NaN
+  mLastBrightness=-1.0
+  mEventsDirty=false
+  mEvents.size=0
+  mWriteBrightnessTrackerStateScheduled=false
+  mSensorRegistered=false
+  mColorSamplingEnabled=false
+  mNoFramesToSample=0
+  mFrameRate=0.0
+  mIsDisplayActive=false
+  mDisplayListenerRegistered=false
+
+DisplayModeDirector:
+--------------------
+  mSupportedModesByDisplay:
+    0 -> [{id=1, width=1260, height=2800, fps=120.00001, vsync=120.00001, synthetic=false, alternativeRefreshRates=[60.000004, 90.0], supportedHdrTypes=[2, 3, 4]}, {id=2, width=1260, height=2800, fps=144.00002, vsync=144.00002, synthetic=false, alternativeRefreshRates=[], supportedHdrTypes=[2, 3, 4]}, {id=3, width=1260, height=2800, fps=90.0, vsync=90.0, synthetic=false, alternativeRefreshRates=[60.000004, 120.00001], supportedHdrTypes=[2, 3, 4]}, {id=4, width=1260, height=2800, fps=60.000004, vsync=60.000004, synthetic=false, alternativeRefreshRates=[90.0, 120.00001], supportedHdrTypes=[2, 3, 4]}]
+  mAppSupportedModesByDisplay:
+    0 -> [{id=1, width=1260, height=2800, fps=120.00001, vsync=120.00001, synthetic=false, alternativeRefreshRates=[60.000004, 90.0], supportedHdrTypes=[2, 3, 4]}, {id=2, width=1260, height=2800, fps=144.00002, vsync=144.00002, synthetic=false, alternativeRefreshRates=[], supportedHdrTypes=[2, 3, 4]}, {id=3, width=1260, height=2800, fps=90.0, vsync=90.0, synthetic=false, alternativeRefreshRates=[60.000004, 120.00001], supportedHdrTypes=[2, 3, 4]}, {id=4, width=1260, height=2800, fps=60.000004, vsync=60.000004, synthetic=false, alternativeRefreshRates=[90.0, 120.00001], supportedHdrTypes=[2, 3, 4]}]
+  mDefaultModeByDisplay:
+    0 -> {id=1, width=1260, height=2800, fps=120.00001, vsync=120.00001, synthetic=false, alternativeRefreshRates=[60.000004, 90.0], supportedHdrTypes=[2, 3, 4]}
+  mModeSwitchingType: SWITCHING_TYPE_WITHIN_GROUPS
+  mAlwaysRespectAppRequest: false
+  SettingsObserver
+    mDefaultRefreshRate: 0.0
+    mDefaultPeakRefreshRate: 240.0
+  AppRequestObserver
+    mIgnorePreferredRefreshRate: true
+  BrightnessObserver
+    mAmbientLux: -1.0
+    mBrightness: 0.39763778
+    mDefaultDisplayState: 2
+    mLowPowerModeEnabled: false
+    mRefreshRateChangeable: true
+    mShouldObserveDisplayLowChange: false
+    mShouldObserveAmbientLowChange: false
+    mRefreshRateInLowZone: 0
+    mShouldObserveDisplayHighChange: false
+    mShouldObserveAmbientHighChange: false
+    mRefreshRateInHighZone: 0
+    mRegisteredLightSensor: null
+    mLightSensor: null
+    mLightSensorName: 
+    mLightSensorType: 
+    mLastSensorData: 0.0
+    mTimestamp: 1970-01-01 08:00:00.000
+  UdfpsObserver
+    mUdfpsRefreshRateEnabled: 
+    mAuthenticationPossible: 
+   HbmObserver
+     mHbmMode: {}
+     mHbmActive: {}
+     mRefreshRateInHbmSunlight: 0
+     mRefreshRateInHbmHdr: 0
+  SkinThermalStatusObserver:
+    mStatus: 0
+    mThermalThrottlingByDisplay: {0={}}
+  mVotesByDisplay:
+    0:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> RenderVote{ RefreshRateVote{  mMinRefreshRate=0.0, mMaxRefreshRate=144.0 } }
+      PRIORITY_USER_SETTING_PEAK_REFRESH_RATE -> CombinedVote{ mVotes=[PhysicalVote{ RefreshRateVote{  mMinRefreshRate=0.0, mMaxRefreshRate=144.0 } }, DisableRefreshRateSwitchingVote{ mDisableRefreshRateSwitching=false }] }
+      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> RenderVote{ RefreshRateVote{  mMinRefreshRate=0.0, mMaxRefreshRate=Infinity } }
+  SensorObserver
+    mIsProxActive=true
+    mDozeStateByDisplay:
+      0 -> false
+
+BrightnessSynchronizer:
+-----------------------
+  mLatestIntBrightness=78
+  mLatestFloatBrightness=0.30411848
+  mCurrentUpdate=null
+  mPendingUpdate=null
+  mIntRangeUserPerceptionEnabled=false
+
+Small area detection allowlist:
+-------------------------------
+  Packages:
+
+    PluginManager:
+    PluginStorage:
+    values={}
+    listeners={}
+    PluginEventStorage:
+
+DisplayManagerFlags:
+--------------------
+ enable_adaptive_tone_improvements_1:                  true (def:true)
+ enable_adaptive_tone_improvements_2:                  true (def:true)
+ back_up_smooth_display_and_force_peak_refresh_rate:   true (def:true)
+ enable_connected_display_error_handling:              true (def:true)
+ enable_display_offload:                               true (def:true)
+ enable_mode_limit_for_external_display:               true (def:true)
+ display_topology:                                     false (def:false)
+ enable_power_throttling_clamper:                      true (def:true)
+ even_dimmer:                                          true (def:true)
+ .enable_small_area_detection:                         true (def:true)
+ .display_config_error_hal:                            true (def:true)
+ .synced_resolution_switch:                            false (def:false)
+ brightness_int_range_user_perception:                 false (def:false)
+ enable_restrict_display_modes:                        true (def:true)
+ brightness_wear_bedtime_mode_clamper:                 true (def:true)
+ auto_brightness_modes:                                true (def:true)
+ fast_hdr_transitions:                                 true (def:true)
+ always_rotate_display_device:                         true (def:true)
+ enable_pixel_anisotropy_correction:                   true (def:true)
+ sensor_based_brightness_throttling:                   true (def:true)
+ idle_screen_refresh_rate_timeout:                     true (def:true)
+ refactor_display_power_controller:                    false (def:false)
+ resolution_backup_restore:                            true (def:true)
+ use_fusion_prox_sensor:                               true (def:true)
+ doze_brightness_float:                                true (def:true)
+ enable_peak_refresh_rate_physical_limit:              true (def:true)
+ ignore_app_preferred_refresh_rate_request:            true (def:true)
+ enable_synthetic_60hz_modes:                          true (def:true)
+ offload_doze_override_holds_wakelock:                 true (def:true)
+ offload_session_cancel_block_screen_on:               true (def:true)
+ new_hdr_brightness_modifier:                          true (def:true)
+ virtual_display_limit:                                true (def:true)
+ normal_brightness_for_doze_parameter:                 true (def:true)
+ idle_screen_config_in_subscribing_light_sensor:       true (def:true)
+ enable_waiting_confirmation_before_mirroring:         true (def:true)
+ enable_battery_stats_for_all_displays:                true (def:true)
+ enable_apply_display_changed_during_display_added:    true (def:true)
+ block_autobrightness_changes_on_stylus_usage:         true (def:true)
+ enable_user_refresh_rate_for_external_display:        true (def:true)
+ enable_has_arr_support:                               true (def:true)
+ auto_brightness_mode_bedtime_wear:                    true (def:true)
+ enable_get_supported_refresh_rates:                   true (def:true)
+ enable_plugin_manager:                                true (def:true)
+ display_listener_performance_improvements:            true (def:true)
+ subscribe_granular_display_events:                    true (def:true)
+ enable_display_content_mode_management:               false (def:false)
+ base_density_for_external_displays:                   false (def:false)
+ framerate_override_triggers_rr_callbacks:             true (def:true)
+ refresh_rate_event_for_foreground_apps:               true (def:true)
+ committed_state_separate_event:                       true (def:true)
+ separate_timeouts:                                    false (def:false)
+ delay_implicit_rr_registration_until_rr_accessed:     true (def:true)
